@@ -1,0 +1,22 @@
+#graph:has(.network-frame){max-width:1320px}
+.net-controls,.net-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.net-controls{margin:20px 0 12px}.net-controls label{font-size:.86rem;font-weight:650}
+.net-controls select{display:block;margin-top:3px;min-width:145px}
+.network-frame{--sky:#f5f8f7;--wire:#6b8d89;--word:#193b38;position:relative;border:1px solid var(--edge);overflow:hidden;border-radius:18px;background-color:var(--sky);background-image:radial-gradient(#87999444 .85px,transparent 1px);background-size:18px 18px}
+[data-theme=dark] .network-frame{--sky:#0c1a20;--wire:#88b1bd;--word:#f1faf7;background-image:radial-gradient(#7a9baf38 .85px,transparent 1px)}
+.network-svg{display:block;width:100%;height:clamp(400px,68vh,790px);touch-action:none;user-select:none;cursor:grab}.network-svg:active{cursor:grabbing}
+.network-svg .halo{fill:var(--cluster);opacity:.085;pointer-events:none}
+.network-svg .bridge{stroke:var(--wire);stroke-width:1.6;stroke-dasharray:4 4;opacity:.5}
+.network-svg .bridge.related{stroke-width:2.5;opacity:1}
+.network-svg .progression,.network-svg .spoke{stroke:color-mix(in srgb,var(--cluster) 62%,#53646e);stroke-width:1.5}.network-svg .spoke{opacity:.55}
+.network-svg text{font:600 13px "Segoe UI",sans-serif;text-anchor:middle;fill:var(--word);paint-order:stroke;stroke:var(--sky);stroke-width:4px;stroke-linejoin:round}
+.network-svg .dot text{font-size:12px;display:none;pointer-events:none}
+.network-svg .dot.labelled text,.network-svg .dot:hover text,.network-svg .dot:focus-visible text{display:block}
+.network-svg .hub circle,.network-svg .dot .bead{fill:var(--cluster);stroke:color-mix(in srgb,var(--cluster) 50%,#223544);stroke-width:1.4}
+.network-svg .hub text{font-size:15px;font-weight:750}.network-svg .dot .hit{fill:transparent;stroke:none}
+.network-svg .dot.same-stage .bead{stroke:var(--word);stroke-width:2}
+.network-svg .dot.active .bead,.network-svg a:focus-visible circle:last-of-type{stroke:var(--word);stroke-width:4}
+.network-svg a{cursor:pointer}.network-svg .hub:hover circle,.network-svg .dot:hover .bead{stroke:var(--word)}
+.net-tools{position:absolute;bottom:10px;right:10px;gap:4px}.net-tools button{padding:4px;width:40px;height:40px;font-size:20px}
+.network-caption{padding:10px 0 20px}.network-caption a{margin-left:12px}
+@media(max-width:650px){.network-svg{height:clamp(295px,80vw,430px)}.net-controls select{min-width:110px}.net-tools button{width:36px;height:36px}}

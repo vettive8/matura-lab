@@ -13,7 +13,6 @@ const nodeLabels = {
   dna:['Allel/Allele','Dziedziczenie/Inheritance','Ekspresja genu/Gene expression','Penetracja genu/Penetrance','Rodowód/Pedigree','Wywiad rodzinny/Family history','Środowisko/Environment','Źródło informacji/Information source','Dane krewnych/Relatives’ history','Konsultacja/Consultation','Genetyka kliniczna/Clinical genetics'],
   evidence:['Pomiar/Measurement','Próba kontrolna/Control','Zmienna/Variable','Przeciwciała/Antibodies','Grupa porównawcza/Comparison group','Niepewność/Uncertainty','Częstość choroby/Prevalence','Ocena dowodów/Evidence appraisal','Potwierdzenie/Confirmation','Rozpoznanie/Diagnosis','Epidemiologia/Epidemiology']
 };
-const positions = {dna:[97,53],evidence:[295,53],albumin:[493,53],atom:[97,169],water:[295,169],ph:[493,270],membrane:[97,270]};
 const edges = [
   ['atom','water','Cząsteczka wody składa się z dwóch atomów wodoru i jednego atomu tlenu.','A water molecule contains two hydrogen atoms and one oxygen atom.'],
   ['atom','dna','DNA składa się z nukleotydów. Ich atomy tworzą m.in. szkielet cukrowo-fosforanowy.','DNA consists of nucleotides whose atoms form, among other structures, the sugar–phosphate backbone.'],
@@ -30,28 +29,21 @@ const labelFor = (topic,i) => translate(nodeLabels[topic][i].split('/'));
 function renderMap() {
   const [stageKey,topicKey] = location.hash.slice(1).split('/');
   const stage = stageIds.includes(stageKey)?stageKey:'foundation';
-  const topic = Object.hasOwn(positions,topicKey)?topicKey:'atom';
+  const topic = Object.hasOwn(nodeLabels,topicKey)?topicKey:'atom';
   const i = stageIds.indexOf(stage), path = graphPaths[topic];
   const tr = (pl,en) => translate([pl,en]);
   const go = (s,k) => '#'+s+'/'+k;
   const neighbors = edges.filter(([left,right])=>left===topic||right===topic);
   const near = neighbors.map(([left,right])=>left===topic?right:left);
-  const links = edges.map(([left,right])=>{
-    const [x1,y1]=positions[left],[x2,y2]=positions[right];
-    return '<line class="'+([left,right].includes(topic)?'selected-edge':'')+'" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'"/>';
-  }).join('');
-  const nodes = Object.entries(positions).map(([key,[x,y]])=>{
-    const name = labelFor(key,i),selected = key===topic;
-    return '<a href="'+go(stage,key)+'" aria-label="'+name+'" '+(selected?'aria-current="true"':'')+' class="map-node '+(selected?'active':near.includes(key)?'near':'')+'"><title>'+name+'</title><circle cx="'+x+'" cy="'+y+'" r="18"/><circle class="core" cx="'+x+'" cy="'+y+'" r="6"/><text x="'+x+'" y="'+(y+40)+'" text-anchor="middle">'+name+'</text></a>';
-  }).join('');
   const detail = i===0?path.intro:path.stages[i-1];
   const lesson = workedLessons[topic];
   const li=neighbors.map((edge,j)=>'<li><a href="'+go(stage,near[j])+'">'+labelFor(near[j],i)+'</a><p>'+textSafe(translate(edge.slice(2)))+'</p></li>').join('');
-  document.querySelector('#graph').innerHTML = '<h1>'+tr('Mapa etapów nauki','Map of learning stages')+'</h1><p>'+tr('Wybierz etap i kliknij kółko. Linie łączą pokrewne ścieżki. Zmień etap, aby zobaczyć, jak rozwija się wybrany temat.','Choose a stage and select a circle. Lines connect related paths. Switch stages to follow the selected topic as it develops.')+'</p><label for="map-stage">'+tr('Etap nauki','Learning stage')+'</label><select id="map-stage">'+stageIds.map(s=>'<option value="'+s+'" '+(s===stage?'selected':'')+'>'+nameOfStage(s)+'</option>').join('')+'</select><div class="map-scroll"><svg class="stage-map" viewBox="0 0 590 330" aria-label="'+tr('Interaktywna mapa pojęć','Interactive concept map')+'">'+links+nodes+'</svg></div><article class="node-detail"><p>'+translate(path.title)+' · '+nameOfStage(stage)+'</p><h2>'+labelFor(topic,i)+'</h2><p>'+textSafe(translate(detail))+'</p>'+
+  document.querySelector('#graph').innerHTML = '<h1>'+tr('Graf wiedzy','Knowledge graph')+'</h1><p>'+tr('Każdy kolor oznacza jedną ścieżkę. Wybierz pojęcie, aby poznać jego znaczenie, albo zmień etap, aby porównać wszystkie ścieżki.','Each colour marks a learning path. Select a concept to study it, or change the stage to compare all seven paths.')+'</p>'+networkView(stage,topic)+'<div class="network-body"><article class="node-detail"><p>'+translate(path.title)+' · '+nameOfStage(stage)+'</p><h2>'+labelFor(topic,i)+'</h2><p>'+textSafe(translate(detail))+'</p>'+
   (topic==='albumin'?'<p>'+textSafe(translate(albuminExamples[i]))+'</p>':'')+
   (i===0?'<h3>'+translate(lesson[0])+'</h3><p>'+translate(lesson[1])+'</p>':'')+
   (i>=2 && i<=7?'<p><a href="../graf/#stage/'+stage+'">'+tr('Przykładowa ścieżka · zobacz przedmioty UZ na tym roku','Suggested path · see actual UZ courses for this year')+'</a></p>':'')+
-  '<a href="../graf/#topic/'+topic+'">'+tr('Otwórz lekcję i doświadczenie','Open lesson and experiment')+'</a><h3>'+tr('Co łączy te ścieżki?','How are these paths connected?')+'</h3><ul>'+li+'</ul><div class="map-steps">'+[i-1,i+1].filter(n=>stageIds[n]).map(n=>'<a href="'+go(stageIds[n],topic)+'">'+(n<i?'← ':'')+nameOfStage(stageIds[n])+(n>i?' →':'')+'</a>').join('')+'</div></article>';
+  '<a href="../graf/#topic/'+topic+'">'+tr('Otwórz lekcję i doświadczenie','Open lesson and experiment')+'</a><h3>'+tr('Co łączy te ścieżki?','How are these paths connected?')+'</h3><ul>'+li+'</ul><div class="map-steps">'+[i-1,i+1].filter(n=>stageIds[n]).map(n=>'<a href="'+go(stageIds[n],topic)+'">'+(n<i?'← ':'')+nameOfStage(stageIds[n])+(n>i?' →':'')+'</a>').join('')+'</div></article></div>';
+  bindNetwork(stage,topic);
   document.title = nameOfStage(stage)+' · '+labelFor(topic,i)+' · Atlas Matura';
   document.getElementById('map-stage').onchange=e=>{location.hash=go(e.target.value,topic);};
 }
