@@ -23,4 +23,4 @@
 .knowledge-list dd p{margin-bottom:4px}
 .subject-example{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:clamp(16px,3vw,28px);margin-top:24px}
 .semester-controls{display:flex;gap:8px;align-items:stretch;margin:6px 0 16px}
-#uz-next{display:grid;place-items:center;min-width:44px;min-height:44px;padding:0}
+#uz-next{display:grid;place-items:center;min-width:44px;min-height:44px;padding:0;font-weight:800}
