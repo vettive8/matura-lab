@@ -22,3 +22,9 @@
 .knowledge-list dd{margin:0;padding-left:14px;border-left:2px solid var(--edge)}
 .knowledge-list dd p{margin-bottom:4px}
 .subject-example{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:clamp(16px,3vw,28px);margin-top:24px}
+#uz-semester{display:block;margin:6px 0 16px}
+#uz-subjects{display:grid;gap:14px}
+.uz-course{padding:18px;border:1px solid var(--edge);border-radius:12px;background:var(--card);min-width:0}
+.uz-course h4{margin:0 0 4px;font-size:1.1rem}
+.uz-course p{margin:10px 0}
+.uz-exercise{border-inline-start:3px solid var(--edge);padding-inline-start:14px;overflow-wrap:anywhere}
