@@ -1,0 +1,18 @@
+.medicine{max-width:1100px}
+.medicine>p,.bridge p{max-width:76ch;line-height:1.65}
+.timeline{margin:26px 0 36px;padding:clamp(16px,3vw,30px);border-radius:18px;background:#103e39;color:#effff1}
+.timeline h2{margin-bottom:6px}
+.time-row{display:grid;grid-template-columns:minmax(80px,1fr) minmax(50px,3fr) 4em;align-items:center;gap:12px;margin-block:12px;font-variant-numeric:tabular-nums}
+.tracks{display:grid;grid-template-columns:repeat(8,1fr);gap:3px}
+.tracks i,.legend-med i{height:14px;border-radius:3px;background:#8edcca}
+.timeline .college{background:repeating-linear-gradient(120deg,#f4d794 0 4px,#bb995b 4px 6px)}
+.legend-med{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:18px;font-size:.88rem}
+.legend-med i{width:15px}
+.countries{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:16px}
+.countries .panel{margin:0}
+.countries h3{font:1.75rem Georgia,serif}
+.countries dt{font-weight:700;margin:12px 0 3px}
+.countries dd{margin:0}
+.countries footer,.bridge{border-top:1px solid var(--edge);padding-top:14px}
+.bridge{margin-top:26px}
+@media(max-width:800px){.countries{grid-template-columns:1fr}.time-row{gap:7px}.timeline h2{font-size:1.5rem}}
