@@ -12,7 +12,8 @@ function selectedId(){
 function storeLayers(){try{localStorage.setItem('atlas-layers-v1',JSON.stringify([...enabled]));}catch{}}
 function chooseLayers(indices) {
  enabled=new Set(indices);storeLayers();
- const current=nodes.get(selectedId());
+ const key=selectedId().replace(/^learn\//,'');
+ const current=nodes.get(key==='pairs'?'albumin':key);
  if(current&&!enabled.has(current.layer))history.replaceState(null,'',location.pathname+location.search);
  renderAtlas();
 }
@@ -42,7 +43,10 @@ function updateResults() {
 }
 const clearPanel=()=>{history.replaceState(null,'',location.pathname+location.search);renderAtlas();};
 function renderAtlas(){
- const id=selectedId(),current=nodes.get(id);
+ const key=selectedId();
+ const step=key.startsWith('learn/') && studyRoute.includes(key.slice(6))?key.slice(6):null;
+ const id=step==='pairs'?'albumin':step||key,current=nodes.get(id);
+ if(step){try{localStorage.setItem('matura-current-step',step);}catch{}}
  if(current&&!enabled.has(current.layer)){enabled.add(current.layer);storeLayers();}
  const count=allNodes.filter(n=>enabled.has(n.layer)).length;
  const name=say('Atlas wiedzy','Knowledge atlas');
@@ -53,12 +57,12 @@ function renderAtlas(){
  document.title=name+' · Matura';
  const root=document.querySelector('#graph');
  root.innerHTML='<div class="atlas-bar"><h1>'+name+'</h1><button id="layers" aria-expanded="'+layersOpen+'">'+say('Warstwy','Layers')+' · '+enabled.size+'</button>'+tool('find',say('Szukaj we wszystkich warstwach','Search all layers'),'⌕')+tool('full',say('Przełącz pełny ekran','Toggle fullscreen'),'⛶')+'</div>'+
- '<div class="atlas-space"><svg class="network-svg" viewBox="0 0 960 710" aria-label="'+name+'">'+svgContents(id)+'</svg>'+
- '<div class="atlas-foot"><span>'+say('Węzły','Nodes')+' · '+count+'</span>'+(next>=0?'<button id="next-layer">'+say('Dodaj','Add')+' · '+translate(layerNames[next])+'</button>':'')+'</div>'+
+ (!current && !layersOpen && !searchOpen?routeStart():'')+'<div class="atlas-space"><svg class="network-svg" viewBox="0 0 960 710" aria-label="'+name+'">'+svgContents(id)+'</svg>'+
+ '<div class="atlas-foot"><span>'+say('Węzły','Nodes')+' · '+count+'</span>'+(next>=0?'<button id="next-layer">'+say('Pokaż warstwę','Show layer')+' · '+translate(layerNames[next])+'</button>':'')+'</div>'+
  '<div class="net-tools">'+tool('zoom-out',say('Oddal','Zoom out'),'−')+tool('zoom-in',say('Przybliż','Zoom in'),'+')+tool('fit-map',say('Dopasuj mapę','Fit map'),'⊙')+'</div></div>'+
- (layersOpen?'<aside class="atlas-menu"><h2>'+say('Widoczne warstwy','Visible layers')+'</h2>'+layerRows+'<div class="actions"><button id="first">'+say('Od podstaw','Start from zero')+'</button><button id="all">'+say('Pokaż wszystko','Show all')+'</button></div></aside>':'')+
+ (layersOpen?'<aside class="atlas-menu"><h2>'+say('Widoczne warstwy','Visible layers')+'</h2>'+layerRows+'<div class="actions"><button id="first">'+say('Tylko podstawy','Foundations only')+'</button><button id="all">'+say('Pokaż wszystko','Show all')+'</button></div></aside>':'')+
  (searchOpen?'<aside class="atlas-menu"><label for="find-input">'+say('Szukaj we wszystkich warstwach','Search all layers')+'</label><input type="search" id="find-input" value="'+safe(searchTerm)+'"><div id="find-results"></div></aside>':'')+
- (current?'<article class="study-sheet"><button id="close-sheet" aria-label="'+say('Zamknij lekcję','Close lesson')+'">×</button><small>'+translate(layerNames[current.layer])+'</small><h2>'+safe(translate(current.title))+'</h2>'+study(current)+(stages?'<h3>'+say('Inne etapy','Other stages')+'</h3>'+stages:'')+'</article>':'');
+ (step?routeReader(step):current?'<article class="study-sheet"><button id="close-sheet" aria-label="'+say('Zamknij lekcję','Close lesson')+'">×</button><small>'+translate(layerNames[current.layer])+'</small><h2>'+safe(translate(current.title))+'</h2>'+study(current)+(stages?'<h3>'+say('Inne etapy','Other stages')+'</h3>'+stages:'')+'</article>':'');
  bindNetwork(current?.xy||[480,355]);
  const el=id=>document.getElementById(id);
  el('layers').onclick=()=>{layersOpen=!layersOpen;searchOpen=false;renderAtlas();el('layers').focus();};
@@ -69,11 +73,11 @@ function renderAtlas(){
  if(layersOpen){
   root.querySelectorAll('[data-layer]').forEach(box=>box.onchange=()=>{const i=Number(box.dataset.layer);chooseLayers(box.checked?[...enabled,i]:[...enabled].filter(n=>n!==i));root.querySelector('[data-layer="'+i+'"]').focus();});
   el('all').onclick=()=>chooseLayers(layerNames.map((_,i)=>i));
-  el('first').onclick=()=>chooseLayers([0]);
+  el('first').onclick=()=>{layersOpen=false;chooseLayers([0]);};
  }
  if(searchOpen){el('find-input').oninput=e=>{searchTerm=e.target.value;updateResults();};updateResults();}
  if(current)el('close-sheet').onclick=clearPanel;
 }
-window.addEventListener('hashchange',()=>{layersOpen=false;searchOpen=false;renderAtlas();});
+window.addEventListener('hashchange',()=>{layersOpen=false;searchOpen=false;renderAtlas();document.querySelector('.route-reader h2')?.focus({preventScroll:true});});
 window.addEventListener('keydown',e=>{if(e.key==='Escape' && !document.querySelector('main').inert){if(layersOpen||searchOpen){layersOpen=false;searchOpen=false;renderAtlas();}else if(selectedId())clearPanel();}});
 installPreferences(renderAtlas);

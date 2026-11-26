@@ -40,6 +40,7 @@ function study(n) {
  if(n.kind==='course'){const c=uzCourses[d];return paragraph(translate(c.connection))+link('../graf/#course/'+(d+1),say('Przedmiot, zadanie i sylabus UZ','Course, exam question and UZ syllabus'));}
  if(n.kind==='stage'){const p=graphPaths[d.topic];return paragraph(translate(p.stages[d.index-1]))+(d.topic==='albumin'?paragraph(translate(albuminExamples[d.index])):'')+link('../graf/#topic/'+d.topic,say('Lekcja i doświadczenie','Lesson and experiment'))+(d.index>=2&&d.index<=7?' · '+link('../graf/#stage/'+d.stage,say('Przedmioty na tym roku UZ','Actual UZ courses for this year')):'');}
  const f=formulas[n.domain],p=workedLessons[d];
+ if(d==='atom'||d==='albumin')return '<p>'+link('#learn/'+d,say('Ucz się od podstaw','Learn this from the beginning'))+'</p>'+part(translate(firstLessons[d].title),translate(firstLessons[d].meaning))+part(translate(p[0]),translate(p[1]))+link('../graf/#topic/'+d,say('Uruchom doświadczenie','Open the experiment'))+bullet(domains[d][5].split(' ').map(id=>openNode(id)));
  return (p?part(translate(p[0]),translate(p[1]))+paragraph(translate(p[2])):chapterCard('b17'))+
  part(f[0],translate(f.slice(1)))+(p?link('../graf/#topic/'+d,say('Uruchom doświadczenie','Open the experiment')):'')+
  bullet(domains[d][5].split(' ').filter(Boolean).map(id=>openNode(id)))+
