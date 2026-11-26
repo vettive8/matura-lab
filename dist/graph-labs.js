@@ -1,6 +1,6 @@
 const labs = {
   atom: [6,8,6,'Neutrony w jądrze węgla','Neutrons in a carbon nucleus'],
-  water: [1,5,1,'Objętość w porcjach po 100 ml','Volume in units of 100 mL'],
+  water: [1,5,1,'Objętość roztworu','Solution volume'],
   ph: [2,9,7,'pH roztworu','Solution pH'],
   albumin: [1,35,35,'Reszty cysteiny w jednym łańcuchu','Cysteine residues in one chain'],
   membrane: [0,10,8,'Stężenie po lewej (mmol/l)','Left concentration (mmol/L)'],
@@ -19,7 +19,7 @@ function bindLab(id) {
   function draw() {
     const v = Number(slider.value);
     labValues[id] = v;
-    document.getElementById('setting').textContent = v;
+    document.getElementById('setting').textContent = id==='water'?v*100+' mL':v;
     let result, fraction, caption;
     switch(id) {
       case 'atom':
@@ -45,7 +45,7 @@ function bindLab(id) {
       case 'membrane':
         result = num((v+5)/2)+' mmol/L';
         fraction = (v+5)/20;
-        caption = t('Końcowe stężenie po obu stronach (skala 0–10). Objętości są równe i stałe, prawa strona zaczyna od 5 mmol/l, błona przepuszcza substancję obojętną. Początkowy przepływ netto','Final concentration on each side (scale 0–10). Volumes are equal and fixed, the right side starts at 5 mmol/L, and the neutral solute crosses freely. Initial net flow')+' · '+(v===5?t('brak','none'):v>5?'L → R':'R → L');
+        caption = t('Końcowe stężenie po obu stronach (skala 0–10). Objętości są równe i stałe, prawa strona zaczyna od 5 mmol/l, błona przepuszcza substancję obojętną. Początkowy przepływ netto','Final concentration on each side (scale 0–10). Volumes are equal and fixed, the right side starts at 5 mmol/L, and the neutral solute crosses freely. Initial net flow')+' · '+(v===5?t('brak','none'):v>5?t('w prawo','to the right'):t('w lewo','to the left'));
         break;
       case 'dna':
         fraction = 1-0.5**v;

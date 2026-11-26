@@ -56,8 +56,8 @@ const graphPaths = {
       "c5"
     ],
     "intro": [
-      "Liczba protonów określa pierwiastek. Neutrony zmieniają masę jądra, a elektrony odpowiadają za ładunek atomu lub jonu.",
-      "Proton count identifies an element. Neutrons change nuclear mass, while electrons determine the charge of an atom or ion."
+      "Liczba protonów określa pierwiastek. Liczba masowa to suma protonów i neutronów. Ładunek jonu wynika z różnicy między liczbą protonów i elektronów.",
+      "Proton count identifies an element. Mass number counts protons and neutrons together. Net charge depends on the difference between proton and electron counts."
     ],
     "stages": [
       [

@@ -51,7 +51,7 @@ function home() {
   const intro = '<p>'+t('Zacznij od atomu. Przejdź do wody, poznaj białka osocza i zobacz, jak lekarz wykorzystuje tę wiedzę, gdy pacjent ma obrzęki.','Start with an atom. Move on to water and plasma proteins, then see how a doctor uses that knowledge when a patient has swelling.')+'</p>';
   const trail = '<div class="trail">'+['atom','water','albumin'].map(topicLink).join('<span aria-hidden="true">→</span>')+'</div>';
   const shelf = prefix => list(Object.keys(graphChapters).filter(id=>id[0]===prefix).map(chapterLink));
-  return '<div class="lead"><h1>'+homeTitle()+'</h1>'+intro+trail+'</div><div class="finder"><label for="lookup">'+t('Szukaj tematu, układu lub przedmiotu','Find a topic, body system or course')+'</label><input type="search" id="lookup" value="'+esc(searchText)+'"><div id="matches"></div></div>'+
+  return '<div class="lead"><h1>'+homeTitle()+'</h1>'+intro+trail+'<p class="map-entry">'+a('../mapa/',t('Zobacz mapę etapów →','Explore the stage map →'))+'</p></div><div class="finder"><label for="lookup">'+t('Szukaj tematu, układu lub przedmiotu','Find a topic, body system or course')+'</label><input type="search" id="lookup" value="'+esc(searchText)+'"><div id="matches"></div></div>'+
     section(t('Ścieżki z doświadczeniami','Learning paths with experiments'),list(titles.map(topicLink)))+
     section(t('Etapy nauki i praktyki','Stages of study and practice'),list(stages.map(stageLink)))+
     section(t('Chemia · rozdziały','Chemistry chapters'),shelf('c'))+
@@ -60,9 +60,9 @@ function home() {
 }
 function topic(id) {
   const p = graphPaths[id];
-  const timeline = stages.map((s,i)=>'<li>'+stageLink(s)+'<p>'+esc(local(p.stages[i]))+'</p></li>').join('');
+  const timeline = stages.map((s,i)=>'<li>'+a('../mapa/#'+s+'/'+id,stageName(s))+'<p>'+esc(local(p.stages[i]))+'</p></li>').join('');
   return '<h1>'+esc(local(p.title))+'</h1><p class="intro">'+esc(local(p.intro))+'</p>'+
-    section(t('Podstawy','Foundations'),list(dependencies[id].map(topicLink)))+experiment(id)+examSection(p.qs)+
+    section(t('Podstawy','Foundations'),list(dependencies[id].map(topicLink)))+section(local(workedLessons[id][0]),workedLessons[id].slice(1).map(pair=>'<p>'+esc(local(pair))+'</p>').join(''))+experiment(id)+examSection(p.qs)+
     section(t('Ten sam temat na kolejnych etapach','The same topic at each stage'),'<p>'+yearNote()+'</p><ol class="timeline">'+timeline+'</ol>')+
     section(t('Rozdziały','Chapters'),list(p.chapters.map(chapterLink)))+
     section(nextLabel(),list(titles.filter(k=>dependencies[k].includes(id)).map(topicLink)));

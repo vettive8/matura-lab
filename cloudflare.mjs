@@ -9,7 +9,7 @@ export default {
     if (url.hostname.endsWith(".workers.dev")) {
       path = atlas + path.slice(1);
     }
-    if (["/learn", "/learn/matura", atlas + "zagadnienia", atlas + "koncepty", atlas + "biblioteka", atlas + "medycyna", atlas + "graf"].includes(path)) path += "/";
+    if (["/learn", "/learn/matura", atlas + "zagadnienia", atlas + "koncepty", atlas + "biblioteka", atlas + "medycyna", atlas + "graf", atlas + "mapa"].includes(path)) path += "/";
     if (url.origin !== origin || path !== url.pathname) {
       return Response.redirect(origin + path + url.search, 302);
     }
@@ -19,6 +19,7 @@ export default {
     else if (path === atlas + "zagadnienia/" || path === atlas + "koncepty/") asset = "/guide.html";
     else if (path === atlas + "medycyna/") asset = "/medicine.html";
     else if (path === atlas + "graf/") asset = "/graph.html";
+    else if (path === atlas + "mapa/") asset = "/stage-map.html";
     else if (path.startsWith(atlas)) asset = path.slice(atlas.length - 1);
     if (!asset) return new Response("404", {status: 404});
     url.pathname = asset;
