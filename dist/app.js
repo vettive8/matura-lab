@@ -37,8 +37,6 @@ function drawTransport(n){
 }
 function read(key,fallback=''){try{return localStorage.getItem('matura-'+key)??fallback}catch{return fallback}}
 function write(key,value){try{localStorage.setItem('matura-'+key,value);return true}catch{return false}}
-let lang=read('language','pl')==='en'?'en':'pl';
-let theme=read('theme',matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
 let index=questions.findIndex(q=>q.s+'/'+q.id===read('position','biologia/1.2'));
 if(index<0)index=1;
 let inStudio=true;
@@ -50,9 +48,7 @@ function key(q){return q.s+'/'+q.id}
 function render(){
  const q=questions[index];current=({'biologia/1.1':'protein','biologia/1.2':'transport','chemia/3':'water'})[key(q)];
  document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;
- $('language').value=lang;$('language').ariaLabel=t('Język','Language');
  set('learnHome','Nauka','Learning');set('study','Pracownia','Studio');set('library','Biblioteka','Library');set('heading','Pracownia nauki','Learning studio');
- $('theme').textContent=theme==='dark'?t('☀ Jasny motyw','☀ Light theme'):t('☾ Ciemny motyw','☾ Dark theme');
  $('study').setAttribute('aria-pressed',inStudio);$('library').setAttribute('aria-pressed',!inStudio);$('studio').hidden=!inStudio;$('shelf').hidden=inStudio;
  set('prev','Poprzednie','Previous');set('next','Następne','Next');$('prev').disabled=index===0;$('next').disabled=index===questions.length-1;
  const sub=$('subject');sub.replaceChildren();sub.ariaLabel=t('Przedmiot','Subject');for(const s of ['biologia','chemia'])option(sub,s,subject(s));sub.value=q.s;
@@ -81,6 +77,4 @@ function navigate(i){index=i;write('position',key(questions[i]));render()}
 $('prev').onclick=()=>navigate(index-1);$('next').onclick=()=>navigate(index+1);
 $('pick').onchange=e=>navigate(Number(e.target.value));$('subject').onchange=e=>navigate(questions.findIndex(q=>q.s===e.target.value));
 $('count').oninput=draw;
-$('language').onchange=e=>{lang=e.target.value;write('language',lang);render()};
-$('theme').onclick=()=>{theme=theme==='dark'?'light':'dark';write('theme',theme);render()};
-$('study').onclick=()=>{inStudio=true;render()};$('library').onclick=()=>{inStudio=false;render()};render();
+$('study').onclick=()=>{inStudio=true;render()};$('library').onclick=()=>{inStudio=false;render()};installPreferences(render);
