@@ -1,5 +1,6 @@
 const examPositions = new Map(questions.map((q, index) => [q.s + '/' + q.id, index + 1]));
-const semesterSelect = document.getElementById('uz-semester');
+const semesterInput = document.getElementById('uz-semester');
+const previousSemester = document.getElementById('uz-prev');
 const nextSemester = document.getElementById('uz-next');
 function linkedSemester() {
   const number = Number(new URLSearchParams(location.search).get('semester'));
@@ -21,9 +22,9 @@ function renderUzSemester() {
   const i = en ? 1 : 0;
   const semester = en ? 'Semester' : 'Semestr';
   document.title = document.querySelector('h1').textContent + ' · Atlas Matura';
-  semesterSelect.replaceChildren();
-  for (let n = 1; n <= 12; n++) semesterSelect.add(new Option(semester + ' ' + n, String(n)));
-  semesterSelect.value = String(currentSemester);
+  previousSemester.disabled = currentSemester === 1;
+  previousSemester.setAttribute('aria-label', en ? 'Previous semester' : 'Poprzedni semestr');
+  semesterInput.value = String(currentSemester);
   nextSemester.disabled = currentSemester === 12;
   nextSemester.setAttribute('aria-label', en ? 'Next semester' : 'Następny semestr');
   const courses = uzCourses.filter(c => c.semester === currentSemester);
@@ -59,6 +60,16 @@ function showSemester(number) {
   history.replaceState(null, '', url);
   renderUzSemester();
 }
-semesterSelect.addEventListener('change', () => showSemester(Number(semesterSelect.value)));
+semesterInput.addEventListener('change', () => {
+  if (semesterInput.validity.valid && Number.isInteger(semesterInput.valueAsNumber)) {
+    showSemester(semesterInput.valueAsNumber);
+  } else {
+    semesterInput.value = String(currentSemester);
+  }
+});
+semesterInput.addEventListener('keydown', event => {
+  if (event.key === 'Enter') semesterInput.blur();
+});
+previousSemester.addEventListener('click', () => showSemester(currentSemester - 1));
 nextSemester.addEventListener('click', () => showSemester(currentSemester + 1));
 installPreferences(renderUzSemester);
