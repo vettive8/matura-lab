@@ -1,4 +1,4 @@
-const examItems = new Map(questions.map(q => [q.s + '/' + q.id, q]));
+const examPositions = new Map(questions.map((q, index) => [q.s + '/' + q.id, index + 1]));
 const semesterSelect = document.getElementById('uz-semester');
 function linkedSemester() {
   const number = Number(new URLSearchParams(location.search).get('semester'));
@@ -28,26 +28,23 @@ function renderUzSemester() {
     (en ? 'Course entries: ' : 'Liczba pozycji: ') + courses.length;
   const list = document.createDocumentFragment();
   for (const course of courses) {
-    const question = examItems.get(course.question);
-    const card = document.createElement('article');
-    card.className = 'uz-course';
-    card.append(element('h4', course.title[i]));
-    const meta = element('small', course.ects + ' ECTS · ' +
-      (course.elective ? (en ? 'Elective · ' : 'Do wyboru · ') : ''));
+    const position = examPositions.get(course.question);
+    const question = questions[position - 1];
+    const heading = element('dt', course.title[i]);
+    const entry = document.createElement('dd');
+    const description = element('p', course.connection[i]);
+    const credit = course.ects + ' ECTS';
+    description.append(' (' + credit + (course.elective ? (en ? ', elective' : ', do wyboru') : '') + ')');
     const base = 'https://sylabuz.uz.zgora.pl/index.php?/';
-    meta.append(sourceLink(course.uid ? (en ? 'Course syllabus' : 'Karta przedmiotu') : (en ? 'Study plan' : 'Plan studiów'),
-      base + (course.uid ? 'course/showCourseDetails/' + course.uid : 'main/studyPlan/63604')));
-    card.append(meta, element('p', course.connection[i]));
+    const syllabus = sourceLink(course.uid ? (en ? 'Course syllabus' : 'Sylabus przedmiotu') : (en ? 'Study plan' : 'Plan studiów'),
+      base + (course.uid ? 'course/showCourseDetails/' + course.uid : 'main/studyPlan/63604'));
     const subject = question.s === 'biologia' ? (en ? 'Biology' : 'Biologia') : (en ? 'Chemistry' : 'Chemia');
-    const match = course.background ? (en ? 'Background' : 'Wiedza pomocnicza') : (en ? 'Related topic' : 'Powiązany temat');
-    const exercise = document.createElement('div');
-    exercise.className = 'uz-exercise';
-    exercise.append(element('small', match + ' · ' + subject + ' · ' + question.id),
-      element('p', question.prompt[i]), element('strong', en ? 'Answer' : 'Odpowiedź'),
-      element('p', question.modelAnswer[i]),
-      sourceLink(en ? 'See the illustration and marking guidance' : 'Zobacz ilustrację i zasady punktacji', '/learn/matura/#' + course.question));
-    card.append(exercise);
-    list.append(card);
+    const exercise = sourceLink((en ? 'Matura question ' : 'Zadanie maturalne ') + question.id, '/learn/matura/#' + course.question);
+    exercise.title = subject + ' · Atlas ' + position + '/' + questions.length +
+      (course.background ? (en ? ' · Background' : ' · Wiedza pomocnicza') : '');
+    exercise.setAttribute('aria-label', exercise.textContent + ' · ' + exercise.title);
+    entry.append(description, syllabus, ' · ', exercise);
+    list.append(heading, entry);
   }
   document.getElementById('uz-subjects').replaceChildren(list);
 }
