@@ -1,0 +1,12 @@
+#graph{max-width:1060px;padding-bottom:12vh;overflow-wrap:anywhere}
+#graph h1{margin-bottom:1rem}#graph section{padding:26px 0;border-top:1px solid var(--edge);margin-top:20px}
+#graph h2{font-size:clamp(23px,3vw,32px)}#graph p{max-width:72ch}
+.lead,.bench{background:#103f39;color:#f1f8eb;border-radius:20px;padding:clamp(22px,4vw,44px)}
+.lead p,.intro{font-size:1.14rem}.lead a,.bench a{color:#d6f0da}
+.trail,.knob{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap}
+.trail a{border:1px solid #759d8f;border-radius:12px;padding:.65rem .9rem;text-decoration:none}.trail a:hover{background:#205749}
+.finder{margin:24px 0}.finder input{font-size:1rem;border:1px solid var(--edge);border-radius:9px;padding:10px;width:min(100%,560px)}
+.links{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:8px;padding:0}
+.links li a{background:var(--card);border:1px solid var(--edge);border-radius:9px;padding:.6rem .85rem;display:block;height:100%;text-decoration:none}
+.links li a:hover{background:var(--active)}.back{margin-bottom:24px}.timeline,.requirements{padding-left:1.5rem}.timeline li{padding:.4rem .6rem;border-left:2px solid var(--edge)}.timeline p{margin:.35rem 0}.requirements li{margin:8px 0}.subhead,dt{font-weight:650}dd{margin:5px 0 18px 12px}
+#graph .bench{padding:24px;border:0}.bench input{width:min(80%,450px);accent-color:#e4ee98}.bench output,.bench strong{font-size:1.45rem;color:#eff5a0}.meter{width:min(100%,500px);height:.7rem;background:#355f56;border-radius:8px;overflow:hidden;margin:.5rem 0}.meter i{display:block;height:100%;background:#bce6bd}.bench p{margin:.8rem 0 0}#graph:focus{outline:0}
