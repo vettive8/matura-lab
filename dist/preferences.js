@@ -22,6 +22,23 @@ function installPreferences(renderPage) {
     track.dataset.en = 'Matura · Formula 2015';
     nav.prepend(track);
   }
+  if (nav) {
+    const track = nav.querySelector('a[href="/learn/matura/formula-2015/"]');
+    let previous = track;
+    for (const [route, pl, en] of [
+      ['tasks','Zadania z rozwiązaniami','Worked exam tasks'],
+      ['concepts','Pojęcia od podstaw','Concepts from the beginning']
+    ]) {
+      const href = '/learn/matura/formula-2015/' + route + '/';
+      if (nav.querySelector('a[href="' + href + '"]')) continue;
+      const entry = document.createElement('a');
+      entry.href = href;
+      entry.dataset.pl = pl;
+      entry.dataset.en = en;
+      if (previous) previous.after(entry); else nav.append(entry);
+      previous = entry;
+    }
+  }
   for (const anchor of document.querySelectorAll('#sidebar nav a[href="/learn/matura/biblioteka/"]')) {
     anchor.dataset.pl = 'Biblioteka · Formuła 2023';
     anchor.dataset.en = 'Library · Formula 2023';

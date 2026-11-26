@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+:root{color-scheme:light;--bg:#f5f7f2;--ink:#192e29;--paper:#fff;--edge:#bdcbc4;--link:#145e50;--accent:#dcece3}
+:root[data-theme=dark]{color-scheme:dark;--bg:#111e1b;--ink:#eff6ef;--paper:#192a25;--edge:#405a50;--link:#a6e7ce;--accent:#223c33}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.58 "Segoe UI",sans-serif}
+main{max-width:970px;margin:auto;padding:38px clamp(18px,4vw,60px) 64px}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.14}h1{font-size:clamp(34px,5vw,60px);font-weight:normal;margin:.4em 0}h2{font-size:clamp(24px,3.3vw,34px);font-weight:normal;margin:1.05em 0 .45em}h3{font-size:21px}
+a{color:var(--link);text-underline-offset:3px}button,input,select{font:inherit;background:var(--paper);color:inherit;border:1px solid var(--edge);border-radius:8px;padding:7px 10px}button{cursor:pointer}
+:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+html[lang=pl] .en,html[lang=en] .pl{display:none!important}
+.breadcrumb,.links,.study-controls,.paging{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}
+.breadcrumb{font-size:.9em}.study-controls{padding:14px 0}.study-controls input{width:min(330px,100%)}
+.panel{padding:clamp(16px,3vw,28px);margin:20px 0;background:var(--paper);border:1px solid var(--edge);border-radius:15px}
+.panel h2:first-child,.panel h3:first-child{margin-top:0}
+.worked{border-left:5px solid var(--link);background:var(--accent)}
+figure{margin:12px 0}figure img{max-width:100%;height:auto;display:block;border-radius:4px}
+.facsimile{background:white;display:block;width:100%;height:auto;border:1px solid var(--edge);padding:6px}
+figcaption,.meta{font-size:.9em}p{max-width:78ch}.paging{border-top:1px solid var(--edge);padding-top:18px;justify-content:space-between}
+.deck{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:9px}.deck li{background:var(--paper);border:1px solid var(--edge);border-radius:9px}.deck a{display:block;padding:12px}.compact li{margin:.4em 0}
+.papers{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px}.papers a{padding:.5em .7em;background:var(--paper);border:1px solid var(--edge);border-radius:8px}
+@media(max-width:760px){main{padding-top:12px}.facsimile{padding:1px}.panel{margin:14px 0}}

@@ -32,7 +32,7 @@ function study(n) {
  const d=n.data;
  if(n.kind==='paper')return paragraph(say('Rozwiąż wybrane zadanie na czystej kartce. Podpisz rysunek, podaj jednostki lub uzasadnij mechanizm zgodnie z poleceniem. W zasadach oceniania odszukaj numer zadania i sprawdź, za który element przyznaje się każdy punkt.','Work through a question on blank paper. Label the diagram, show units or explain the mechanism as requested. Find the question number in the marking guide and identify what earns each point.'))+bullet([link(d.urls[0],say('Otwórz arkusz CKE','Open CKE paper')),link(d.urls[1],say('Otwórz zasady oceniania','Open marking guide')),link('https://bip.cke.gov.pl/attachments/download/10004',say('Wzory i stałe','Formula booklet'))]);
  if(n.kind==='general')return paragraph(translate(n.title))+link('../zagadnienia/',say('Wymagania ogólne i źródła','General requirements and sources'));
- if(n.kind==='chapter')return chapterCard(d);
+ if(n.kind==='chapter')return link('../formula-2015/concepts/'+d+'/',say('Pełna strona działu','Read the chapter'))+chapterCard(d);
  if(n.kind==='item')return paragraph(translate(n.title))+'<h3>'+say('Ćwiczenie z tego rozdziału','Practice from this chapter')+'</h3>'+chapterCard(d.chapter);
  if(n.kind==='exam'){
    const q=questions[d];return '<small>'+say('Maj 2026 · zadanie ','May 2026 · question ')+q.id+' · #'+(d+1)+'</small>'+part(say('Polecenie własnymi słowami','Task in study wording'),translate(q.prompt))+part(say('Odpowiedź','Answer'),translate(q.modelAnswer))+part(say('Co decyduje o punktach','What earns credit'),translate(q.criterion))+paragraph(translate(q.explanation))+illustrate(q)+link('../#'+q.s+'/'+q.id,say('Arkusz i oficjalne zasady oceniania','Paper and official marking guide'));

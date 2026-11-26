@@ -1,0 +1,3828 @@
+[
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "I",
+  "name": "Związki chemiczne budujące organizmy oraz pozyskiwanie i wykorzystanie energii",
+  "items": [
+   {
+    "id": "I.1",
+    "pl": "wymienia najważniejsze pierwiastki budujące ciała organizmów i wykazuje kluczową rolę węgla dla istnienia życia",
+    "sub": ""
+   },
+   {
+    "id": "I.2",
+    "pl": "przedstawia znaczenie wody dla funkcjonowania organizmów",
+    "sub": ""
+   },
+   {
+    "id": "I.3",
+    "pl": "wyróżnia podstawowe grupy związków chemicznych występujących w żywych organizmach (węglowodany, białka, tłuszcze, kwasy nukleinowe, witaminy, sole mineralne) oraz przedstawia ich funkcje",
+    "sub": ""
+   },
+   {
+    "id": "I.4",
+    "pl": "przedstawia fotosyntezę, oddychanie tlenowe oraz fermentację mlekową i alkoholową jako procesy dostarczające energii; wymienia substraty i produkty tych procesów oraz określa warunki ich przebiegu",
+    "sub": ""
+   },
+   {
+    "id": "I.5",
+    "pl": "wymienia czynniki niezbędne do życia dla organizmów samożywnych i cudzożywnych; ocenia, czy dany organizm jest samożywny czy cudzożywny.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "II",
+  "name": "Budowa i funkcjonowanie komórki",
+  "items": [
+   {
+    "id": "II.1",
+    "pl": "dokonuje obserwacji mikroskopowych komórki i rozpoznaje (pod mikroskopem, na schemacie, na zdjęciu lub po opisie) podstawowe elementy budowy komórki (błona komórkowa, cytoplazma, jądro, chloroplast, mitochondrium, wakuola, ściana komórkowa)",
+    "sub": ""
+   },
+   {
+    "id": "II.2",
+    "pl": "przedstawia podstawowe funkcje poszczególnych elementów komórki",
+    "sub": ""
+   },
+   {
+    "id": "II.3",
+    "pl": "porównuje budowę komórki bakterii, roślin i zwierząt, wskazując cechy umożliwiające ich rozróżnienie.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "III",
+  "name": "Systematyka - zasady klasyfikacji, sposoby identyfikacji i przegląd różnorodności organizmów",
+  "items": [
+   {
+    "id": "III.1",
+    "pl": "uzasadnia potrzebę klasyfikowania organizmów i przedstawia zasady systemu klasyfikacji biologicznej (system jako sposób katalogowania organizmów, jednostki taksonomiczne, podwójne nazewnictwo)",
+    "sub": ""
+   },
+   {
+    "id": "III.2",
+    "pl": "posługuje się prostym kluczem do oznaczania organizmów",
+    "sub": ""
+   },
+   {
+    "id": "III.3",
+    "pl": "wymienia cechy, którymi wirusy różnią się od organizmów zbudowanych z komórek",
+    "sub": ""
+   },
+   {
+    "id": "III.4",
+    "pl": "podaje znaczenie czynności życiowych organizmu (jednokomórkowego i wielokomórkowego): odżywiania, oddychania, wydalania, ruchu, reakcji na bodźce, rozmnażania, wzrostu i rozwoju",
+    "sub": ""
+   },
+   {
+    "id": "III.5",
+    "pl": "przedstawia podstawowe czynności życiowe organizmu jednokomórkowego na przykładzie wybranego protista samożywnego (np. eugleny) i cudzożywnego (np. pantofelka)",
+    "sub": ""
+   },
+   {
+    "id": "III.6",
+    "pl": "przedstawia miejsca występowania bakterii i protistów oraz ich znaczenie w przyrodzie i dla człowieka",
+    "sub": ""
+   },
+   {
+    "id": "III.7",
+    "pl": "wymienia cechy umożliwiające zaklasyfikowanie organizmu do grzybów oraz identyfikuje nieznany organizm jako przedstawiciela grzybów na podstawie obecności tych cech; wskazuje miejsca występowania grzybów (w tym grzybów porostowych)",
+    "sub": ""
+   },
+   {
+    "id": "III.8",
+    "pl": "obserwuje okazy i porównuje cechy morfologiczne glonów i roślin lądowych (mchów, widłaków, skrzypów, paproci, nagozalążkowych i okrytozalążkowych), wymienia cechy umożliwiające zaklasyfikowanie organizmu do wymienionych wyżej grup oraz identyfikuje nieznany organizm jako przedstawiciela jednej z nich na podstawie obecności tych cech",
+    "sub": ""
+   },
+   {
+    "id": "III.9",
+    "pl": "wymienia cechy umożliwiające zaklasyfikowanie organizmu do parzydełkowców, płazińców, nicieni, pierścienic, stawonogów (skorupiaków, owadów i pajęczaków), mięczaków, ryb, płazów, gadów, ptaków, ssaków oraz identyfikuje nieznany organizm jako przedstawiciela jednej z wymienionych grup na podstawie obecności tych cech",
+    "sub": ""
+   },
+   {
+    "id": "III.10",
+    "pl": "porównuje cechy morfologiczne, środowisko i tryb życia grup zwierząt wymienionych w pkt 9, w szczególności porównuje grupy kręgowców pod kątem pokrycia ciała, narządów wymiany gazowej, ciepłoty ciała, rozmnażania i rozwoju",
+    "sub": ""
+   },
+   {
+    "id": "III.11",
+    "pl": "przedstawia znaczenie poznanych grzybów, roślin i zwierząt w środowisku i dla człowieka.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "V",
+  "name": "Ekologia",
+  "items": [
+   {
+    "id": "V.1",
+    "pl": "przedstawia czynniki środowiska niezbędne do prawidłowego funkcjonowania organizmów w środowisku lądowym i wodnym",
+    "sub": ""
+   },
+   {
+    "id": "V.2",
+    "pl": "wskazuje, na przykładzie dowolnie wybranego gatunku, zasoby, o które konkurują jego przedstawiciele między sobą i z innymi gatunkami, przedstawia skutki konkurencji wewnątrzgatunkowej i międzygatunkowej",
+    "sub": ""
+   },
+   {
+    "id": "V.3",
+    "pl": "przedstawia, na przykładzie poznanych wcześniej roślinożernych ssaków, adaptacje zwierząt do odżywiania się pokarmem roślinnym; podaje przykłady przystosowań roślin służących obronie przed zgryzaniem",
+    "sub": ""
+   },
+   {
+    "id": "V.4",
+    "pl": "przedstawia, na przykładzie poznanych wcześniej mięsożernych ssaków, adaptacje drapieżników do chwytania zdobyczy; podaje przykłady obronnych adaptacji ich ofiar",
+    "sub": ""
+   },
+   {
+    "id": "V.5",
+    "pl": "przedstawia, na przykładzie poznanych pasożytów, ich adaptacje do pasożytniczego trybu życia",
+    "sub": ""
+   },
+   {
+    "id": "V.6",
+    "pl": "wyjaśnia, jak zjadający i zjadani regulują wzajemnie swoją liczebność",
+    "sub": ""
+   },
+   {
+    "id": "V.7",
+    "pl": "wykazuje, na wybranym przykładzie, że symbioza (mutualizm) jest wzajemnie korzystna dla obu partnerów",
+    "sub": ""
+   },
+   {
+    "id": "V.8",
+    "pl": "wskazuje żywe i nieożywione elementy ekosystemu; wykazuje, że są one powiązane różnorodnymi zależnościami",
+    "sub": ""
+   },
+   {
+    "id": "V.9",
+    "pl": "opisuje zależności pokarmowe (łańcuchy i sieci pokarmowe) w ekosystemie, rozróżnia producentów, konsumentów i destruentów oraz przedstawia ich rolę w obiegu materii i przepływie energii przez ekosystem.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "V",
+  "name": "Budowa i funkcjonowanie organizmu roślinnego na przykładzie rośliny okrytozalążkowej",
+  "items": [
+   {
+    "id": "V.1",
+    "pl": "wymienia czynności życiowe organizmu roślinnego",
+    "sub": ""
+   },
+   {
+    "id": "V.2",
+    "pl": "identyfikuje (np. na schemacie, fotografii, rysunku lub na podstawie opisu) i opisuje organy rośliny okrytonasiennej (korzeń, pęd, łodyga, liść, kwiat, owoc) oraz przedstawia ich funkcje",
+    "sub": ""
+   },
+   {
+    "id": "V.3",
+    "pl": "wskazuje cechy adaptacyjne w budowie tkanek roślinnych do pełnienia określonych funkcji (tkanka twórcza, okrywająca, miękiszowa, wzmacniająca, przewodząca)",
+    "sub": ""
+   },
+   {
+    "id": "V.4",
+    "pl": "rozróżnia elementy budowy kwiatu (okwiat: działki kielicha i płatki korony oraz słupkowie, pręcikowie) i określa ich rolę w rozmnażaniu płciowym",
+    "sub": ""
+   },
+   {
+    "id": "V.5",
+    "pl": "przedstawia budowę nasienia (łupina nasienna, bielmo, zarodek) oraz opisuje warunki niezbędne do procesu kiełkowania (temperatura, woda, tlen)",
+    "sub": ""
+   },
+   {
+    "id": "V.6",
+    "pl": "podaje przykłady różnych sposobów rozsiewania się nasion i przedstawia rolę owocu w tym procesie.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "VI",
+  "name": "Budowa i funkcjonowanie organizmu człowieka",
+  "items": [
+   {
+    "id": "VI.1.1",
+    "pl": "opisuje hierarchiczną budowę organizmu człowieka (tkanki, narządy, układy narządów)",
+    "sub": "Tkanki, narządy, układy narządów"
+   },
+   {
+    "id": "VI.1.2",
+    "pl": "podaje funkcje tkanki nabłonkowej, mięśniowej, nerwowej, krwi, tłuszczowej, chrzestnej i kostnej oraz przedstawia podstawowe cechy budowy warunkujące pełnienie tych funkcji",
+    "sub": "Tkanki, narządy, układy narządów"
+   },
+   {
+    "id": "VI.1.3",
+    "pl": "opisuje budowę, funkcje i współdziałanie poszczególnych układów: ruchu, pokarmowego, oddechowego, krążenia, wydalniczego, nerwowego, dokrewnego i rozrodczego.",
+    "sub": "Tkanki, narządy, układy narządów"
+   },
+   {
+    "id": "VI.2.1",
+    "pl": "wykazuje współdziałanie mięśni, ścięgien, kości i stawów w prawidłowym funkcjonowaniu układu ruchu",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "VI.2.2",
+    "pl": "wymienia i rozpoznaje (na schemacie, rysunku, modelu, według opisu itd.) elementy szkieletu osiowego, obręczy i kończyn",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "VI.2.3",
+    "pl": "przedstawia funkcje kości i wskazuje cechy budowy fizycznej i chemicznej umożliwiające ich pełnienie",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "VI.2.4",
+    "pl": "przedstawia znaczenie aktywności fizycznej dla prawidłowego funkcjonowania układu ruchu i gęstości masy kostnej oraz określa czynniki wpływające na prawidłowy rozwój muskulatury ciała.",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "VI.3.1",
+    "pl": "podaje funkcje poszczególnych części układu pokarmowego, rozpoznaje te części (na schemacie, modelu, rysunku, według opisu itd.) oraz przedstawia związek ich budowy z pełnioną funkcją",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.2",
+    "pl": "przedstawia źródła i wyjaśnia znaczenie składników pokarmowych (białka, tłuszcze, węglowodany, sole mineralne, woda) dla prawidłowego rozwoju i funkcjonowania organizmu",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.3",
+    "pl": "przedstawia rolę i skutki niedoboru niektórych witamin (A, C, B 6 , B 12 , kwasu foliowego, D), składników mineralnych (Mg, Fe, Ca) i aminokwasów egzogennych w organizmie",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.4",
+    "pl": "przedstawia miejsce i produkty trawienia oraz miejsce wchłaniania głównych grup związków organicznych",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.5",
+    "pl": "przedstawia rolę błonnika w prawidłowym funkcjonowaniu układu pokarmowego oraz uzasadnia konieczność systematycznego spożywania owoców i warzyw",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.6",
+    "pl": "wyjaśnia, dlaczego należy stosować dietę zróżnicowaną i dostosowaną do potrzeb organizmu (wiek, stan zdrowia, tryb życia i aktywność fizyczna, pora roku itp.), oraz podaje korzyści z prawidłowego odżywiania się",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.3.7",
+    "pl": "oblicza indeks masy ciała oraz przedstawia i analizuje konsekwencje zdrowotne niewłaściwego odżywiania (otyłość lub niedowaga oraz ich następstwa).",
+    "sub": "Układ pokarmowy i odżywianie się"
+   },
+   {
+    "id": "VI.4.1",
+    "pl": "podaje funkcje części układu oddechowego, rozpoznaje je (na schemacie, modelu, rysunku, według opisu itd.) oraz przedstawia związek ich budowy z pełnioną funkcją",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "VI.4.2",
+    "pl": "opisuje przebieg wymiany gazowej w tkankach i w płucach oraz przedstawia rolę krwi w transporcie gazów oddechowych",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "VI.4.3",
+    "pl": "przedstawia czynniki wpływające na prawidłowy stan i funkcjonowanie układu oddechowego (aktywność fizyczna poprawiająca wydolność oddechową, niepalenie papierosów czynnie i biernie).",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "VI.5.1",
+    "pl": "opisuje budowę i funkcje narządów układu krwionośnego i układu limfatycznego",
+    "sub": "Układ krążenia"
+   },
+   {
+    "id": "VI.5.2",
+    "pl": "przedstawia krążenie krwi w obiegu płucnym i ustrojowym",
+    "sub": "Układ krążenia"
+   },
+   {
+    "id": "VI.5.3",
+    "pl": "przedstawia rolę głównych składników krwi (krwinki czerwone i białe, płytki krwi, osocze) oraz wymienia grupy układu krwi AB0 oraz Rh",
+    "sub": "Układ krążenia"
+   },
+   {
+    "id": "VI.5.4",
+    "pl": "przedstawia znaczenie aktywności fizycznej i prawidłowej diety dla właściwego funkcjonowania układu krążenia",
+    "sub": "Układ krążenia"
+   },
+   {
+    "id": "VI.5.5",
+    "pl": "przedstawia społeczne znaczenie krwiodawstwa.",
+    "sub": "Układ krążenia"
+   },
+   {
+    "id": "VI.6.1",
+    "pl": "opisuje funkcje elementów układu odpornościowego (narządy: śledziona, grasica, węzły chłonne; komórki: makrofagi, limfocyty T, limfocyty B; cząsteczki: przeciwciała)",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.6.2",
+    "pl": "rozróżnia odporność swoistą i nieswoistą naturalną i sztuczną bierną i czynną",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.6.3",
+    "pl": "porównuje działanie surowicy i szczepionki; podaje przykłady szczepień obowiązkowych i nieobowiązkowych oraz ocenia ich znaczenie",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.6.4",
+    "pl": "opisuje konflikt serologiczny Rh",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.6.5",
+    "pl": "wyjaśnia, na czym polega transplantacja narządów, i podaje przykłady narządów, które można przeszczepiać",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.6.6",
+    "pl": "przedstawia znaczenie przeszczepów, w tym rodzinnych, oraz zgody na transplantację narządów po śmierci.",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "VI.7.1",
+    "pl": "podaje przykłady substancji, które są wydalane z organizmu człowieka, oraz wymienia narządy biorące udział w wydalaniu",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "VI.7.2",
+    "pl": "opisuje budowę i funkcje głównych struktur układu wydalniczego (nerki, moczowody, pęcherz moczowy, cewka moczowa).",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "VI.8.1",
+    "pl": "opisuje budowę i funkcje ośrodkowego i obwodowego układu nerwowego",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "VI.8.2",
+    "pl": "porównuje rolę współczulnego i przywspółczulnego układu nerwowego",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "VI.8.3",
+    "pl": "opisuje łuk odruchowy, wymienia rodzaje odruchów oraz przedstawia rolę odruchów warunkowych w uczeniu się",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "VI.8.4",
+    "pl": "wymienia czynniki wywołujące stres oraz podaje przykłady pozytywnego i negatywnego działania stresu",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "VI.8.5",
+    "pl": "przedstawia sposoby radzenia sobie ze stresem.",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "VI.9.1",
+    "pl": "przedstawia budowę oka i ucha oraz wyjaśnia sposób ich działania",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "VI.9.2",
+    "pl": "przedstawia rolę zmysłu równowagi, zmysłu smaku i zmysłu węchu i wskazuje lokalizację odpowiednich narządów i receptorów",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "VI.9.3",
+    "pl": "przedstawia przyczyny powstawania oraz sposób korygowania wad wzroku (krótkowzroczność, dalekowzroczność, astygmatyzm)",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "VI.9.4",
+    "pl": "przedstawia wpływ hałasu na zdrowie człowieka",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "VI.9.5",
+    "pl": "przedstawia podstawowe zasady higieny narządów wzroku i słuchu.",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "VI.10.1",
+    "pl": "wymienia gruczoły dokrewne, wskazuje ich lokalizację i przedstawia podstawową rolę w regulacji procesów życiowych",
+    "sub": "Układ dokrewny"
+   },
+   {
+    "id": "VI.10.2",
+    "pl": "przedstawia biologiczną rolę: hormonu wzrostu, tyroksyny, insuliny, adrenaliny, testosteronu, estrogenów",
+    "sub": "Układ dokrewny"
+   },
+   {
+    "id": "VI.10.3",
+    "pl": "przedstawia antagonistyczne działanie insuliny i glukagonu",
+    "sub": "Układ dokrewny"
+   },
+   {
+    "id": "VI.10.4",
+    "pl": "wyjaśnia, dlaczego nie należy bez konsultacji z lekarzem przyjmować środków lub leków hormonalnych (np. tabletek antykoncepcyjnych, sterydów).",
+    "sub": "Układ dokrewny"
+   },
+   {
+    "id": "VI.11.1",
+    "pl": "podaje funkcje skóry, rozpoznaje elementy jej budowy (na schemacie, modelu, rysunku, według opisu itd.) oraz przedstawia jej cechy adaptacyjne do pełnienia funkcji ochronnej, zmysłowej (receptory bólu, dotyku, ciepła, zimna) i termoregulacyjnej",
+    "sub": "Skóra"
+   },
+   {
+    "id": "VI.11.2",
+    "pl": "opisuje stan zdrowej skóry oraz rozpoznaje niepokojące zmiany na skórze, które wymagają konsultacji lekarskiej.",
+    "sub": "Skóra"
+   },
+   {
+    "id": "VI.12.1",
+    "pl": "przedstawia budowę i funkcje narządów płciowych (męskich i żeńskich) oraz rolę gamet w procesie zapłodnienia",
+    "sub": "Rozmnażanie i rozwój"
+   },
+   {
+    "id": "VI.12.2",
+    "pl": "opisuje etapy cyklu miesiączkowego kobiety",
+    "sub": "Rozmnażanie i rozwój"
+   },
+   {
+    "id": "VI.12.3",
+    "pl": "przedstawia przebieg ciąży i wyjaśnia wpływ różnych czynników na prawidłowy rozwój zarodka i płodu",
+    "sub": "Rozmnażanie i rozwój"
+   },
+   {
+    "id": "VI.12.4",
+    "pl": "przedstawia cechy i przebieg fizycznego, psychicznego i społecznego dojrzewania człowieka",
+    "sub": "Rozmnażanie i rozwój"
+   },
+   {
+    "id": "VI.12.5",
+    "pl": "przedstawia podstawowe zasady profilaktyki chorób przenoszonych drogą płciową.",
+    "sub": "Rozmnażanie i rozwój"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "VII",
+  "name": "Stan zdrowia i choroby",
+  "items": [
+   {
+    "id": "VII.1",
+    "pl": "przedstawia znaczenie pojęć „zdrowie” i „choroba” (zdrowie jako stan równowagi środowiska wewnętrznego organizmu, zdrowie fizyczne, psychiczne i społeczne; choroba jako zaburzenie tego stanu)",
+    "sub": ""
+   },
+   {
+    "id": "VII.2",
+    "pl": "przedstawia negatywny wpływ na zdrowie człowieka niektórych substancji psychoaktywnych (tytoń, alkohol), narkotyków i środków dopingujących oraz nadużywania kofeiny i niektórych leków (zwłaszcza oddziałujących na psychikę)",
+    "sub": ""
+   },
+   {
+    "id": "VII.3",
+    "pl": "wymienia najważniejsze choroby człowieka wywoływane przez wirusy, bakterie, protisty i pasożyty zwierzęce oraz przedstawia zasady profilaktyki tych chorób; w szczególności przedstawia drogi zakażenia się wirusami HIV, HBV i HCV oraz HPV, zasady profilaktyki chorób wywoływanych przez te wirusy oraz przewiduje indywidualne i społeczne skutki zakażenia",
+    "sub": ""
+   },
+   {
+    "id": "VII.4",
+    "pl": "przedstawia czynniki sprzyjające rozwojowi choroby nowotworowej (np. niewłaściwa dieta, tryb życia, substancje psychoaktywne, promieniowanie UV) oraz podaje przykłady takich chorób",
+    "sub": ""
+   },
+   {
+    "id": "VII.5",
+    "pl": "przedstawia podstawowe zasady profilaktyki chorób nowotworowych",
+    "sub": ""
+   },
+   {
+    "id": "VII.6",
+    "pl": "uzasadnia konieczność okresowego wykonywania podstawowych badań kontrolnych (np. badania stomatologiczne, podstawowe badania krwi i moczu, pomiar pulsu i ciśnienia krwi)",
+    "sub": ""
+   },
+   {
+    "id": "VII.7",
+    "pl": "analizuje informacje dołączane do leków oraz wyjaśnia, dlaczego nie należy bez wyraźnej potrzeby przyjmować leków ogólnodostępnych oraz dlaczego antybiotyki i inne leki należy stosować zgodnie z zaleceniem lekarza (dawka, godziny przyjmowania leku i długość kuracji)",
+    "sub": ""
+   },
+   {
+    "id": "VII.8",
+    "pl": "przedstawia podstawowe zasady higieny",
+    "sub": ""
+   },
+   {
+    "id": "VII.9",
+    "pl": "analizuje związek pomiędzy prawidłowym wysypianiem się a funkcjonowaniem organizmu, w szczególności wpływ na procesy uczenia się i zapamiętywania oraz odporność organizmu.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "VIII",
+  "name": "Genetyka",
+  "items": [
+   {
+    "id": "VIII.1",
+    "pl": "przedstawia znaczenie biologiczne mitozy i mejozy, rozróżnia komórki haploidalne i diploidalne, opisuje budowę chromosomu (chromatydy, centromer), rozróżnia autosomy i chromosomy płci",
+    "sub": ""
+   },
+   {
+    "id": "VIII.2",
+    "pl": "przedstawia strukturę podwójnej helisy DNA i wykazuje jej rolę w przechowywaniu informacji genetycznej i powielaniu (replikacji) DNA",
+    "sub": ""
+   },
+   {
+    "id": "VIII.3",
+    "pl": "przedstawia sposób zapisywania i odczytywania informacji genetycznej (kolejność nukleotydów w DNA, kod genetyczny); wyjaśnia różnicę pomiędzy informacją genetyczną a kodem genetycznym",
+    "sub": ""
+   },
+   {
+    "id": "VIII.4",
+    "pl": "przedstawia zależność pomiędzy genem a cechą",
+    "sub": ""
+   },
+   {
+    "id": "VIII.5",
+    "pl": "przedstawia dziedziczenie cech jednogenowych, posługując się podstawowymi pojęciami genetyki (fenotyp, genotyp, gen, allel, homozygota, heterozygota, dominacja, recesywność)",
+    "sub": ""
+   },
+   {
+    "id": "VIII.6",
+    "pl": "wyjaśnia dziedziczenie grup krwi człowieka (układ AB0, czynnik Rh)",
+    "sub": ""
+   },
+   {
+    "id": "VIII.7",
+    "pl": "przedstawia dziedziczenie płci u człowieka i podaje przykłady cech człowieka sprzężonych z płcią (hemofilia, daltonizm)",
+    "sub": ""
+   },
+   {
+    "id": "VIII.8",
+    "pl": "podaje ogólną definicję mutacji oraz wymienia przyczyny ich wystąpienia (mutacje spontaniczne i wywołane przez czynniki mutagenne); podaje przykłady czynników mutagennych",
+    "sub": ""
+   },
+   {
+    "id": "VIII.9",
+    "pl": "rozróżnia mutacje genowe (punktowe) i chromosomowe oraz podaje przykłady chorób człowieka warunkowanych takimi mutacjami (mukowiscydoza, zespół Downa).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "IX",
+  "name": "Ewolucja życia",
+  "items": [
+   {
+    "id": "IX.1",
+    "pl": "wyjaśnia pojęcie ewolucji organizmów i przedstawia źródła wiedzy o jej przebiegu",
+    "sub": ""
+   },
+   {
+    "id": "IX.2",
+    "pl": "wyjaśnia na odpowiednich przykładach, na czym polega dobór naturalny i sztuczny, oraz podaje różnice między nimi",
+    "sub": ""
+   },
+   {
+    "id": "IX.3",
+    "pl": "przedstawia podobieństwa i różnice między człowiekiem a innymi naczelnymi jako wynik procesów ewolucyjnych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "foundation",
+  "number": "X",
+  "name": "Globalne i lokalne problemy środowiska",
+  "items": [
+   {
+    "id": "X.1",
+    "pl": "przedstawia przyczyny i analizuje skutki globalnego ocieplenia klimatu",
+    "sub": ""
+   },
+   {
+    "id": "X.2",
+    "pl": "uzasadnia konieczność segregowania odpadów w gospodarstwie domowym oraz konieczność specjalnego postępowania ze zużytymi bateriami, świetlówkami, przeterminowanymi lekami",
+    "sub": ""
+   },
+   {
+    "id": "X.3",
+    "pl": "proponuje działania ograniczające zużycie wody i energii elektrycznej oraz wytwarzanie odpadów w gospodarstwach domowych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "basic",
+  "number": "1",
+  "name": "Biotechnologia i inżynieria genetyczna",
+  "items": [
+   {
+    "id": "1.1",
+    "pl": "przedstawia znaczenie biotechnologii tradycyjnej w życiu człowieka oraz podaje przykłady produktów uzyskiwanych jej metodami (np. wino, piwo, sery)",
+    "sub": ""
+   },
+   {
+    "id": "1.2",
+    "pl": "wyjaśnia, czym zajmuje się inżynieria genetyczna, oraz podaje przykłady jej zastosowania; wyjaśnia, co to jest „organizm genetycznie zmodyfikowany (GMO)” i „produkt GMO”",
+    "sub": ""
+   },
+   {
+    "id": "1.3",
+    "pl": "przedstawia korzyści dla człowieka wynikające z wprowadzania obcych genów do mikroorganizmów oraz podaje przykłady produktów otrzymywanych z wykorzystaniem transformowanych mikroorganizmów",
+    "sub": ""
+   },
+   {
+    "id": "1.4",
+    "pl": "przedstawia potencjalne korzyści i zagrożenia płynące ze stosowania roślin transgenicznych w rolnictwie oraz transgenicznych zwierząt w badaniach laboratoryjnych i dla celów przemysłowych",
+    "sub": ""
+   },
+   {
+    "id": "1.5",
+    "pl": "opisuje klonowanie ssaków",
+    "sub": ""
+   },
+   {
+    "id": "1.6",
+    "pl": "podaje przykłady wykorzystania badań nad DNA (sądownictwo, medycyna, nauka)",
+    "sub": ""
+   },
+   {
+    "id": "1.7",
+    "pl": "wyjaśnia, na czym polega poradnictwo genetyczne, oraz wymienia sytuacje, w których warto skorzystać z poradnictwa genetycznego i przeprowadzenia badań DNA",
+    "sub": ""
+   },
+   {
+    "id": "1.8",
+    "pl": "wyjaśnia istotę terapii genowej.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "basic",
+  "number": "2",
+  "name": "Różnorodność biologiczna i jej zagrożenia",
+  "items": [
+   {
+    "id": "2.1",
+    "pl": "opisuje różnorodność biologiczną na poziomie genetycznym, gatunkowym i ekosystemowym; wskazuje przyczyny spadku różnorodności genetycznej, wymierania gatunków, zanikania siedlisk i ekosystemów",
+    "sub": ""
+   },
+   {
+    "id": "2.2",
+    "pl": "przedstawia podstawowe motywy ochrony przyrody (egzystencjalne, ekonomiczne, etyczne i estetyczne)",
+    "sub": ""
+   },
+   {
+    "id": "2.3",
+    "pl": "przedstawia wpływ współczesnego rolnictwa na różnorodność biologiczną (ciągle malejąca liczba gatunków uprawnych przy rosnącym areale upraw, spadek różnorodności genetycznej upraw)",
+    "sub": ""
+   },
+   {
+    "id": "2.4",
+    "pl": "podaje przykłady kilku gatunków, które są zagrożone lub wyginęły wskutek nadmiernej eksploatacji ich populacji",
+    "sub": ""
+   },
+   {
+    "id": "2.5",
+    "pl": "podaje przykłady kilku gatunków, które udało się restytuować w środowisku",
+    "sub": ""
+   },
+   {
+    "id": "2.6",
+    "pl": "przedstawia różnicę między ochroną bierną a czynną przedstawia prawne formy ochrony przyrody w Polsce oraz podaje przykłady roślin i zwierząt objętych ochroną gatunkową",
+    "sub": ""
+   },
+   {
+    "id": "2.7",
+    "pl": "uzasadnia konieczność międzynarodowej współpracy w celu zapobiegania zagrożeniom przyrody, podaje przykłady takiej współpracy (np. CITES, „Natura 2000”, Agenda 21).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "I",
+  "name": "Budowa chemiczna organizmów",
+  "items": [
+   {
+    "id": "I.1.1",
+    "pl": "przedstawia skład chemiczny organizmów, z podziałem na związki organiczne i nieorganiczne",
+    "sub": "Zagadnienia ogólne"
+   },
+   {
+    "id": "I.1.2",
+    "pl": "wymienia pierwiastki biogenne (C, H, O, N, P, S) i omawia ich znaczenie; wyróżnia makro- i mikroelementy i omawia znaczenie makroelementów i wybranych mikroelementów (Mg, Ca, Fe, Na, K, I)",
+    "sub": "Zagadnienia ogólne"
+   },
+   {
+    "id": "I.1.3",
+    "pl": "przedstawia rodzaje wiązań i oddziaływań chemicznych występujące w cząsteczkach biologicznych i ich rolę",
+    "sub": "Zagadnienia ogólne"
+   },
+   {
+    "id": "I.1.4",
+    "pl": "wyjaśnia znaczenie wody dla organizmów, opierając się na jej właściwościach fizyczno-chemicznych",
+    "sub": "Zagadnienia ogólne"
+   },
+   {
+    "id": "I.1.5",
+    "pl": "na podstawie wzorów strukturalnych i półstrukturalnych ustala przynależność danego związku organicznego o znaczeniu biologicznym do określonej grupy związków.",
+    "sub": "Zagadnienia ogólne"
+   },
+   {
+    "id": "I.2.1",
+    "pl": "przedstawia budowę i podaje właściwości węglowodanów; rozróżnia monosacharydy (triozy, pentozy i heksozy), disacharydy i polisacharydy",
+    "sub": "Węglowodany"
+   },
+   {
+    "id": "I.2.2",
+    "pl": "przedstawia znaczenie wybranych węglowodanów (glukoza, fruktoza, galaktoza, ryboza, deoksyryboza, sacharoza, laktoza, maltoza, skrobia, glikogen, celuloza) dla organizmów.",
+    "sub": "Węglowodany"
+   },
+   {
+    "id": "I.3.1",
+    "pl": "przedstawia budowę i znaczenie tłuszczów w organizmach",
+    "sub": "Lipidy"
+   },
+   {
+    "id": "I.3.2",
+    "pl": "rozróżnia lipidy (fosfolipidy, glikolipidy, woski i steroidy, w tym cholesterol), podaje ich właściwości i omawia znaczenie.",
+    "sub": "Lipidy"
+   },
+   {
+    "id": "I.4.1",
+    "pl": "opisuje budowę aminokwasów (wzór ogólny, grupy funkcyjne)",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.2",
+    "pl": "przedstawia za pomocą rysunku powstawanie wiązania peptydowego",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.3",
+    "pl": "wyróżnia peptydy (oligopeptydy, polipeptydy), białka proste i białka złożone",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.4",
+    "pl": "przedstawia biologiczną rolę białek",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.5",
+    "pl": "opisuje strukturę 1-, 2-, 3- i 4-rzędową białek",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.6",
+    "pl": "charakteryzuje wybrane grupy białek (albuminy, globuliny, histony, metaloproteiny)",
+    "sub": "Białka"
+   },
+   {
+    "id": "I.4.7",
+    "pl": "określa właściwości fizyczne białek, w tym zjawiska: koagulacji i denaturacji.",
+    "sub": "Białka"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "II",
+  "name": "Budowa i funkcjonowanie komórki",
+  "items": [
+   {
+    "id": "II.1",
+    "pl": "wskazuje poszczególne elementy komórki na schemacie, rysunku lub zdjęciu mikroskopowym, przedstawia podobieństwa i różnice między komórką prokariotyczną a eukariotyczną oraz między komórką roślinną, grzybową i zwierzęcą",
+    "sub": ""
+   },
+   {
+    "id": "II.2",
+    "pl": "opisuje błony komórki, wskazując na związek między budową a funkcją pełnioną przez błony",
+    "sub": ""
+   },
+   {
+    "id": "II.3",
+    "pl": "wyjaśnia przebieg plazmolizy w komórkach roślinnych, odwołując się do zjawiska osmozy",
+    "sub": ""
+   },
+   {
+    "id": "II.4",
+    "pl": "opisuje budowę i funkcje mitochondriów i chloroplastów, podaje argumenty na rzecz ich endosymbiotycznego pochodzenia",
+    "sub": ""
+   },
+   {
+    "id": "II.5",
+    "pl": "wyjaśnia rolę wakuoli, rybosomów, siateczki śródplazmatycznej (gładkiej i szorstkiej), aparatu Golgiego, lizosomów i peroksysomów w przemianie materii komórki",
+    "sub": ""
+   },
+   {
+    "id": "II.6",
+    "pl": "wymienia przykłady grup organizmów charakteryzujących się obecnością ściany komórkowej oraz omawia związek między jej budową a funkcją",
+    "sub": ""
+   },
+   {
+    "id": "II.7",
+    "pl": "opisuje sposoby poruszania się komórek i wykazuje rolę cytoszkieletu w ruchu komórek i transporcie wewnątrzkomórkowym",
+    "sub": ""
+   },
+   {
+    "id": "II.8",
+    "pl": "wykazuje znaczenie połączeń międzykomórkowych u organizmów wielokomórkowych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "III",
+  "name": "Metabolizm",
+  "items": [
+   {
+    "id": "III.1.1",
+    "pl": "podaje charakterystyczne cechy budowy enzymu białkowego",
+    "sub": "Enzymy"
+   },
+   {
+    "id": "III.1.2",
+    "pl": "opisuje przebieg katalizy enzymatycznej",
+    "sub": "Enzymy"
+   },
+   {
+    "id": "III.1.3",
+    "pl": "wyjaśnia, na czym polega swoistość enzymów; określa czynniki warunkujące ich aktywność (temperatura, pH, stężenie soli, obecność inhibitorów lub aktywatorów)",
+    "sub": "Enzymy"
+   },
+   {
+    "id": "III.1.4",
+    "pl": "podaje przykłady różnych sposobów regulacji aktywności enzymów w komórce (inhibicja kompetycyjna i niekompetycyjna, fosforylacja/defosforylacja, aktywacja proenzymów)",
+    "sub": "Enzymy"
+   },
+   {
+    "id": "III.1.5",
+    "pl": "wskazuje możliwość pełnienia funkcji enzymatycznych przez cząsteczki RNA.",
+    "sub": "Enzymy"
+   },
+   {
+    "id": "III.2.1",
+    "pl": "wyjaśnia na przykładach pojęcia: „szlak metaboliczny”, „cykl przemian metabolicznych”",
+    "sub": "Ogólne zasady metabolizmu"
+   },
+   {
+    "id": "III.2.2",
+    "pl": "porównuje anabolizm i katabolizm, wskazuje powiązania między nimi",
+    "sub": "Ogólne zasady metabolizmu"
+   },
+   {
+    "id": "III.2.3",
+    "pl": "charakteryzuje związki wysokoenergetyczne na przykładzie ATP",
+    "sub": "Ogólne zasady metabolizmu"
+   },
+   {
+    "id": "III.2.4",
+    "pl": "porównuje zasadnicze przemiany metaboliczne komórki zwierzęcej i roślinnej",
+    "sub": "Ogólne zasady metabolizmu"
+   },
+   {
+    "id": "III.2.5",
+    "pl": "wskazuje substraty i produkty głównych szlaków i cykli metabolicznych (fotosynteza, etapy oddychania tlenowego, oddychanie beztlenowe, glikoliza, glukoneogeneza, rozkład kwasów tłuszczowych, synteza kwasów tłuszczowych, cykl mocznikowy).",
+    "sub": "Ogólne zasady metabolizmu"
+   },
+   {
+    "id": "III.3.1",
+    "pl": "wymienia związki, które są głównym źródłem energii w komórce",
+    "sub": "Oddychanie wewnątrzkomórkowe"
+   },
+   {
+    "id": "III.3.2",
+    "pl": "wyjaśnia różnicę między oddychaniem tlenowym a fermentacją, porównuje ich bilans energetyczny",
+    "sub": "Oddychanie wewnątrzkomórkowe"
+   },
+   {
+    "id": "III.3.3",
+    "pl": "opisuje na podstawie schematów przebieg glikolizy, dekarboksylacji oksydacyjnej pirogronianu, cyklu Krebsa i łańcucha oddechowego; podaje miejsce zachodzenia tych procesów w komórce",
+    "sub": "Oddychanie wewnątrzkomórkowe"
+   },
+   {
+    "id": "III.3.4",
+    "pl": "wyjaśnia zasadę działania łańcucha oddechowego i mechanizm syntezy ATP.",
+    "sub": "Oddychanie wewnątrzkomórkowe"
+   },
+   {
+    "id": "III.4.1",
+    "pl": "przedstawia proces fotosyntezy i jego znaczenie na Ziemi",
+    "sub": "Fotosynteza"
+   },
+   {
+    "id": "III.4.2",
+    "pl": "określa rolę najważniejszych barwników biorących udział w fotosyntezie",
+    "sub": "Fotosynteza"
+   },
+   {
+    "id": "III.4.3",
+    "pl": "na podstawie schematu analizuje przebieg zależnej od światła fazy fotosyntezy, przedstawia funkcje obu fotosystemów i wyjaśnia, w jaki sposób powstają NADPH i ATP",
+    "sub": "Fotosynteza"
+   },
+   {
+    "id": "III.4.4",
+    "pl": "opisuje etapy cyklu Calvina i wskazuje je na schemacie, określa bilans tego cyklu.",
+    "sub": "Fotosynteza"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "IV",
+  "name": "Przegląd różnorodności organizmów",
+  "items": [
+   {
+    "id": "IV.1.1",
+    "pl": "rozróżnia (na schemacie) grupy mono-, para- i polifiletyczne",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.1.2",
+    "pl": "porządkuje hierarchicznie podstawowe rangi taksonomiczne",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.1.3",
+    "pl": "przedstawia związek między filogenezą organizmów a ich klasyfikacją",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.1.4",
+    "pl": "przedstawia na podstawie klasyfikacji określonej grupy organizmów jej uproszczone drzewo filogenetyczne",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.1.5",
+    "pl": "oznacza organizmy za pomocą klucza",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.1.6",
+    "pl": "opracowuje prosty dychotomiczny klucz do oznaczania określonej grupy organizmów lub obiektów.",
+    "sub": "Zasady klasyfikacji i sposoby identyfikacji organizmów"
+   },
+   {
+    "id": "IV.2.1",
+    "pl": "omawia podstawowe elementy budowy wirionu i wykazuje, że jest ona ściśle związana z przystosowaniem się do skrajnego pasożytnictwa",
+    "sub": "Wirusy"
+   },
+   {
+    "id": "IV.2.2",
+    "pl": "opisuje cykl życiowy bakteriofaga (lityczny i lizogeniczny) oraz wirusa zwierzęcego zachodzący bez lizy komórki",
+    "sub": "Wirusy"
+   },
+   {
+    "id": "IV.2.3",
+    "pl": "wyjaśnia, co to są retrowirusy i podaje ich przykłady",
+    "sub": "Wirusy"
+   },
+   {
+    "id": "IV.2.4",
+    "pl": "wymienia najważniejsze choroby wirusowe człowieka (WZW typu A, B i C, AIDS, zakażenie HPV, grypa, odra, świnka, różyczka, ospa wietrzna, polio, wścieklizna) i określa drogi zakażenia wirusami oraz przedstawia podstawowe zasady profilaktyki chorób wirusowych.",
+    "sub": "Wirusy"
+   },
+   {
+    "id": "IV.3.1",
+    "pl": "przedstawia różnorodność bakterii pod względem budowy komórki, zdolności do przemieszczania się, trybu życia i sposobu odżywiania się (fototroflzm, chemotrofizm, heterotrofizm)",
+    "sub": "Bakterie"
+   },
+   {
+    "id": "IV.3.2",
+    "pl": "przedstawia charakterystyczne cechy sinic jako bakterii prowadzących fotosyntezę oksygeniczną (tlenową) oraz zdolnych do asymilacji azotu atmosferycznego",
+    "sub": "Bakterie"
+   },
+   {
+    "id": "IV.3.3",
+    "pl": "wyjaśnia, w jaki sposób bakterie mogą przekazywać sobie informację genetyczną w procesie koniugacji",
+    "sub": "Bakterie"
+   },
+   {
+    "id": "IV.3.4",
+    "pl": "przedstawia rolę bakterii w życiu człowieka i w przyrodzie (przede wszystkim w rozkładzie materii organicznej oraz w krążeniu azotu)",
+    "sub": "Bakterie"
+   },
+   {
+    "id": "IV.3.5",
+    "pl": "wymienia najważniejsze choroby bakteryjne człowieka (gruźlica, czerwonka bakteryjna, dur brzuszny, cholera, wąglik, borelioza, tężec), przedstawia drogi zakażenia bakteriami oraz przedstawia podstawowe zasady profilaktyki chorób bakteryjnych.",
+    "sub": "Bakterie"
+   },
+   {
+    "id": "IV.4.1",
+    "pl": "przedstawia sposoby poruszania się protistów jednokomórkowych i wskazuje odpowiednie organelle (struktury) lub mechanizmy umożliwiające ruch",
+    "sub": "Protisty i rośliny pierwotnie wodne"
+   },
+   {
+    "id": "IV.4.2",
+    "pl": "przedstawia różnorodność sposobów odżywiania się protistów, wskazując na związek z ich budową i trybem życia",
+    "sub": "Protisty i rośliny pierwotnie wodne"
+   },
+   {
+    "id": "IV.4.3",
+    "pl": "rozróżnia najważniejsze grupy glonów (brunatnice, okrzemki, bruzdnice, krasnorosty, zielenice) na podstawie cech charakterystycznych i przedstawia rolę glonów w ekosystemach wodnych jako producentów materii organicznej",
+    "sub": "Protisty i rośliny pierwotnie wodne"
+   },
+   {
+    "id": "IV.4.4",
+    "pl": "wymienia najważniejsze protisty wywołujące choroby człowieka (malaria, rzęsistkowica, lamblioza, toksoplazmoza, czerwonka pełzakowa), przedstawia drogi zarażenia oraz przedstawia podstawowe zasady profilaktyki chorób wywoływanych przez protisty.",
+    "sub": "Protisty i rośliny pierwotnie wodne"
+   },
+   {
+    "id": "IV.5.1",
+    "pl": "porównuje warunki życia roślin w wodzie i na lądzie oraz wskazuje cechy roślin, które umożliwiły im opanowanie środowiska lądowego",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.5.2",
+    "pl": "wskazuje cechy charakterystyczne mszaków, widłaków, skrzypów, paproci oraz roślin nago- i okrytonasiennych, opisuje zróżnicowanie budowy ich ciała, wskazując poszczególne organy i określając ich funkcje",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.5.3",
+    "pl": "porównuje przemianę pokoleń (i faz jądrowych) grup roślin wymienionych w pkt 2, wskazując na stopniową redukcję pokolenia gametofitu w trakcie ewolucji na lądzie",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.5.4",
+    "pl": "rozpoznaje przedstawicieli rodzimych gatunków iglastych",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.5.5",
+    "pl": "rozróżnia rośliny jednoliścienne od dwuliściennych, wskazując ich cechy charakterystyczne (cechy liścia i kwiatu, system korzeniowy, budowa anatomiczna korzenia i pędu)",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.5.6",
+    "pl": "podaje przykłady znaczenia roślin w życiu człowieka (np. rośliny jadalne, trujące, przemysłowe, lecznicze).",
+    "sub": "Rośliny lądowe"
+   },
+   {
+    "id": "IV.6.1",
+    "pl": "przedstawia charakterystyczne cechy budowy tkanek roślinnych (twórczej, okrywającej, miękiszowej, wzmacniającej, przewodzącej), identyfikuje je na rysunku (schemacie, preparacie mikroskopowym, fotografii itp.), określając związek ich budowy z pełnioną funkcją",
+    "sub": "Rośliny - budowa i funkcje tkanek i organów"
+   },
+   {
+    "id": "IV.6.2",
+    "pl": "analizuje budowę morfologiczną rośliny okrytonasiennej, rozróżniając poszczególne organy i określając ich funkcje",
+    "sub": "Rośliny - budowa i funkcje tkanek i organów"
+   },
+   {
+    "id": "IV.6.3",
+    "pl": "analizuje budowę anatomiczną organów roślinnych: pierwotną i wtórną budowę korzenia i łodygi rośliny dwuliściennej, pierwotną budowę łodygi rośliny jednoliściennej, budowę liścia, określając związek ich budowy z pełnioną funkcją",
+    "sub": "Rośliny - budowa i funkcje tkanek i organów"
+   },
+   {
+    "id": "IV.6.4",
+    "pl": "opisuje modyfikacje organów roślin (korzeni, liści, łodygi) jako adaptacje do bytowania w określonych warunkach środowiska",
+    "sub": "Rośliny - budowa i funkcje tkanek i organów"
+   },
+   {
+    "id": "IV.6.5",
+    "pl": "wyróżnia formy ekologiczne roślin w zależności od dostępności wody i światła w środowisku.",
+    "sub": "Rośliny - budowa i funkcje tkanek i organów"
+   },
+   {
+    "id": "IV.7.1",
+    "pl": "wskazuje główne makro- i mikroelementy (C, H, O, N, S, P, K, Mg) oraz określa ich źródła dla roślin",
+    "sub": "Rośliny - odżywianie się"
+   },
+   {
+    "id": "IV.7.2",
+    "pl": "określa sposób pobierania wody i soli mineralnych oraz mechanizmy transportu wody (potencjał wody, transpiracja, siła ssąca liści, kohezja, adhezja, parcie korzeniowe)",
+    "sub": "Rośliny - odżywianie się"
+   },
+   {
+    "id": "IV.7.3",
+    "pl": "przedstawia warunki wymiany gazowej u roślin, wskazując odpowiednie adaptacje w ich budowie anatomicznej",
+    "sub": "Rośliny - odżywianie się"
+   },
+   {
+    "id": "IV.7.4",
+    "pl": "wskazuje drogi, jakimi do liści docierają substraty fotosyntezy i jakimi produkty fotosyntezy rozchodzą się w roślinie.",
+    "sub": "Rośliny - odżywianie się"
+   },
+   {
+    "id": "IV.8.1",
+    "pl": "podaje podstawowe cechy zalążka i nasienia oraz wykazuje ich znaczenie adaptacyjne do życia na lądzie",
+    "sub": "Rośliny - rozmnażanie się"
+   },
+   {
+    "id": "IV.8.2",
+    "pl": "opisuje budowę kwiatu okrytonasiennych, przedstawia jej różnorodność i wykazuje, że jest ona związana ze sposobami zapylania",
+    "sub": "Rośliny - rozmnażanie się"
+   },
+   {
+    "id": "IV.8.3",
+    "pl": "przedstawia powstawanie gametofitów męskiego i żeńskiego, zapłodnienie komórki jajowej oraz rozwój i kiełkowanie nasienia u rośliny okrytonasiennej",
+    "sub": "Rośliny - rozmnażanie się"
+   },
+   {
+    "id": "IV.8.4",
+    "pl": "opisuje podstawowe sposoby rozsiewania się nasion (z udziałem wiatru, wody i zwierząt), wskazując odpowiednie adaptacje w budowie owocu",
+    "sub": "Rośliny - rozmnażanie się"
+   },
+   {
+    "id": "IV.8.5",
+    "pl": "opisuje sposoby rozmnażania wegetatywnego.",
+    "sub": "Rośliny - rozmnażanie się"
+   },
+   {
+    "id": "IV.9.1",
+    "pl": "przedstawia podstawowe sposoby reakcji roślin na bodźce (ruchy tropiczne i nastyczne); podaje ich przykłady (fototropizm, geotropizm, sejsmonastia, nyktynastia)",
+    "sub": "Rośliny - reakcja na bodźce"
+   },
+   {
+    "id": "IV.9.2",
+    "pl": "przedstawia rolę hormonów roślinnych w funkcjonowaniu rośliny, w tym w reakcjach tropicznych",
+    "sub": "Rośliny - reakcja na bodźce"
+   },
+   {
+    "id": "IV.9.3",
+    "pl": "wyjaśnia zjawisko fotoperiodyzmu.",
+    "sub": "Rośliny - reakcja na bodźce"
+   },
+   {
+    "id": "IV.10.1",
+    "pl": "podaje podstawowe cechy grzybów odróżniające je od innych organizmów",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.2",
+    "pl": "wymienia cechy grzybów, które są przystosowaniem do heterotroficznego trybu życia w środowisku lądowym",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.3",
+    "pl": "wymienia cechy pozwalające na odróżnienie sprzężniowców, workowców i podstawczaków",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.4",
+    "pl": "przedstawia związki symbiotyczne, w które wchodzą grzyby (w tym mikoryzę)",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.5",
+    "pl": "przedstawia budowę i tryb życia grzybów porostowych; określa ich znaczenie jako organizmów wskaźnikowych",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.6",
+    "pl": "określa rolę grzybów w przyrodzie, przede wszystkim jako destruentów materii organicznej",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.7",
+    "pl": "przedstawia znaczenie grzybów w gospodarce, podając przykłady wykorzystywania grzybów, jak i straty przez nie wywoływane",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.10.8",
+    "pl": "przedstawia podstawowe zasady profilaktyki chorób człowieka wywoływanych przez grzyby.",
+    "sub": "Grzyby"
+   },
+   {
+    "id": "IV.11.1",
+    "pl": "przedstawia budowę i tryb życia gąbek",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.2",
+    "pl": "wymienia cechy pozwalające na rozróżnienie parzydełkowców, płazińców, nicieni, pierścienic, stawonogów, mięczaków i szkarłupni",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.3",
+    "pl": "przedstawia budowę, czynności życiowe i tryb życia parzydełkowców, określa ich rolę w przyrodzie",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.4",
+    "pl": "porównuje cechy płazińców wolno żyjących i pasożytniczych w powiązaniu z ich trybem życia",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.5",
+    "pl": "na podstawie schematów opisuje przykładowe cykle rozwojowe: tasiemca - tasiemiec nieuzbrojony, nicieni pasożytniczych - glista ludzka, włosień; wymienia żywicieli pośrednich i ostatecznych oraz wskazuje sposoby ich zarażenia wyżej wymienionymi pasożytami",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.6",
+    "pl": "wymienia najczęściej występujące płazińce i nicienie pasożytnicze, których żywicielem może być człowiek, podaje sposoby zapobiegania szerzeniu się ich inwazji",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.7",
+    "pl": "rozróżnia wieloszczety, skąposzczety i pijawki; przedstawia znaczenie pierścienic w przyrodzie i dla człowieka",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.8",
+    "pl": "wymienia wspólne cechy stawonogów, podkreślając te, które zadecydowały o sukcesie ewolucyjnym tej grupy zwierząt",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.9",
+    "pl": "rozróżnia skorupiaki, pajęczaki, wije i owady oraz porównuje środowiska życia, budowę i czynności życiowe tych grup",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.10",
+    "pl": "porównuje przeobrażenie zupełne i niezupełne owadów",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.11",
+    "pl": "przedstawia znaczenie stawonogów w przyrodzie i życiu człowieka",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.12",
+    "pl": "porównuje budowę i czynności życiowe ślimaków, małżów i głowonogów, rozpoznaje typowych przedstawicieli tych grup",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.13",
+    "pl": "przedstawia znaczenie mięczaków w przyrodzie i dla człowieka",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.11.14",
+    "pl": "wymienia charakterystyczne cechy strunowców na przykładzie lancetnika.",
+    "sub": "Zwierzęta bezkręgowe"
+   },
+   {
+    "id": "IV.12.1",
+    "pl": "wymienia cechy charakterystyczne ryb, płazów, gadów, ptaków i ssaków w powiązaniu ze środowiskiem i trybem życia",
+    "sub": "Zwierzęta kręgowe"
+   },
+   {
+    "id": "IV.12.2",
+    "pl": "opisuje przebieg czynności życiowych, w tym rozmnażanie się i rozwój grup wymienionych w pkt 1",
+    "sub": "Zwierzęta kręgowe"
+   },
+   {
+    "id": "IV.12.3",
+    "pl": "dokonuje przeglądu grup wymienionych pkt 1, z uwzględnieniem gatunków pospolitych i podlegających ochronie w Polsce",
+    "sub": "Zwierzęta kręgowe"
+   },
+   {
+    "id": "IV.12.4",
+    "pl": "na podstawie charakterystycznych cech zalicza kręgowce do odpowiednich gromad, a ssaki odpowiednio do stekowców, torbaczy lub łożyskowców",
+    "sub": "Zwierzęta kręgowe"
+   },
+   {
+    "id": "IV.12.5",
+    "pl": "przedstawia znaczenie kręgowców w przyrodzie i życiu człowieka.",
+    "sub": "Zwierzęta kręgowe"
+   },
+   {
+    "id": "IV.13.1",
+    "pl": "przedstawia zależność między trybem życia zwierzęcia (wolno żyjący lub osiadły) a budową ciała, w tym symetrią",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.2",
+    "pl": "opisuje różne rodzaje powłok ciała zwierząt",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.3",
+    "pl": "analizuje rolę i współdziałanie układu mięśniowego i różnych typów szkieletu (wewnętrznego, zewnętrznego, hydraulicznego) podczas ruchu zwierząt",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.4",
+    "pl": "wymienia rodzaje zmysłów występujące u zwierząt, wymienia odbierane bodźce, określa odbierające je receptory i przedstawia ich funkcje",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.5",
+    "pl": "rozróżnia oczy proste od złożonych",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.6",
+    "pl": "wykazuje związek między rozwojem układu nerwowego a złożonością budowy zwierzęcia; przedstawia etapy ewolucji ośrodkowego układu nerwowego u kręgowców",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.7",
+    "pl": "podaje przykłady regulacji hormonalnej u zwierząt na przykładzie przeobrażenia u owadów",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.8",
+    "pl": "podaje różnice między układami pokarmowymi zwierząt w zależności od rodzaju pobieranego pokarmu",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.9",
+    "pl": "opisuje rolę organizmów symbiotycznych w przewodach pokarmowych zwierząt (na przykładzie przeżuwaczy i człowieka)",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.10",
+    "pl": "wyjaśnia rolę płynów ciała krążących w ciele zwierzęcia",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.11",
+    "pl": "wykazuje związek między budową układu krwionośnego a jego funkcją u poznanych grup zwierząt",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.12",
+    "pl": "wykazuje znaczenie barwników oddechowych i podaje ich przykłady u różnych zwierząt",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.13",
+    "pl": "na przykładzie poznanych zwierząt określa sposoby wymiany gazowej i wymienia służące jej narządy (układy)",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.14",
+    "pl": "wyjaśnia istotę procesu wydalania oraz wskazuje substancje, które są wydalane z organizmów różnych zwierząt, w powiązaniu ze środowiskiem ich życia",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.15",
+    "pl": "podaje przykłady różnych typów narządów wydalniczych zwierząt",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.16",
+    "pl": "wymienia typy rozmnażania bezpłciowego i podaje grupy zwierząt, u których może ono zachodzić",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.17",
+    "pl": "podaje różnicę między zapłodnieniem zewnętrznym a wewnętrznym, rozróżnia jajorodność, jajożyworodność i żyworodność i wymienia grupy, u których takie typy rozmnażania występują",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.18",
+    "pl": "przedstawia podstawowe etapy rozwoju zarodka, wymienia listki zarodkowe, wyróżnia zwierzęta pierwo- i wtórouste",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.19",
+    "pl": "rozróżnia rozwój prosty (bezpośredni) od złożonego (pośredniego), podając odpowiednie przykłady",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   },
+   {
+    "id": "IV.13.20",
+    "pl": "przedstawia rolę błon płodowych w rozwoju zarodka kręgowców lądowych.",
+    "sub": "Porównanie struktur zwierząt odpowiedzialnych za realizację różnych czynności życiowych"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "V",
+  "name": "Budowa i funkcjonowanie organizmu człowieka",
+  "items": [
+   {
+    "id": "V.1.1",
+    "pl": "rozpoznaje (na ilustracji, rysunku, według opisu itd.) tkanki budujące ciało człowieka oraz podaje ich funkcję i lokalizację w organizmie człowieka",
+    "sub": "Hierarchiczna budowa organizmu człowieka (tkanki, narządy, układy narządów)"
+   },
+   {
+    "id": "V.1.2",
+    "pl": "przedstawia układy narządów człowieka oraz określa ich podstawowe funkcje, wykazuje cechy budowy narządów będące ich adaptacją do pełnionych funkcji",
+    "sub": "Hierarchiczna budowa organizmu człowieka (tkanki, narządy, układy narządów)"
+   },
+   {
+    "id": "V.1.3",
+    "pl": "przedstawia powiązania strukturalne i funkcjonalne między narządami w obrębie poszczególnych układów oraz między układami.",
+    "sub": "Hierarchiczna budowa organizmu człowieka (tkanki, narządy, układy narządów)"
+   },
+   {
+    "id": "V.2.1",
+    "pl": "przedstawia mechanizmy i narządy odpowiedzialne za utrzymanie wybranych parametrów środowiska wewnętrznego na określonym poziomie (wyjaśnia regulację stałej temperatury ciała, rolę stałości składu płynów ustrojowych, np. stężenia glukozy we krwi, stałości ciśnienia krwi)",
+    "sub": "Homeostaza organizmu człowieka"
+   },
+   {
+    "id": "V.2.2",
+    "pl": "określa czynniki wpływające na zaburzenie homeostazy organizmu (stres, szkodliwe substancje, w tym narkotyki, nadużywanie leków i niektórych używek, biologiczne czynniki chorobotwórcze)",
+    "sub": "Homeostaza organizmu człowieka"
+   },
+   {
+    "id": "V.2.3",
+    "pl": "wymienia przyczyny schorzeń poszczególnych układów (pokarmowy, oddechowy, krwionośny, nerwowy, narządy zmysłów) i przedstawia zasady profilaktyki w tym zakresie.",
+    "sub": "Homeostaza organizmu człowieka"
+   },
+   {
+    "id": "V.3.1",
+    "pl": "analizuje budowę szkieletu człowieka",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.2",
+    "pl": "analizuje budowę różnych połączeń kości (stawy, szwy, chrząstkozrosty) pod względem pełnionej funkcji oraz wymienia ich przykłady",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.3",
+    "pl": "przedstawia antagonizm pracy mięśni szkieletowych",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.4",
+    "pl": "porównuje budowę i działanie mięśni gładkich, poprzecznie prążkowanych szkieletowych oraz mięśnia sercowego",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.5",
+    "pl": "wymienia główne grupy mięśni człowieka oraz określa czynniki wpływające na prawidłowy rozwój muskulatury ciała",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.6",
+    "pl": "przedstawia budowę i wyjaśnia mechanizm skurczu sarkomeru",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.7",
+    "pl": "analizuje procesy pozyskiwania energii w mięśniach (rola fosfokreatyny, oddychanie beztlenowe, rola mioglobiny, oddychanie tlenowe) i wyjaśnia mechanizm powstawania deficytu tlenowego",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.3.8",
+    "pl": "analizuje związek pomiędzy systematyczną aktywnością fizyczną a gęstością masy kostnej i prawidłowym stanem układu ruchu.",
+    "sub": "Układ ruchu"
+   },
+   {
+    "id": "V.4.1",
+    "pl": "omawia budowę poszczególnych elementów układu pokarmowego oraz przedstawia związek pomiędzy budową a pełnioną funkcją",
+    "sub": "Układ pokarmowy i przebieg procesów trawiennych"
+   },
+   {
+    "id": "V.4.2",
+    "pl": "podaje źródła, funkcje i wyjaśnia znaczenie składników pokarmowych dla prawidłowego rozwoju i funkcjonowania organizmu ze szczególnym uwzględnieniem roli witamin, soli mineralnych, aminokwasów egzogennych, nienasyconych kwasów tłuszczowych i błonnika",
+    "sub": "Układ pokarmowy i przebieg procesów trawiennych"
+   },
+   {
+    "id": "V.4.3",
+    "pl": "przedstawia i porównuje proces trawienia, wchłaniania i transportu białek, cukrów i tłuszczów",
+    "sub": "Układ pokarmowy i przebieg procesów trawiennych"
+   },
+   {
+    "id": "V.4.4",
+    "pl": "analizuje potrzeby energetyczne organizmu oraz porównuje (porządkuje) wybrane formy aktywności fizycznej pod względem zapotrzebowania na energię",
+    "sub": "Układ pokarmowy i przebieg procesów trawiennych"
+   },
+   {
+    "id": "V.4.5",
+    "pl": "analizuje związek pomiędzy dietą i trybem życia a stanem zdrowia (otyłość i jej następstwa zdrowotne, cukrzyca, anoreksja, bulimia).",
+    "sub": "Układ pokarmowy i przebieg procesów trawiennych"
+   },
+   {
+    "id": "V.5.1",
+    "pl": "opisuje budowę i funkcje narządów wchodzących w skład układu oddechowego",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "V.5.2",
+    "pl": "wyjaśnia znaczenie oddychania tlenowego dla organizmu",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "V.5.3",
+    "pl": "przedstawia mechanizm wymiany gazowej w tkankach i w płucach oraz określa rolę klatki piersiowej i przepony w tym procesie",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "V.5.4",
+    "pl": "określa rolę krwi w transporcie tlenu i dwutlenku węgla",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "V.5.5",
+    "pl": "analizuje wpływ czynników zewnętrznych na stan i funkcjonowanie układu oddechowego (alergie, bierne i czynne palenie tytoniu, pyłowe zanieczyszczenia powietrza).",
+    "sub": "Układ oddechowy"
+   },
+   {
+    "id": "V.6.1",
+    "pl": "charakteryzuje budowę serca i naczyń krwionośnych, wskazuje ich cechy adaptacyjne do pełnionych funkcji",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.6.2",
+    "pl": "wykazuje współdziałanie układu krwionośnego z innymi układami (limfatycznym, pokarmowym, wydalniczym, dokrewnym)",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.6.3",
+    "pl": "przedstawia krążenie krwi w obiegu płucnym i ustrojowym (z uwzględnieniem przystosowania w budowie naczyń krwionośnych i występowania różnych rodzajów sieci naczyń włosowatych)",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.6.4",
+    "pl": "charakteryzuje funkcje poszczególnych składników krwi (krwinki, płytki, przeciwciała)",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.6.5",
+    "pl": "przedstawia główne grupy krwi w układzie AB0 oraz czynnik Rh",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.6.6",
+    "pl": "analizuje związek pomiędzy dietą i trybem życia a stanem i funkcjonowaniem układu krwionośnego (miażdżyca, zawał serca, żylaki).",
+    "sub": "Układ krwionośny"
+   },
+   {
+    "id": "V.7.1",
+    "pl": "opisuje elementy układu odpornościowego człowieka",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.7.2",
+    "pl": "przedstawia reakcję odpornościową humoralną i komórkową swoistą i nieswoistą",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.7.3",
+    "pl": "wyjania, coś to jest konflikt serologiczny i zgodność tkankowa",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.7.4",
+    "pl": "przedstawia immunologiczne podłoże alergii, wymienia najczęstsze alergeny (roztocza, pyłki, arachidy itd.)",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.7.5",
+    "pl": "opisuje sytuacje, w których występuje niedobór odporności (immunosupresja po przeszczepach, AIDS itd.), i przedstawia związane z tym zagrożenia",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.7.6",
+    "pl": "wyjaśnia, co to są choroby autoimmunizacyjne, podaje przykłady takich chorób.",
+    "sub": "Układ odpornościowy"
+   },
+   {
+    "id": "V.8.1",
+    "pl": "wyjaśnia istotę procesu wydalania oraz wymienia substancje, które są wydalane z organizmu człowieka",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "V.8.2",
+    "pl": "przedstawia budowę i funkcję poszczególnych narządów układu wydalniczego (nerki, moczowody, pęcherz moczowy, cewka moczowa)",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "V.8.3",
+    "pl": "wykazuje związek między budową nerki a pełnioną funkcją",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "V.8.4",
+    "pl": "przedstawia sposób funkcjonowania nefronu oraz porównuje składniki moczu pierwotnego i ostatecznego",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "V.8.5",
+    "pl": "wyjaśnia, na czym polega niewydolność nerek i na czym polega dializa.",
+    "sub": "Układ wydalniczy"
+   },
+   {
+    "id": "V.9.1",
+    "pl": "opisuje budowę i funkcje mózgu, rdzenia kręgowego i nerwów",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.2",
+    "pl": "przedstawia rolę układu autonomicznego współczulnego i przywspółczulnego",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.3",
+    "pl": "przedstawia istotę procesu powstawania i przewodzenia impulsu nerwowego",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.4",
+    "pl": "wymienia przykłady i opisuje rolę przekaźników nerwowych w komunikacji w układzie nerwowym",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.5",
+    "pl": "opisuje łuk odruchowy oraz wymienia rodzaje odruchów i przedstawia rolę odruchów warunkowych w procesie uczenia się",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.6",
+    "pl": "wykazuje kontrolno-integracyjną rolę mózgu, z uwzględnieniem funkcji jego części: kory, poszczególnych płatów, hipokampu",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.7",
+    "pl": "przedstawia lokalizację i rolę ośrodków korowych",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.9.8",
+    "pl": "przedstawia biologiczne znaczenie snu.",
+    "sub": "Układ nerwowy"
+   },
+   {
+    "id": "V.10.1",
+    "pl": "klasyfikuje receptory ze względu na rodzaj bodźca, przedstawia ich funkcje oraz przedstawia lokalizację receptorów w organizmie człowieka",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "V.10.2",
+    "pl": "przedstawia budowę oka i ucha oraz wyjaśnia sposób ich działania (omawia drogę bodźca)",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "V.10.3",
+    "pl": "przedstawia budowę i określa rolę błędnika, zmysłu smaku i węchu",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "V.10.4",
+    "pl": "przedstawia podstawowe zasady higieny narządu wzroku i słuchu.",
+    "sub": "Narządy zmysłów"
+   },
+   {
+    "id": "V.11.1",
+    "pl": "opisuje budowę skóry i wykazuje zależność pomiędzy budową a funkcjami skóry (ochronna, termoregulacyjna, wydzielnicza, zmysłowa)",
+    "sub": "Budowa i funkcje skóry"
+   },
+   {
+    "id": "V.11.2",
+    "pl": "przedstawia podstawowe zasady profilaktyki chorób skóry (trądzik, kontrola zmian skórnych, wpływ promieniowania UV na stan skóry i rozwój chorób nowotworowych skóry).",
+    "sub": "Budowa i funkcje skóry"
+   },
+   {
+    "id": "V.12.1",
+    "pl": "klasyfikuje hormony według kryterium budowy chemicznej oraz przedstawia wpływ hormonów peptydowych i sterydowych na komórki docelowe",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.2",
+    "pl": "wymienia gruczoły dokrewne, podaje ich lokalizację i przedstawia ich rolę w regulacji procesów życiowych",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.3",
+    "pl": "wyjaśnia mechanizmy homeostazy (w tym mechanizm sprzężenia zwrotnego ujemnego) i ilustruje przykładami wpływ hormonów na jej utrzymanie",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.4",
+    "pl": "wykazuje nadrzędną rolę podwzgórza i przysadki mózgowej w regulacji hormonalnej (opisuje mechanizm sprzężenia zwrotnego między przysadką mózgową a gruczołem podległym na przykładzie tarczycy)",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.5",
+    "pl": "wyjaśnia mechanizm antagonistycznego działania niektórych hormonów na przykładzie insuliny i glukagonu oraz kalcytoniny i parathormonu",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.6",
+    "pl": "wyjaśnia działanie adrenaliny i podaje przykłady sytuacji, w których jest ona wydzielana",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.7",
+    "pl": "analizuje działanie hormonów odpowiedzialnych za dojrzewanie i rozród człowieka",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.12.8",
+    "pl": "podaje przykłady hormonów tkankowych (gastryna, erytropoetyna) i ich roli w organizmie.",
+    "sub": "Układ dokrewny. Uczeń;"
+   },
+   {
+    "id": "V.13.1",
+    "pl": "charakteryzuje przebieg dojrzewania fizycznego człowieka",
+    "sub": "Układ rozrodczy"
+   },
+   {
+    "id": "V.13.2",
+    "pl": "przedstawia budowę i funkcje żeńskich i męskich narządów płciowych",
+    "sub": "Układ rozrodczy"
+   },
+   {
+    "id": "V.13.3",
+    "pl": "analizuje przebieg procesu spermatogenezy i oogenezy",
+    "sub": "Układ rozrodczy"
+   },
+   {
+    "id": "V.13.4",
+    "pl": "przedstawia przebieg cyklu menstruacyjnego",
+    "sub": "Układ rozrodczy"
+   },
+   {
+    "id": "V.13.5",
+    "pl": "przedstawia fizjologię zapłodnienia.",
+    "sub": "Układ rozrodczy"
+   },
+   {
+    "id": "V.14.1",
+    "pl": "opisuje metody wykorzystywane w planowaniu rodziny",
+    "sub": "Rozwój człowieka"
+   },
+   {
+    "id": "V.14.2",
+    "pl": "wyjaśnia istotę badań prenatalnych oraz podaje przykłady sytuacji, w których warto z nich skorzystać",
+    "sub": "Rozwój człowieka"
+   },
+   {
+    "id": "V.14.3",
+    "pl": "opisuje przebieg kolejnych faz rozwoju zarodka i płodu, z uwzględnieniem roli łożyska, oraz wyjaśnia wpływ różnych czynników na prawidłowy przebieg ciąży",
+    "sub": "Rozwój człowieka"
+   },
+   {
+    "id": "V.14.4",
+    "pl": "przedstawia etapy ontogenezy człowieka (od narodzin po starość).",
+    "sub": "Rozwój człowieka"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "VI",
+  "name": "Genetyka i biotechnologia",
+  "items": [
+   {
+    "id": "VI.1.1",
+    "pl": "przedstawia budowę nukleotydów",
+    "sub": "Kwasy nukleinowe"
+   },
+   {
+    "id": "VI.1.2",
+    "pl": "przedstawia strukturę podwójnej helisy i określa rolę wiązań wodorowych w jej utrzymaniu",
+    "sub": "Kwasy nukleinowe"
+   },
+   {
+    "id": "VI.1.3",
+    "pl": "wykazuje rolę podwójnej helisy w replikacji DNA oraz określa polimerazę DNA jako enzym odpowiedzialny za replikację; uzasadnia znaczenie sposobu syntezy DNA (replikacji semikonserwatywnej) dla dziedziczenia informacji",
+    "sub": "Kwasy nukleinowe"
+   },
+   {
+    "id": "VI.1.4",
+    "pl": "opisuje i porównuje strukturę i funkcję cząsteczek DNA i RNA",
+    "sub": "Kwasy nukleinowe"
+   },
+   {
+    "id": "VI.1.5",
+    "pl": "przedstawia podstawowe rodzaje RNA występujące w komórce (mRNA, rRNA i tRNA) oraz określa ich rolę.",
+    "sub": "Kwasy nukleinowe"
+   },
+   {
+    "id": "VI.2.1",
+    "pl": "przedstawia organizację DNA w genomie (helisa, nukleosom, chromatyda, chromosom)",
+    "sub": "Cykl komórkowy"
+   },
+   {
+    "id": "VI.2.2",
+    "pl": "opisuje cykl komórkowy, wymienia etap, w którym zachodzi replikacja DNA, uzasadnia konieczność podwojenia ilości DNA przed podziałem komórki",
+    "sub": "Cykl komórkowy"
+   },
+   {
+    "id": "VI.2.3",
+    "pl": "opisuje budowę chromosomu (metafazowego), podaje podstawowe cechy kariotypu organizmu diploidalnego",
+    "sub": "Cykl komórkowy"
+   },
+   {
+    "id": "VI.2.4",
+    "pl": "podaje różnicę między podziałem mitotycznym a mejotycznym i wyjaśnia biologiczne znaczenie obu typów podziału",
+    "sub": "Cykl komórkowy"
+   },
+   {
+    "id": "VI.2.5",
+    "pl": "analizuje nowotwory jako efekt mutacji zaburzających regulację cyklu komórkowego.",
+    "sub": "Cykl komórkowy"
+   },
+   {
+    "id": "VI.3.1",
+    "pl": "wyjaśnia sposób kodowania porządku aminokwasów w białku za pomocą kolejności nukleotydów w DNA, posługuje się tabelą kodu genetycznego",
+    "sub": "Informacja genetyczna i jej ekspresja"
+   },
+   {
+    "id": "VI.3.2",
+    "pl": "przedstawia poszczególne etapy prowadzące od DNA do białka (transkrypcja, translacja), uwzględniając rolę poszczególnych typów RNA oraz rybosomów",
+    "sub": "Informacja genetyczna i jej ekspresja"
+   },
+   {
+    "id": "VI.3.3",
+    "pl": "przedstawia proces potranskrypcyjnej obróbki RNA u organizmów eukariotycznych",
+    "sub": "Informacja genetyczna i jej ekspresja"
+   },
+   {
+    "id": "VI.3.4",
+    "pl": "przedstawia potranslacyjne modyfikacje białek (fosforylacja, glikozylacja)",
+    "sub": "Informacja genetyczna i jej ekspresja"
+   },
+   {
+    "id": "VI.3.5",
+    "pl": "porównuje strukturę genomu prokariotycznego i eukariotycznego.",
+    "sub": "Informacja genetyczna i jej ekspresja"
+   },
+   {
+    "id": "VI.4.1",
+    "pl": "przedstawia teorię operonu",
+    "sub": "Regulacja działania genów"
+   },
+   {
+    "id": "VI.4.2",
+    "pl": "wyjaśnia, na czym polega kontrola negatywna i pozytywna w operonie",
+    "sub": "Regulacja działania genów"
+   },
+   {
+    "id": "VI.4.3",
+    "pl": "przedstawia sposoby regulacji działania genów u organizmów eukariotycznych.",
+    "sub": "Regulacja działania genów"
+   },
+   {
+    "id": "VI.5.1",
+    "pl": "wyjaśnia i stosuje podstawowe pojęcia genetyki klasycznej (allel, allel dominujący, allel recesywny, locus, homozygota, heterozygota, genotyp, fenotyp)",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.5.2",
+    "pl": "przedstawia i stosuje prawa Mendla",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.5.3",
+    "pl": "zapisuje i analizuje krzyżówki jednogenowe i dwugenowe (z dominacją zupełną i niezupełną oraz allelami wielokrotnymi, posługując się szachownicą Punnetta) oraz określa prawdopodobieństwo wystąpienia poszczególnych genotypów i fenotypów w pokoleniach potomnych",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.5.4",
+    "pl": "opisuje sprzężenia genów (w tym sprzężenia z płcią) i przedstawia sposoby ich mapowania na chromosomie",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.5.5",
+    "pl": "przedstawia sposób dziedziczenia płci u człowieka, analizuje drzewa rodowe, w tym dotyczące występowania chorób genetycznych człowieka",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.5.6",
+    "pl": "podaje przykłady cech (nieciągłych) dziedziczących się zgodnie z prawami Mendla.",
+    "sub": "Genetyka mendlowska"
+   },
+   {
+    "id": "VI.6.1",
+    "pl": "określa źródła zmienności genetycznej (mutacje, rekombinacja)",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.6.2",
+    "pl": "przedstawia związek między rodzajem zmienności cechy (zmienność nieciągła lub ciągła) a sposobem determinacji genetycznej (jedno locus lub wiele genów)",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.6.3",
+    "pl": "przedstawia zjawisko plejotropii",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.6.4",
+    "pl": "podaje przykłady zachodzenia rekombinacji genetycznej (mejoza)",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.6.5",
+    "pl": "rozróżnia mutacje genowe: punktowe, delecje i insercje i określa ich możliwe skutki",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.6.6",
+    "pl": "definiuje mutacje chromosomowe i określa ich możliwe skutki.",
+    "sub": "Zmienność genetyczna"
+   },
+   {
+    "id": "VI.7.1",
+    "pl": "podaje przykłady chorób genetycznych człowieka wywołanych przez mutacje genowe (mukowiscydoza, fenyloketonuria, hemofilia, ślepota na barwy, choroba Huntingtona)",
+    "sub": "Choroby genetyczne"
+   },
+   {
+    "id": "VI.7.2",
+    "pl": "podaje przykłady chorób genetycznych wywoływanych przez mutacje chromosomowe i określa te mutacje (zespoły Downa, Turnera i Klinefeltera).",
+    "sub": "Choroby genetyczne"
+   },
+   {
+    "id": "VI.8.1",
+    "pl": "przedstawia najważniejsze typy enzymów stosowanych w inżynierii genetycznej (enzymy restrykcyjne, ligazy, polimerazy DNA)",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.2",
+    "pl": "przedstawia istotę procedur inżynierii genetycznej (izolacji i wprowadzania obcego genu do organizmu)",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.3",
+    "pl": "przedstawia zasadę metody PCR (łańcuchowej reakcji polimerazy) i jej zastosowanie",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.4",
+    "pl": "przedstawia sposoby oraz cele otrzymywania transgenicznych bakterii, roślin i zwierząt",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.5",
+    "pl": "przedstawia procedury i cele doświadczalnego klonowania organizmów, w tym ssaków",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.6",
+    "pl": "przedstawia sposoby i cele otrzymywania komórek macierzystych",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.7",
+    "pl": "przedstawia różnorodne zastosowania metod genetycznych, m.in. w kryminalistyce i sądownictwie, diagnostyce medycznej i badaniach ewolucyjnych",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.8",
+    "pl": "dyskutuje problemy etyczne związane z rozwojem inżynierii genetycznej i biotechnologii, w tym przedstawia kontrowersje towarzyszące badaniom nad klonowaniem terapeutycznym człowieka i formułuje własną opinię na ten temat",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.9",
+    "pl": "przedstawia perspektywy zastosowania terapii genowej",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   },
+   {
+    "id": "VI.8.10",
+    "pl": "przedstawia projekt poznania genomu ludzkiego i jego konsekwencje dla medycyny, zdrowia, ubezpieczeń zdrowotnych.",
+    "sub": "Biotechnologia molekularna, inżynieria genetyczna i medycyna molekularna"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "VII",
+  "name": "Ekologia",
+  "items": [
+   {
+    "id": "VII.1.1",
+    "pl": "przedstawia podstawowe elementy niszy ekologicznej organizmu, rozróżniając zakres tolerancji organizmu względem warunków (czynników) środowiska oraz zbiór niezbędnych mu zasobów",
+    "sub": "Nisza ekologiczna"
+   },
+   {
+    "id": "VII.1.2",
+    "pl": "określa środowisko życia organizmu, mając podany jego zakres tolerancji na określone czynniki (np. temperaturę, wilgotność, stężenie tlenków siarki w powietrzu)",
+    "sub": "Nisza ekologiczna"
+   },
+   {
+    "id": "VII.1.3",
+    "pl": "przedstawia rolę organizmów o wąskim zakresie tolerancji na czynniki środowiska w monitorowaniu jego zmian, zwłaszcza powodowanych przez działalność człowieka, podaje przykłady takich organizmów wskaźnikowych.",
+    "sub": "Nisza ekologiczna"
+   },
+   {
+    "id": "VII.2.1",
+    "pl": "wyróżnia populację lokalną gatunku, określając jej przykładowe granice oraz wskazując związki między jej członkami",
+    "sub": "Populacja"
+   },
+   {
+    "id": "VII.2.2",
+    "pl": "przewiduje zmiany liczebności populacji, dysponując danymi o jej aktualnej liczebności, rozrodczości, śmiertelności oraz migracjach osobników",
+    "sub": "Populacja"
+   },
+   {
+    "id": "VII.2.3",
+    "pl": "analizuje strukturę wiekową i przestrzenną populacji określonego gatunku",
+    "sub": "Populacja"
+   },
+   {
+    "id": "VII.2.4",
+    "pl": "przedstawia przyczyny konkurencji wewnątrzgatunkowej i przewiduje jej skutki.",
+    "sub": "Populacja"
+   },
+   {
+    "id": "VII.3.1",
+    "pl": "przedstawia źródło konkurencji między gatunkowej, jakim jest korzystanie przez różne organizmy z tych samych zasobów środowiska",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.2",
+    "pl": "przedstawia skutki konkurencji międzygatunkowej w postaci zawężenia się nisz ekologicznych konkurentów lub wypierania jednego gatunku z części jego areału przez drugi",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.3",
+    "pl": "przedstawia podobieństwa i różnice między drapieżnictwem, roślinożernością i pasożytnictwem",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.4",
+    "pl": "wymienia czynniki sprzyjające rozprzestrzenianiu się pasożytów (patogenów)",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.5",
+    "pl": "wyjaśnia zmiany liczebności populacji zjadanego i zjadającego na zasadzie ujemnego sprzężenia zwrotnego",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.6",
+    "pl": "przedstawia skutki presji populacji zjadającego (drapieżnika, roślinożercy lub pasożyta) na populację zjadanego, jakim jest zmniejszenie konkurencji wśród zjadanych; przedstawia znaczenie tego zjawiska dla zachowania różnorodności gatunkowej",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.7",
+    "pl": "wykazuje rolę zależności mutualistycznych (fakultatywnych i obligatoryjnych jedno- lub obustronnie) w przyrodzie, posługując się uprzednio poznanymi przykładami (porosty, mikoryza, współżycie korzeni roślin z bakteriami wiążącymi azot, przenoszenie pyłku roślin przez zwierzęta odżywiające się nektarem itd.)",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.3.8",
+    "pl": "podaje przykłady komensalizmu.",
+    "sub": "Zależności między gatunkowe"
+   },
+   {
+    "id": "VII.4.1",
+    "pl": "przedstawia rolę organizmów tworzących biocenozę w kształtowaniu biotopu (proces glebotwórczy, mikroklimat)",
+    "sub": "Struktura i funkcjonowanie ekosystemu"
+   },
+   {
+    "id": "VII.4.2",
+    "pl": "na przykładzie lasu wykazuje, że zróżnicowana struktura przestrzenna ekosystemu zależy zarówno od czynników fizykochemicznych (zmienność środowiska w skali lokalnej), jak i biotycznych (tworzących go gatunków - np. warstwy lasu)",
+    "sub": "Struktura i funkcjonowanie ekosystemu"
+   },
+   {
+    "id": "VII.4.3",
+    "pl": "określa rolę zależności pokarmowych w ekosystemie, przedstawia je w postaci łańcuchów i sieci pokarmowych, analizuje przedstawione (w postaci schematu, opisu itd.) sieci i łańcuchy pokarmowe",
+    "sub": "Struktura i funkcjonowanie ekosystemu"
+   },
+   {
+    "id": "VII.4.4",
+    "pl": "przewiduje na podstawie danych o strukturze pokarmowej dwóch ekosystemów (oraz wiedzy o dynamice populacji zjadających i zjadanych), który z nich może być bardziej podatny na gradacje (masowe pojawy) roślinożerców.",
+    "sub": "Struktura i funkcjonowanie ekosystemu"
+   },
+   {
+    "id": "VII.5.1",
+    "pl": "wyróżnia poziomy troficzne producentów i konsumentów materii organicznej, a wśród tych ostatnich - roślinożerców, drapieżców (kolejnych rzędów) oraz destruentów",
+    "sub": "Przepływ energii i krążenie materii w przyrodzie"
+   },
+   {
+    "id": "VII.5.2",
+    "pl": "wyjaśnia, dlaczego wykres ilustrujący ilość energii przepływającej przez poziomy troficzne od roślin do drapieżców ostatniego rzędu ma postać piramidy",
+    "sub": "Przepływ energii i krążenie materii w przyrodzie"
+   },
+   {
+    "id": "VII.5.3",
+    "pl": "wykazuje rolę, jaką w krążeniu materii odgrywają różne organizmy odżywiające się szczątkami innych organizmów",
+    "sub": "Przepływ energii i krążenie materii w przyrodzie"
+   },
+   {
+    "id": "VII.5.4",
+    "pl": "opisuje obieg węgla w przyrodzie, wskazuje główne źródła jego dopływu i odpływu",
+    "sub": "Przepływ energii i krążenie materii w przyrodzie"
+   },
+   {
+    "id": "VII.5.5",
+    "pl": "opisuje obieg azotu w przyrodzie, określa rolę różnych grup bakterii w obiegu tego pierwiastka.",
+    "sub": "Przepływ energii i krążenie materii w przyrodzie"
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "VIII",
+  "name": "Różnorodność biologiczna Ziemi",
+  "items": [
+   {
+    "id": "VIII.1",
+    "pl": "wymienia główne czynniki geograficzne kształtujące różnorodność gatunkową i ekosystemową Ziemi (klimat, ukształtowanie powierzchni), podaje przykłady miejsc charakteryzujących się szczególnym bogactwem gatunkowym",
+    "sub": ""
+   },
+   {
+    "id": "VIII.2",
+    "pl": "przedstawia wpływ zlodowaceń na rozmieszczenie gatunków (rola ostoi w przetrwaniu gatunków w trakcie zlodowaceń, gatunki reliktowe jako świadectwo przemian świata żywego); podaje przykłady reliktów",
+    "sub": ""
+   },
+   {
+    "id": "VIII.3",
+    "pl": "wyjaśnia rozmieszczenie biomów na kuli ziemskiej, odwołując się do zróżnicowania czynników klimatycznych",
+    "sub": ""
+   },
+   {
+    "id": "VIII.4",
+    "pl": "przedstawia wpływ człowieka na różnorodność biologiczną, podaje przykłady tego wpływu (zagrożenie gatunków rodzimych, introdukcja gatunków obcych)",
+    "sub": ""
+   },
+   {
+    "id": "VIII.5",
+    "pl": "uzasadnia konieczność zachowania starych odmian roślin uprawnych i ras zwierząt hodowlanych jako części różnorodności biologicznej",
+    "sub": ""
+   },
+   {
+    "id": "VIII.6",
+    "pl": "uzasadnia konieczność stosowania ochrony czynnej dla zachowania wybranych gatunków i ekosystemów.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "biology",
+  "scope": "extended",
+  "number": "IX",
+  "name": "Ewolucja",
+  "items": [
+   {
+    "id": "IX.1.1",
+    "pl": "przedstawia podstawowe źródła wiedzy o mechanizmach i przebiegu ewolucji (budowa, rozwój i zapis genetyczny organizmów, skamieniałości, obserwacje doboru w naturze)",
+    "sub": "Źródła wiedzy o mechanizmach i przebiegu ewolucji"
+   },
+   {
+    "id": "IX.1.2",
+    "pl": "podaje przykłady działania doboru naturalnego (melanizm przemysłowy, uzyskiwanie przez bakterie oporności na antybiotyki itp.)",
+    "sub": "Źródła wiedzy o mechanizmach i przebiegu ewolucji"
+   },
+   {
+    "id": "IX.1.3",
+    "pl": "przedstawia znaczenie skamieniałości jako bezpośredniego źródła wiedzy o przebiegu ewolucji organizmów oraz sposób ich powstawania i wyjaśnia przyczyny niekompletności zapisu kopalnego",
+    "sub": "Źródła wiedzy o mechanizmach i przebiegu ewolucji"
+   },
+   {
+    "id": "IX.1.4",
+    "pl": "odczytuje z drzewa filogenetycznego relację pokrewieństwa ewolucyjnego gatunków, zapisuje taką relację przedstawioną w formie opisu, schematu lub klasyfikacji.",
+    "sub": "Źródła wiedzy o mechanizmach i przebiegu ewolucji"
+   },
+   {
+    "id": "IX.2.1",
+    "pl": "wykazuje rolę mutacji i rekombinacji genetycznej w powstawaniu zmienności, która jest surowcem ewolucji",
+    "sub": "Dobór naturalny"
+   },
+   {
+    "id": "IX.2.2",
+    "pl": "przedstawia mechanizm działania doboru naturalnego i jego rodzaje (stabilizujący, kierunkowy, różnicujący), omawia skutki doboru w postaci powstawania adaptacji u organizmów",
+    "sub": "Dobór naturalny"
+   },
+   {
+    "id": "IX.2.3",
+    "pl": "przedstawia adaptacje wybranych (poznanych wcześniej gatunków) do życia w określonych warunkach środowiska.",
+    "sub": "Dobór naturalny"
+   },
+   {
+    "id": "IX.3.1",
+    "pl": "definiuje pulę genową populacji",
+    "sub": "Elementy genetyki populacji"
+   },
+   {
+    "id": "IX.3.2",
+    "pl": "przedstawia prawo Hardy'ego-Weinberga i stosuje je do rozwiązywania prostych zadań (jeden locus, dwa allele)",
+    "sub": "Elementy genetyki populacji"
+   },
+   {
+    "id": "IX.3.3",
+    "pl": "wykazuje, że na poziomie genetycznym efektem doboru naturalnego są zmiany częstości genów w populacji",
+    "sub": "Elementy genetyki populacji"
+   },
+   {
+    "id": "IX.3.4",
+    "pl": "wyjaśnia, dlaczego mimo działania doboru naturalnego w populacji ludzkiej utrzymują się allele warunkujące choroby genetyczne - recesywne (np. mukowiscydoza), współdominujące (np. anemia sierpowata), dominujące (np. pląsawica Huntingtona)",
+    "sub": "Elementy genetyki populacji"
+   },
+   {
+    "id": "IX.3.5",
+    "pl": "przedstawia warunki, w których zachodzi dryf genetyczny i omawia jego skutki.",
+    "sub": "Elementy genetyki populacji"
+   },
+   {
+    "id": "IX.4.1",
+    "pl": "wyjaśnia, na czym polega biologiczna definicja gatunku (gatunek jako zamknięta pula genowa), rozróżnia gatunki biologiczne na podstawie wyników odpowiednich badań (przedstawionych w formie opisu, tabeli, schematu itd.)",
+    "sub": "Powstawanie gatunków"
+   },
+   {
+    "id": "IX.4.2",
+    "pl": "przedstawia mechanizm powstawania gatunków wskutek izolacji geograficznej i rolę czynników zewnętrznych (zlodowacenia, zmiany klimatyczne, wędrówki kontynentów) w powstawaniu i zanikaniu barier",
+    "sub": "Powstawanie gatunków"
+   },
+   {
+    "id": "IX.4.3",
+    "pl": "wyjaśnia różnicę między specjacją allopatryczną a sympatryczną.",
+    "sub": "Powstawanie gatunków"
+   },
+   {
+    "id": "IX.5.1",
+    "pl": "przedstawia, w jaki sposób mogły powstać pierwsze organizmy na Ziemi, odwołując się do hipotez wyjaśniających najważniejsze etapy tego procesu: syntezę związków organicznych z nieorganicznymi, powstanie materiału genetycznego („świat RNA”), powstanie komórki („koacerwaty”, „micelle lipidowe”)",
+    "sub": "Pochodzenie i rozwój życia na Ziemi"
+   },
+   {
+    "id": "IX.5.2",
+    "pl": "przedstawia rolę czynników zewnętrznych w przebiegu ewolucji (zmiany klimatyczne, katastrofy kosmiczne, dryf kontynentów)",
+    "sub": "Pochodzenie i rozwój życia na Ziemi"
+   },
+   {
+    "id": "IX.5.3",
+    "pl": "opisuje warunki, w jakich zachodzi radiacja adaptacyjna oraz ewolucja zbieżna; podaje przykłady konwergencji i dywergencji; identyfikuje konwergencje i dywergencje na podstawie schematu, rysunku, opisu itd.",
+    "sub": "Pochodzenie i rozwój życia na Ziemi"
+   },
+   {
+    "id": "IX.5.4",
+    "pl": "porządkuje chronologicznie najważniejsze zdarzenia z historii życia na Ziemi, podaje erę, w której zaszły (eon w wypadku prekambru).",
+    "sub": "Pochodzenie i rozwój życia na Ziemi"
+   },
+   {
+    "id": "IX.6.1",
+    "pl": "przedstawia podobieństwa i różnice między człowiekiem a innymi naczelnymi, zwłaszcza małpami człekokształtnymi",
+    "sub": "Antropogeneza"
+   },
+   {
+    "id": "IX.6.2",
+    "pl": "przedstawia zmiany, jakie zaszły w trakcie ewolucji człowieka",
+    "sub": "Antropogeneza"
+   },
+   {
+    "id": "IX.6.3",
+    "pl": "wymienia najważniejsze kopalne formy człowiekowate (australopiteki, człowiek zręczny, człowiek wyprostowany, neandertalczyk), porządkuje je chronologicznie i określa ich najważniejsze cechy (pojemność mózgoczaszki, najważniejsze cechy kośćca, używanie narzędzi, ślady kultury).",
+    "sub": "Antropogeneza"
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "1",
+  "name": "Substancje i ich właściwości",
+  "items": [
+   {
+    "id": "1.1",
+    "pl": "opisuje właściwości substancji będących głównymi składnikami stosowanych na co dzień produktów np. soli kamiennej, cukru, mąki, wody, miedzi, żelaza; wykonuje doświadczenia, w których bada właściwości wybranych substancji",
+    "sub": ""
+   },
+   {
+    "id": "1.2",
+    "pl": "przeprowadza obliczenia z wykorzystaniem pojęć: masa, gęstość i objętość",
+    "sub": ""
+   },
+   {
+    "id": "1.3",
+    "pl": "obserwuje mieszanie się substancji; opisuje ziarnistą budowę materii; tłumaczy, na czym polega zjawisko dyfuzji, rozpuszczania, mieszania, zmiany stanu skupienia; planuje doświadczenia potwierdzające ziarnistość materii",
+    "sub": ""
+   },
+   {
+    "id": "1.4",
+    "pl": "wyjaśnia różnice pomiędzy pierwiastkiem a związkiem chemicznym",
+    "sub": ""
+   },
+   {
+    "id": "1.5",
+    "pl": "klasyfikuje pierwiastki na metale i niemetale; odróżnia metale od niemetali na podstawie ich właściwości",
+    "sub": ""
+   },
+   {
+    "id": "1.6",
+    "pl": "posługuje się symbolami (zna i stosuje do zapisywania wzorów) pierwiastków: H, O, N, Cl, S, C, P, Si, Na, K, Ca, Mg, Fe, Zn, Cu, Al, Pb, Sn, Ag, Hg",
+    "sub": ""
+   },
+   {
+    "id": "1.7",
+    "pl": "opisuje cechy mieszanin jednorodnych i niejednorodnych",
+    "sub": ""
+   },
+   {
+    "id": "1.8",
+    "pl": "opisuje proste metody rozdziału mieszanin i wskazuje te różnice między właściwościami fizycznymi składników mieszaniny, które umożliwiają ich rozdzielenie; sporządza mieszaniny i rozdziela je na składniki (np. wody i piasku, wody i soli kamiennej, kredy i soli kamiennej, siarki i opiłków żelaza, wody i oleju jadalnego, wody i atramentu).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "2",
+  "name": "Wewnętrzna budowa materii",
+  "items": [
+   {
+    "id": "2.1",
+    "pl": "odczytuje z układu okresowego podstawowe informacje o pierwiastkach (symbol, nazwę, liczbę atomową, masę atomową, rodzaj pierwiastka - metal lub niemetal)",
+    "sub": ""
+   },
+   {
+    "id": "2.2",
+    "pl": "opisuje i charakteryzuje skład atomu (jądro: protony i neutrony, elektrony); definiuje elektrony walencyjne",
+    "sub": ""
+   },
+   {
+    "id": "2.3",
+    "pl": "ustala liczbę protonów, elektronów i neutronów w atomie danego pierwiastka, gdy dana jest liczba atomowa i masowa",
+    "sub": ""
+   },
+   {
+    "id": "2.4",
+    "pl": "wyjaśnia związek pomiędzy podobieństwem właściwości pierwiastków zapisanych w tej samej grupie układu okresowego a budową atomów i liczbą elektronów walencyjnych",
+    "sub": ""
+   },
+   {
+    "id": "2.5",
+    "pl": "definiuje pojęcie izotopu, wymienia dziedziny życia, w których izotopy znalazły zastosowanie; wyjaśnia różnice w budowie atomów izotopów wodoru",
+    "sub": ""
+   },
+   {
+    "id": "2.6",
+    "pl": "definiuje pojęcie masy atomowej (średnia mas atomów danego pierwiastka, z uwzględnieniem jego składu izotopowego)",
+    "sub": ""
+   },
+   {
+    "id": "2.7",
+    "pl": "opisuje, czym różni się atom od cząsteczki; interpretuje zapisy H 2 , 2H, 2H 2 itp.",
+    "sub": ""
+   },
+   {
+    "id": "2.8",
+    "pl": "opisuje rolę elektronów walencyjnych w łączeniu się atomów",
+    "sub": ""
+   },
+   {
+    "id": "2.9",
+    "pl": "na przykładzie cząsteczek H 2 , Cl 2 , N 2 , CO 2 , H 2 O, HCl, NH 3 opisuje powstawanie wiązań atomowych (kowalencyjnych); zapisuje wzory sumaryczne i strukturalne tych cząsteczek",
+    "sub": ""
+   },
+   {
+    "id": "2.10",
+    "pl": "definiuje pojęcie jonów i opisuje, jak powstają; zapisuje elektronowo mechanizm powstawania jonów, na przykładzie Na, Mg, Al, Cl, S; opisuje powstawanie wiązania jonowego",
+    "sub": ""
+   },
+   {
+    "id": "2.11",
+    "pl": "porównuje właściwości związków kowalencyjnych i jonowych (stan skupienia, rozpuszczalność w wodzie, temperatury topnienia i wrzenia)",
+    "sub": ""
+   },
+   {
+    "id": "2.12",
+    "pl": "definiuje pojęcie wartościowości jako liczby wiązań, które tworzy atom, łącząc się z atomami innych pierwiastków; odczytuje z układu okresowego wartościowość maksymalną dla pierwiastków grup; 1., 2., 13., 14., 15., 16. i 17. (względem tlenu i wodoru)",
+    "sub": ""
+   },
+   {
+    "id": "2.13",
+    "pl": "rysuje wzór strukturalny cząsteczki związku dwupierwiastkowego (o wiązaniach kowalencyjnych) o znanych wartościowościach pierwiastków",
+    "sub": ""
+   },
+   {
+    "id": "2.14",
+    "pl": "ustala dla prostych związków dwupierwiastkowych, na przykładzie tlenków: nazwę na podstawie wzoru sumarycznego; wzór sumaryczny na podstawie nazwy; wzór sumaryczny na podstawie wartościowości.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "3",
+  "name": "Reakcje chemiczne",
+  "items": [
+   {
+    "id": "3.1",
+    "pl": "opisuje różnice w przebiegu zjawiska fizycznego i reakcji chemicznej; podaje przykłady zjawisk fizycznych i reakcji chemicznych zachodzących w otoczeniu człowieka; planuje i wykonuje doświadczenia ilustrujące zjawisko fizyczne i reakcję chemiczną",
+    "sub": ""
+   },
+   {
+    "id": "3.2",
+    "pl": "opisuje, na czym polega reakcja syntezy, analizy i wymiany; podaje przykłady różnych typów reakcji i zapisuje odpowiednie równania; wskazuje substraty i produkty; dobiera współczynniki w równaniach reakcji chemicznych; obserwuje doświadczenia ilustrujące typy reakcji i formułuje wnioski",
+    "sub": ""
+   },
+   {
+    "id": "3.3",
+    "pl": "definiuje pojęcia: reakcje egzoenergetyczne (jako reakcje, którym towarzyszy wydzielanie się energii do otoczenia, np. procesy spalania) i reakcje endoenergetyczne (do przebiegu których energia musi być dostarczona, np. procesy rozkładu - pieczenie ciasta)",
+    "sub": ""
+   },
+   {
+    "id": "3.4",
+    "pl": "oblicza masy cząsteczkowe prostych związków chemicznych; dokonuje prostych obliczeń związanych z zastosowaniem prawa stałości składu i prawa zachowania masy.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "4",
+  "name": "Powietrze i inne gazy",
+  "items": [
+   {
+    "id": "4.1",
+    "pl": "wykonuje lub obserwuje doświadczenie potwierdzające, że powietrze jest mieszaniną; opisuje skład i właściwości powietrza",
+    "sub": ""
+   },
+   {
+    "id": "4.2",
+    "pl": "opisuje właściwości fizyczne i chemiczne azotu, tlenu, wodoru, tlenku węgla(IV); odczytuje z układu okresowego pierwiastków i innych źródeł wiedzy informacje o azocie, tlenie i wodorze; planuje i wykonuje doświadczenia dotyczące badania właściwości wymienionych gazów",
+    "sub": ""
+   },
+   {
+    "id": "4.3",
+    "pl": "wyjaśnia, dlaczego gazy szlachetne są bardzo mało aktywne chemicznie; wymienia ich zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "4.4",
+    "pl": "pisze równania reakcji otrzymywania: tlenu, wodoru i tlenku węgla(IV) (np. rozkład wody pod wpływem prądu elektrycznego, spalanie węgla)",
+    "sub": ""
+   },
+   {
+    "id": "4.5",
+    "pl": "opisuje, na czym polega powstawanie dziury ozonowej; proponuje sposoby zapobiegania jej powiększaniu",
+    "sub": ""
+   },
+   {
+    "id": "4.6",
+    "pl": "opisuje obieg tlenu w przyrodzie",
+    "sub": ""
+   },
+   {
+    "id": "4.7",
+    "pl": "opisuje rdzewienie żelaza i proponuje sposoby zabezpieczania produktów zawierających w swoim składzie żelazo przed rdzewieniem",
+    "sub": ""
+   },
+   {
+    "id": "4.8",
+    "pl": "wymienia zastosowania tlenków wapnia, żelaza, glinu",
+    "sub": ""
+   },
+   {
+    "id": "4.9",
+    "pl": "planuje i wykonuje doświadczenie pozwalające wykryć CO 2 w powietrzu wydychanym z płuc",
+    "sub": ""
+   },
+   {
+    "id": "4.10",
+    "pl": "wymienia źródła, rodzaje i skutki zanieczyszczeń powietrza; planuje sposób postępowania pozwalający chronić powietrze przed zanieczyszczeniami.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "5",
+  "name": "Woda i roztwory wodne. Liczeń:",
+  "items": [
+   {
+    "id": "5.1",
+    "pl": "bada zdolność do rozpuszczania się różnych substancji w wodzie",
+    "sub": ""
+   },
+   {
+    "id": "5.2",
+    "pl": "opisuje budowę cząsteczki wody; wyjaśnia, dlaczego woda dla jednych substancji jest rozpuszczalnikiem, a dla innych nie; podaje przykłady substancji, które rozpuszczają się w wodzie, tworząc roztwory właściwe; podaje przykłady substancji, które nie rozpuszczają się w wodzie, tworząc koloidy i zawiesiny",
+    "sub": ""
+   },
+   {
+    "id": "5.3",
+    "pl": "planuje i wykonuje doświadczenia wykazujące wpływ różnych czynników na szybkość rozpuszczania substancji stałych w wodzie",
+    "sub": ""
+   },
+   {
+    "id": "5.4",
+    "pl": "opisuje różnice pomiędzy roztworem rozcieńczonym, stężonym, nasyconym i nienasyconym",
+    "sub": ""
+   },
+   {
+    "id": "5.5",
+    "pl": "odczytuje rozpuszczalność substancji z wykresu jej rozpuszczalności; oblicza ilość substancji, którą można rozpuścić w określonej ilości wody w podanej temperaturze",
+    "sub": ""
+   },
+   {
+    "id": "5.6",
+    "pl": "prowadzi obliczenia z wykorzystaniem pojęć: stężenie procentowe, masa substancji, masa rozpuszczalnika, masa roztworu, gęstość; oblicza stężenie procentowe roztworu nasyconego w danej temperaturze (z wykorzystaniem wykresu rozpuszczalności)",
+    "sub": ""
+   },
+   {
+    "id": "5.7",
+    "pl": "proponuje sposoby racjonalnego gospodarowania wodą.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "6",
+  "name": "Kwasy i zasady",
+  "items": [
+   {
+    "id": "6.1",
+    "pl": "definiuje pojęcia: wodorotlenku, kwasu; rozróżnia pojęcia wodorotlenek i zasada; zapisuje wzory sumaryczne najprostszych wodorotlenków: NaOH, KOH, Ca(OH) 2 , Al(OH) 3 i kwasów: HCl, H 2 SO 4 , H 2 SO 3 , HNO 3 , H 2 CO 3 , H 3 PO 4 , H 2 S",
+    "sub": ""
+   },
+   {
+    "id": "6.2",
+    "pl": "opisuje budowę wodorotlenków i kwasów",
+    "sub": ""
+   },
+   {
+    "id": "6.3",
+    "pl": "planuje i/lub wykonuje doświadczenia, w wyniku których można otrzymać wodorotlenek, kwas beztlenowy i tlenowy (np. NaOH, Ca(OH) 2 , Al(OH) 3 , HCl, H 2 SO 3 ); zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "6.4",
+    "pl": "opisuje właściwości i wynikające z nich zastosowania niektórych wodorotlenków i kwasów",
+    "sub": ""
+   },
+   {
+    "id": "6.5",
+    "pl": "wyjaśnia, na czym polega dysocjacja elektrolityczna zasad i kwasów; zapisuje równania dysocjacji elektrolitycznej zasad i kwasów; definiuje kwasy i zasady (zgodnie z teorią Arrheniusa)",
+    "sub": ""
+   },
+   {
+    "id": "6.6",
+    "pl": "wskazuje na zastosowania wskaźników (fenoloftaleiny, wskaźnika uniwersalnego); rozróżnia doświadczalnie kwasy i zasady za pomocą wskaźników",
+    "sub": ""
+   },
+   {
+    "id": "6.7",
+    "pl": "wymienia rodzaje odczynu roztworu i przyczyny odczynu kwasowego, zasadowego i obojętnego",
+    "sub": ""
+   },
+   {
+    "id": "6.8",
+    "pl": "interpretuje wartość pH w ujęciu jakościowym (odczyn kwasowy, zasadowy, obojętny); wykonuje doświadczenie, które pozwoli zbadać pH produktów występujących w życiu codziennym człowieka (żywność, środki czystości itp.)",
+    "sub": ""
+   },
+   {
+    "id": "6.9",
+    "pl": "analizuje proces powstawania kwaśnych opadów i skutki ich działania; proponuje sposoby ograniczające ich powstawanie.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "7",
+  "name": "Sole",
+  "items": [
+   {
+    "id": "7.1",
+    "pl": "wykonuje doświadczenie i wyjaśnia przebieg reakcji zobojętniania (np. HCl + NaOH)",
+    "sub": ""
+   },
+   {
+    "id": "7.2",
+    "pl": "pisze wzory sumaryczne soli: chlorków, siarczanów(VI), azotanów(V), węglanów, fosforanów(V), siarczków; tworzy nazwy soli na podstawie wzorów i odwrotnie",
+    "sub": ""
+   },
+   {
+    "id": "7.3",
+    "pl": "pisze równania reakcji dysocjacji elektrolitycznej wybranych soli",
+    "sub": ""
+   },
+   {
+    "id": "7.4",
+    "pl": "pisze równania reakcji otrzymywania soli (reakcje: kwas + wodorotlenek metalu, kwas + tlenek metalu, kwas + metal, wodorotlenek metalu + tlenek niemetalu)",
+    "sub": ""
+   },
+   {
+    "id": "7.5",
+    "pl": "wyjaśnia pojęcie reakcji strąceniowej; projektuje i wykonuje doświadczenie pozwalające otrzymywać sole w reakcjach strąceniowych, pisze odpowiednie równania reakcji w sposób cząsteczkowy i jonowy; na podstawie tabeli rozpuszczalności soli i wodorotlenków wnioskuje o wyniku reakcji strąceniowej",
+    "sub": ""
+   },
+   {
+    "id": "7.6",
+    "pl": "wymienia zastosowania najważniejszych soli: węglanów, azotanów(V), siarczanów(VI), fosforanów(V) i chlorków.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "8",
+  "name": "Węgiel i jego związki z wodorem",
+  "items": [
+   {
+    "id": "8.1",
+    "pl": "wymienia naturalne źródła węglowodorów",
+    "sub": ""
+   },
+   {
+    "id": "8.2",
+    "pl": "definiuje pojęcia: węglowodory nasycone i nienasycone",
+    "sub": ""
+   },
+   {
+    "id": "8.3",
+    "pl": "tworzy wzór ogólny szeregu homologicznego alkanów (na podstawie wzorów trzech kolejnych alkanów) i układa wzór sumaryczny alkanu o podanej liczbie atomów węgla; rysuje wzory strukturalne i półstrukturalne alkanów",
+    "sub": ""
+   },
+   {
+    "id": "8.4",
+    "pl": "obserwuje i opisuje właściwości fizyczne i chemiczne (reakcje spalania) alkanów na przykładzie metanu i etanu",
+    "sub": ""
+   },
+   {
+    "id": "8.5",
+    "pl": "wyjaśnia zależność pomiędzy długością łańcucha węglowego a stanem skupienia alkanu",
+    "sub": ""
+   },
+   {
+    "id": "8.6",
+    "pl": "podaje wzory ogólne szeregów homologicznych alkenów i alkinów; podaje zasady tworzenia nazw alkenów i alkinów w oparciu o nazwy alkanów",
+    "sub": ""
+   },
+   {
+    "id": "8.7",
+    "pl": "opisuje właściwości (spalanie, przyłączanie bromu i wodoru) oraz zastosowania etenu i etynu",
+    "sub": ""
+   },
+   {
+    "id": "8.8",
+    "pl": "projektuje doświadczenie pozwalające odróżnić węglowodory nasycone od nienasyconych",
+    "sub": ""
+   },
+   {
+    "id": "8.9",
+    "pl": "zapisuje równanie reakcji polimeryzacji etenu; opisuje właściwości i zastosowania polietylenu.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "foundation",
+  "number": "9",
+  "name": "Pochodne węglowodorów. Substancje chemiczne o znaczeniu biologicznym",
+  "items": [
+   {
+    "id": "9.1",
+    "pl": "tworzy nazwy prostych alkoholi i pisze ich wzory sumaryczne i strukturalne",
+    "sub": ""
+   },
+   {
+    "id": "9.2",
+    "pl": "bada właściwości etanolu; opisuje właściwości i zastosowania metanolu i etanolu; zapisuje równania reakcji spalania metanolu i etanolu; opisuje negatywne skutki działania alkoholu etylowego na organizm ludzki",
+    "sub": ""
+   },
+   {
+    "id": "9.3",
+    "pl": "zapisuje wzór sumaryczny i strukturalny glicerolu; bada i opisuje właściwości glicerolu; wymienia jego zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "9.4",
+    "pl": "podaje przykłady kwasów organicznych występujących w przyrodzie i wymienia ich zastosowania; pisze wzory prostych kwasów karboksylowych i podaje ich nazwy zwyczajowe i systematyczne",
+    "sub": ""
+   },
+   {
+    "id": "9.5",
+    "pl": "bada i opisuje właściwości kwasu octowego (reakcja dysocjacji elektrolitycznej, reakcja z zasadami, metalami i tlenkami metali)",
+    "sub": ""
+   },
+   {
+    "id": "9.6",
+    "pl": "wyjaśnia, na czym polega reakcja estryfikacji; zapisuje równania reakcji pomiędzy prostymi kwasami karboksylowymi i alkoholami jednowodorotlenowymi; tworzy nazwy estrów pochodzących od podanych nazw kwasów i alkoholi; planuje i wykonuje doświadczenie pozwalające otrzymać ester o podanej nazwie",
+    "sub": ""
+   },
+   {
+    "id": "9.7",
+    "pl": "opisuje właściwości estrów w aspekcie ich zastosowań",
+    "sub": ""
+   },
+   {
+    "id": "9.8",
+    "pl": "podaje nazwy wyższych kwasów karboksylowych nasyconych (palmitynowy, stearynowy) i nienasyconych (oleinowy) i zapisuje ich wzory",
+    "sub": ""
+   },
+   {
+    "id": "9.9",
+    "pl": "opisuje właściwości długołańcuchowych kwasów karboksylowych; projektuje doświadczenie, które pozwoli odróżnić kwas oleinowy od palmitynowego lub stearynowego",
+    "sub": ""
+   },
+   {
+    "id": "9.10",
+    "pl": "klasyfikuje tłuszcze pod względem pochodzenia, stanu skupienia i charakteru chemicznego; opisuje właściwości fizyczne tłuszczów; projektuje doświadczenie pozwalające odróżnić tłuszcz nienasycony od nasyconego",
+    "sub": ""
+   },
+   {
+    "id": "9.11",
+    "pl": "opisuje budowę i właściwości fizyczne i chemiczne pochodnych węglowodorów zawierających azot na przykładzie amin (metyloaminy) i aminokwasów (glicyny)",
+    "sub": ""
+   },
+   {
+    "id": "9.12",
+    "pl": "wymienia pierwiastki, których atomy wchodzą w skład cząsteczek białek; definiuje białka jako związki powstające z aminokwasów",
+    "sub": ""
+   },
+   {
+    "id": "9.13",
+    "pl": "bada zachowanie się białka pod wpływem ogrzewania, stężonego etanolu, kwasów i zasad, soli metali ciężkich (np. CuSO 4 ) i soli kuchennej; opisuje różnice w przebiegu denaturacji i koagulacji białek; wylicza czynniki, które wywołują te procesy; wykrywa obecność białka w różnych produktach spożywczych",
+    "sub": ""
+   },
+   {
+    "id": "9.14",
+    "pl": "wymienia pierwiastki, których atomy wchodzą w skład cząsteczek cukrów; dokonuje podziału cukrów na proste i złożone",
+    "sub": ""
+   },
+   {
+    "id": "9.15",
+    "pl": "podaje wzór sumaryczny glukozy i fruktozy; bada i opisuje właściwości fizyczne glukozy; wskazuje na jej zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "9.16",
+    "pl": "podaje wzór sumaryczny sacharozy; bada i opisuje właściwości fizyczne sacharozy; wskazuje na jej zastosowania; zapisuje równanie reakcji sacharozy z wodą (za pomocą wzorów sumarycznych)",
+    "sub": ""
+   },
+   {
+    "id": "9.17",
+    "pl": "opisuje występowanie skrobi i celulozy w przyrodzie; podaje wzory sumaryczne tych związków; wymienia różnice w ich właściwościach; opisuje znaczenie i zastosowania tych cukrów; wykrywa obecność skrobi w różnych produktach spożywczych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "1",
+  "name": "Materiały i tworzywa pochodzenia naturalnego",
+  "items": [
+   {
+    "id": "1.1",
+    "pl": "bada i opisuje właściwości SiO 2 ; wymienia odmiany SiO 2 występujące w przyrodzie i wskazuje na ich zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "1.2",
+    "pl": "opisuje proces produkcji szkła; jego rodzaje, właściwości i zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "1.3",
+    "pl": "wymienia surowce do produkcji wyrobów ceramicznych, cementu, betonu",
+    "sub": ""
+   },
+   {
+    "id": "1.4",
+    "pl": "opisuje rodzaje skał wapiennych (wapień, marmur, kreda), ich właściwości i zastosowania; projektuje wykrycie skał wapiennych wśród innych skał i minerałów; zapisuje równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "1.5",
+    "pl": "zapisuje wzory hydratów i soli bezwodnych (CaSO 4 , (CaSO 4 ) 2 ·H 2 O i CaSO 4 ·2H 2 O); podaje ich nazwy; opisuje różnice we właściwościach hydratów i substancji bezwodnych; przewiduje zachowanie się hydratów podczas ogrzewania i weryfikuje swoje przewidywania poprzez doświadczenie; wymienia zastosowania skał gipsowych; wyjaśnia proces twardnienia zaprawy gipsowej (zapisuje odpowiednie równanie reakcji)",
+    "sub": ""
+   },
+   {
+    "id": "1.6",
+    "pl": "wyjaśnia pojęcie alotropii pierwiastków; na podstawie znajomości budowy diamentu, grafitu i fullerenów tłumaczy ich właściwości i zastosowania.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "2",
+  "name": "Chemia środków czystości",
+  "items": [
+   {
+    "id": "2.1",
+    "pl": "opisuje proces zmydlania tłuszczów; zapisuje (słownie) przebieg tej reakcji",
+    "sub": ""
+   },
+   {
+    "id": "2.2",
+    "pl": "wyjaśnia, na czym polega proces usuwania brudu, i bada wpływ twardości wody na powstawanie związków trudno rozpuszczalnych; zaznacza fragmenty hydrofobowe i hydrofilowe we wzorach cząsteczek substancji powierzchniowo czynnych",
+    "sub": ""
+   },
+   {
+    "id": "2.3",
+    "pl": "tłumaczy przyczynę eliminowania fosforanów(V) ze składu proszków (proces eutrofizacji)",
+    "sub": ""
+   },
+   {
+    "id": "2.4",
+    "pl": "wskazuje na charakter chemiczny składników środków do mycia szkła, przetykania rur, czyszczenia metali i biżuterii w aspekcie zastosowań tych produktów; stosuje te środki z uwzględnieniem zasad bezpieczeństwa; wyjaśnia, na czym polega proces usuwania zanieczyszczeń za pomocą tych środków",
+    "sub": ""
+   },
+   {
+    "id": "2.5",
+    "pl": "opisuje tworzenie się emulsji, ich zastosowania; analizuje skład kosmetyków (na podstawie etykiety kremu, balsamu, pasty do zębów itd.) i wyszukuje w dostępnych źródłach informacje na temat ich działania.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "3",
+  "name": "Chemia wspomaga nasze zdrowie. Chemia w kuchni",
+  "items": [
+   {
+    "id": "3.1",
+    "pl": "tłumaczy, na czym mogą polegać i od czego zależeć lecznicze i toksyczne właściwości substancji chemicznych (dawka, rozpuszczalność w wodzie, rozdrobnienie, sposób przenikania do organizmu) aspiryny, nikotyny, alkoholu etylowego",
+    "sub": ""
+   },
+   {
+    "id": "3.2",
+    "pl": "wyszukuje informacje na temat działania składników popularnych leków (np. węgla aktywowanego, aspiryny, środków neutralizujących nadmiar kwasów w żołądku)",
+    "sub": ""
+   },
+   {
+    "id": "3.3",
+    "pl": "wyszukuje informacje na temat składników napojów dnia codziennego (kawa, herbata, mleko, woda mineralna, napoje typu cola) w aspekcie ich działania na organizm ludzki",
+    "sub": ""
+   },
+   {
+    "id": "3.4",
+    "pl": "opisuje procesy fermentacyjne zachodzące podczas wyrabiania ciasta i pieczenia chleba, produkcji wina, otrzymywania kwaśnego mleka, jogurtów, serów; zapisuje równania reakcji fermentacji alkoholowej i octowej",
+    "sub": ""
+   },
+   {
+    "id": "3.5",
+    "pl": "wyjaśnia przyczyny psucia się żywności i proponuje sposoby zapobiegania temu procesowi; przedstawia znaczenie i konsekwencje stosowania dodatków do żywności w tym konserwantów.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "4",
+  "name": "Chemia gleby",
+  "items": [
+   {
+    "id": "4.1",
+    "pl": "tłumaczy, na czym polegają sorpcyjne właściwości gleby; opisuje wpływ pH gleby na wzrost wybranych roślin; planuje i przeprowadza badanie kwasowości gleby oraz badanie właściwości sorpcyjnych gleby",
+    "sub": ""
+   },
+   {
+    "id": "4.2",
+    "pl": "podaje przykłady nawozów naturalnych i sztucznych, uzasadnia potrzebę ich stosowania",
+    "sub": ""
+   },
+   {
+    "id": "4.3",
+    "pl": "wymienia źródła chemicznego zanieczyszczenia gleb oraz podstawowe rodzaje zanieczyszczeń (metale ciężkie, węglowodory, pestycydy, azotany)",
+    "sub": ""
+   },
+   {
+    "id": "4.4",
+    "pl": "proponuje sposoby ochrony gleby przed degradacją.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "5",
+  "name": "Paliwa - obecnie i w przyszłości",
+  "items": [
+   {
+    "id": "5.1",
+    "pl": "podaje przykłady surowców naturalnych wykorzystywanych do uzyskiwania energii (bezpośrednio i po przetworzeniu)",
+    "sub": ""
+   },
+   {
+    "id": "5.2",
+    "pl": "opisuje przebieg destylacji ropy naftowej i węgla kamiennego; wymienia nazwy produktów tych procesów i uzasadnia ich zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "5.3",
+    "pl": "wyjaśnia pojęcie liczby oktanowej (LO) i podaje sposoby zwiększania LO benzyny; tłumaczy, na czym polega kraking oraz reforming, i uzasadnia konieczność prowadzenia tych procesów w przemyśle",
+    "sub": ""
+   },
+   {
+    "id": "5.4",
+    "pl": "proponuje alternatywne źródła energii - analizuje możliwości ich zastosowań (biopaliwa, wodór, energia słoneczna, wodna, jądrowa, geotermalne itd.)",
+    "sub": ""
+   },
+   {
+    "id": "5.5",
+    "pl": "analizuje wpływ różnorodnych sposobów uzyskiwania energii na stan środowiska przyrodniczego.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "basic",
+  "number": "6",
+  "name": "Chemia opakowań i odzieży",
+  "items": [
+   {
+    "id": "6.1",
+    "pl": "podaje przykłady opakowań (celulozowych, szklanych, metalowych, sztucznych) stosowanych w życiu codziennym; opisuje ich wady i zalety",
+    "sub": ""
+   },
+   {
+    "id": "6.2",
+    "pl": "klasyfikuje tworzywa sztuczne w zależności od ich właściwości (termoplasty i duroplasty); zapisuje równania reakcji otrzymywania PVC; wskazuje na zagrożenia związane z gazami powstającymi w wyniku spalania się PVC",
+    "sub": ""
+   },
+   {
+    "id": "6.3",
+    "pl": "uzasadnia potrzebę zagospodarowania odpadów pochodzących z różnych opakowań",
+    "sub": ""
+   },
+   {
+    "id": "6.4",
+    "pl": "klasyfikuje włókna na naturalne (białkowe i celulozowe), sztuczne i syntetyczne, wskazuje ich zastosowania; opisuje wady i zalety; uzasadnia potrzebę stosowania tych włókien",
+    "sub": ""
+   },
+   {
+    "id": "6.5",
+    "pl": "projektuje doświadczenie pozwalające zidentyfikować włókna białkowe i celulozowe, sztuczne i syntetyczne.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "1",
+  "name": "Atomy, cząsteczki i stechiometria chemiczna",
+  "items": [
+   {
+    "id": "1.1",
+    "pl": "stosuje pojęcie mola (w oparciu o liczbę Avogadra)",
+    "sub": ""
+   },
+   {
+    "id": "1.2",
+    "pl": "odczytuje w układzie okresowym masy atomowe pierwiastków i na ich podstawie oblicza masę molową związków chemicznych (nieorganicznych i organicznych) o podanych wzorach (lub nazwach)",
+    "sub": ""
+   },
+   {
+    "id": "1.3",
+    "pl": "oblicza masę atomową pierwiastka na podstawie jego składu izotopowego; ustala skład izotopowy pierwiastka (w % masowych) na podstawie jego masy atomowej",
+    "sub": ""
+   },
+   {
+    "id": "1.4",
+    "pl": "ustala wzór empiryczny i rzeczywisty związku chemicznego (nieorganicznego i organicznego) na podstawie jego składu wyrażonego w % masowych i masy molowej",
+    "sub": ""
+   },
+   {
+    "id": "1.5",
+    "pl": "dokonuje interpretacji jakościowej i ilościowej równania reakcji w ujęciu molowym, masowym i objętościowym (dla gazów)",
+    "sub": ""
+   },
+   {
+    "id": "1.6",
+    "pl": "wykonuje obliczenia z uwzględnieniem wydajności reakcji i mola dotyczące: mas substratów i produktów (stechiometria wzorów i równań chemicznych), objętości gazów w warunkach normalnych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "2",
+  "name": "Struktura atomu - jądro i elektrony",
+  "items": [
+   {
+    "id": "2.1",
+    "pl": "określa liczbę cząstek elementarnych w atomie oraz skład jądra atomowego, na podstawie zapisu Z A E",
+    "sub": ""
+   },
+   {
+    "id": "2.2",
+    "pl": "stosuje zasady rozmieszczania elektronów na orbitalach w atomach pierwiastków wieloelektronowych",
+    "sub": ""
+   },
+   {
+    "id": "2.3",
+    "pl": "zapisuje konfiguracje elektronowe atomów pierwiastków do Z=36 i jonów o podanym ładunku, uwzględniając rozmieszczenie elektronów na podpowłokach (zapisy konfiguracji: pełne, skrócone i schematy klatkowe)",
+    "sub": ""
+   },
+   {
+    "id": "2.4",
+    "pl": "określa przynależność pierwiastków do bloków konfiguracyjnych: s, p i d układu okresowego (konfiguracje elektronów walencyjnych)",
+    "sub": ""
+   },
+   {
+    "id": "2.5",
+    "pl": "wskazuje na związek pomiędzy budową atomu a położeniem pierwiastka w układzie okresowym.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "3",
+  "name": "Wiązania chemiczne",
+  "items": [
+   {
+    "id": "3.1",
+    "pl": "przedstawia sposób, w jaki atomy pierwiastków bloku s i p osiągają trwałe konfiguracje elektronowe (tworzenie jonów)",
+    "sub": ""
+   },
+   {
+    "id": "3.2",
+    "pl": "stosuje pojęcie elektroujemności do określania (na podstawie różnicy elektroujemności i liczby elektronów walencyjnych atomów łączących się pierwiastków) rodzaju wiązania: jonowe, kowalencyjne (atomowe), kowalencyjne spolaryzowane (atomowe spolaryzowane), koordynacyjne",
+    "sub": ""
+   },
+   {
+    "id": "3.3",
+    "pl": "opisuje mechanizm tworzenia wiązania jonowego (np. w chlorkach i tlenkach metali)",
+    "sub": ""
+   },
+   {
+    "id": "3.4",
+    "pl": "zapisuje wzory elektronowe typowych cząsteczek związków kowalencyjnych i jonów, z uwzględnieniem wiązań koordynacyjnych (np. wodoru, chloru, chlorowodoru, tlenku węgla(IV), amoniaku, metanu, etenu i etynu, NH 4 + , H 3 O + , SO 2 i SO 3 )",
+    "sub": ""
+   },
+   {
+    "id": "3.5",
+    "pl": "rozpoznaje typ hybrydyzacji (sp, sp 2 , sp 3 ) w prostych cząsteczkach związków nieorganicznych i organicznych",
+    "sub": ""
+   },
+   {
+    "id": "3.6",
+    "pl": "określa typ wiązania (o i n) w prostych cząsteczkach",
+    "sub": ""
+   },
+   {
+    "id": "3.7",
+    "pl": "opisuje i przewiduje wpływ rodzaju wiązania (jonowe, kowalencyjne, wodorowe, metaliczne) na właściwości fizyczne substancji nieorganicznych i organicznych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "4",
+  "name": "Kinetyka i statyka chemiczna",
+  "items": [
+   {
+    "id": "4.1",
+    "pl": "definiuje termin: szybkość reakcji (jako zmiana stężenia reagenta w czasie)",
+    "sub": ""
+   },
+   {
+    "id": "4.2",
+    "pl": "szkicuje wykres zmian stężeń reagentów i szybkości reakcji w funkcji czasu",
+    "sub": ""
+   },
+   {
+    "id": "4.3",
+    "pl": "stosuje pojęcia: egzoenergetyczny, endoenergetyczny, energia aktywacji do opisu efektów energetycznych przemian",
+    "sub": ""
+   },
+   {
+    "id": "4.4",
+    "pl": "interpretuje zapis ∆H < 0 i ∆H > 0 do określenia efektu energetycznego reakcji",
+    "sub": ""
+   },
+   {
+    "id": "4.5",
+    "pl": "przewiduje wpływ: stężenia substratów, obecności katalizatora, stopnia rozdrobnienia substratów i temperatury na szybkość reakcji; planuje i przeprowadza odpowiednie doświadczenia",
+    "sub": ""
+   },
+   {
+    "id": "4.6",
+    "pl": "wykazuje się znajomością i rozumieniem pojęć: stan równowagi dynamicznej 1 stała równowagi; zapisuje wyrażenie na stałą równowagi podanej reakcji",
+    "sub": ""
+   },
+   {
+    "id": "4.7",
+    "pl": "stosuje regułę przekory do jakościowego określenia wpływu zmian temperatury, stężenia reagentów i ciśnienia na układ pozostający w stanie równowagi dynamicznej",
+    "sub": ""
+   },
+   {
+    "id": "4.8",
+    "pl": "klasyfikuje substancje do kwasów lub zasad zgodnie z teorią Brönsteda-Lowry'ego",
+    "sub": ""
+   },
+   {
+    "id": "4.9",
+    "pl": "interpretuje wartości stałej dysocjacji, pH, pK w",
+    "sub": ""
+   },
+   {
+    "id": "4.10",
+    "pl": "porównuje moc elektrolitów na podstawie wartości ich stałych dysocjacji.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "5",
+  "name": "Roztwory i reakcje zachodzące w roztworach wodnych",
+  "items": [
+   {
+    "id": "5.1",
+    "pl": "wymienia różnice we właściwościach roztworów właściwych, koloidów i zawiesin",
+    "sub": ""
+   },
+   {
+    "id": "5.2",
+    "pl": "wykonuje obliczenia związane z przygotowaniem, rozcieńczaniem i zatężaniem roztworów z zastosowaniem pojęć stężenie procentowe i molowe",
+    "sub": ""
+   },
+   {
+    "id": "5.3",
+    "pl": "planuje doświadczenie pozwalające otrzymać roztwór o zadanym stężeniu procentowym i molowym",
+    "sub": ""
+   },
+   {
+    "id": "5.4",
+    "pl": "opisuje sposoby rozdzielenia roztworów właściwych (ciał stałych w cieczach, cieczy w cieczach) na składniki",
+    "sub": ""
+   },
+   {
+    "id": "5.5",
+    "pl": "planuje doświadczenie pozwalające rozdzielić mieszaninę niejednorodną (ciał stałych w cieczach) na składniki",
+    "sub": ""
+   },
+   {
+    "id": "5.6",
+    "pl": "stosuje termin stopień dysocjacji dla ilościowego opisu zjawiska dysocjacji elektrolitycznej",
+    "sub": ""
+   },
+   {
+    "id": "5.7",
+    "pl": "przewiduje odczyn roztworu po reakcji (np. tlenku wapnia z wodą, tlenku siarki(VI) z wodą, wodorotlenku sodu z kwasem solnym) substancji zmieszanych w ilościach stechiometrycznych i niestechiometrycznych",
+    "sub": ""
+   },
+   {
+    "id": "5.8",
+    "pl": "uzasadnia (ilustrując równaniami reakcji) przyczynę kwasowego odczynu roztworów kwasów, zasadowego odczynu wodnych roztworów niektórych wodorotlenków (zasad) oraz odczynu niektórych roztworów soli (hydroliza)",
+    "sub": ""
+   },
+   {
+    "id": "5.9",
+    "pl": "podaje przykłady wskaźników pH (fenoloftaleina, oranż metylowy, wskaźnik uniwersalny) i omawia ich zastosowanie; bada odczyn roztworu",
+    "sub": ""
+   },
+   {
+    "id": "5.10",
+    "pl": "pisze równania reakcji: zobojętniania, wytrącania osadów i hydrolizy soli w formie cząsteczkowej i jonowej (pełnej i skróconej)",
+    "sub": ""
+   },
+   {
+    "id": "5.11",
+    "pl": "projektuje i przeprowadza doświadczenia pozwalające otrzymać różnymi metodami kwasy, wodorotlenki i sole.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "6",
+  "name": "Reakcje utleniania i redukcji",
+  "items": [
+   {
+    "id": "6.1",
+    "pl": "wykazuje się znajomością i rozumieniem pojęć: stopień utlenienia, utleniacz, reduktor, utlenianie, redukcja",
+    "sub": ""
+   },
+   {
+    "id": "6.2",
+    "pl": "oblicza stopnie utlenienia pierwiastków w jonie i cząsteczce związku nieorganicznego i organicznego",
+    "sub": ""
+   },
+   {
+    "id": "6.3",
+    "pl": "wskazuje utleniacz, reduktor, proces utleniania i redukcji w podanej reakcji redoks",
+    "sub": ""
+   },
+   {
+    "id": "6.4",
+    "pl": "przewiduje typowe stopnie utlenienia pierwiastków na podstawie konfiguracji elektronowej ich atomów",
+    "sub": ""
+   },
+   {
+    "id": "6.5",
+    "pl": "stosuje zasady bilansu elektronowego - dobiera współczynniki stechiometryczne w równaniach reakcji utleniania-redukcji (w formie cząsteczkowej i jonowej).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "7",
+  "name": "Metale",
+  "items": [
+   {
+    "id": "7.1",
+    "pl": "opisuje podstawowe właściwości fizyczne metali i wyjaśnia je w oparciu o znajomość natury wiązania metalicznego",
+    "sub": ""
+   },
+   {
+    "id": "7.2",
+    "pl": "pisze równania reakcji ilustrujące typowe właściwości chemiczne metali wobec: tlenu (Na, Mg, Ca, Al, Zn, Fe, Cu), wody (Na, K, Mg, Ca), kwasów nieutleniających (Na, K, Ca, Mg, Al, Zn, Fe, Mn, Cr), rozcieńczonych i stężonych roztworów kwasów utleniających (Mg, Zn, Al, Cu, Ag, Fe)",
+    "sub": ""
+   },
+   {
+    "id": "7.3",
+    "pl": "analizuje i porównuje właściwości fizyczne i chemiczne metali grup 1. i 2.",
+    "sub": ""
+   },
+   {
+    "id": "7.4",
+    "pl": "opisuje właściwości fizyczne i chemiczne glinu; wyjaśnia, na czym polega pasywacja glinu i tłumaczy znaczenie tego zjawiska w zastosowaniu glinu w technice; planuje i wykonuje doświadczenie, którego przebieg pozwoli wykazać, że tlenek i wodorotlenek glinu wykazują charakter amfoteryczny",
+    "sub": ""
+   },
+   {
+    "id": "7.5",
+    "pl": "przewiduje kierunek przebiegu reakcji metali z kwasami i z roztworami soli, na podstawie danych zawartych w szeregu napięciowym metali",
+    "sub": ""
+   },
+   {
+    "id": "7.6",
+    "pl": "projektuje i przeprowadza doświadczenie, którego wynik pozwoli porównać aktywność chemiczną metali, np. miedzi i cynku",
+    "sub": ""
+   },
+   {
+    "id": "7.7",
+    "pl": "przewiduje produkty redukcji związków manganu(VII) w zależności od środowiska, a także dichromianu(VI) potasu w środowisku kwasowym; bilansuje odpowiednie równania reakcji.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "8",
+  "name": "Niemetale",
+  "items": [
+   {
+    "id": "8.1",
+    "pl": "opisuje podobieństwa we właściwościach pierwiastków w grupach układu okresowego i zmienność właściwości w okresach - wskazuje położenie niemetali",
+    "sub": ""
+   },
+   {
+    "id": "8.2",
+    "pl": "pisze równania reakcji ilustrujących typowe właściwości chemiczne niemetali, w tym reakcje: tlenu z metalami (Na, Mg, Ca, Al, Zn, Fe, Cu) i z niemetalami (C, S, H2, P), wodoru z niemetalami (Cl 2 , Br 2 , O 2 , N 2 , S), chloru, bromu i siarki z metalami (Na, K, Mg, Ca, Fe, Cu)",
+    "sub": ""
+   },
+   {
+    "id": "8.3",
+    "pl": "planuje i opisuje doświadczenia, w wyniku których można otrzymać wodór (reakcja aktywnych metali z wodą i/lub niektórych metali z niektórymi kwasami)",
+    "sub": ""
+   },
+   {
+    "id": "8.4",
+    "pl": "planuje i opisuje doświadczenie, którego przebieg wykaże, że np. brom jest pierwiastkiem bardziej aktywnym niż jod, a mniej aktywnym niż chlor",
+    "sub": ""
+   },
+   {
+    "id": "8.5",
+    "pl": "opisuje typowe właściwości chemiczne wodorków pierwiastków 17. grupy, w tym ich zachowanie wobec wody i zasad",
+    "sub": ""
+   },
+   {
+    "id": "8.6",
+    "pl": "przedstawia i uzasadnia zmiany mocy kwasów fluorowcowodorowych",
+    "sub": ""
+   },
+   {
+    "id": "8.7",
+    "pl": "projektuje i przeprowadza doświadczenia pozwalające otrzymać tlen w laboratorium (np. reakcja rozkładu H 2 O 2 lub KMnO 4 ); zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "8.8",
+    "pl": "zapisuje równania reakcji otrzymywania tlenków pierwiastków o liczbach atomowych od 1 do 30 (synteza pierwiastków z tlenem, rozkład soli np. CaCO 3 i wodorotlenków np. Cu(OH) 2 )",
+    "sub": ""
+   },
+   {
+    "id": "8.9",
+    "pl": "opisuje typowe właściwości chemiczne tlenków pierwiastków o liczbach atomowych od I do 30, w tym zachowanie wobec wody, kwasów i zasad; zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "8.10",
+    "pl": "klasyfikuje tlenki ze względu na ich charakter chemiczny (kwasowy, zasadowy, amfoteryczny i obojętny); planuje i wykonuje doświadczenie, którego przebieg pozwoli wykazać charakter chemiczny tlenku",
+    "sub": ""
+   },
+   {
+    "id": "8.11",
+    "pl": "klasyfikuje poznane kwasy ze względu na ich skład (kwasy tlenowe i beztlenowe), moc i właściwości utleniające",
+    "sub": ""
+   },
+   {
+    "id": "8.12",
+    "pl": "opisuje typowe właściwości chemiczne kwasów, w tym zachowanie wobec metali, tlenków metali, wodorotlenków i soli kwasów o mniejszej mocy; planuje i przeprowadza odpowiednie doświadczenia (formułuje obserwacje i wnioski); ilustruje je równaniami reakcji",
+    "sub": ""
+   },
+   {
+    "id": "8.13",
+    "pl": "ilustruje, za pomocą odpowiednich równań reakcji, utleniające właściwości kwasów, np. stężonego i rozcieńczonego roztworu kwasu azotowego(V).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "9",
+  "name": "Węglowodory",
+  "items": [
+   {
+    "id": "9.1",
+    "pl": "podaje założenia teorii strukturalnej budowy związków organicznych",
+    "sub": ""
+   },
+   {
+    "id": "9.2",
+    "pl": "rysuje wzory strukturalne i półstrukturalne węglowodorów; podaje nazwę węglowodoru (alkami, alkenu i alkinu - do 10 atomów węgla w cząsteczce) zapisanego wzorem strukturalnym lub półstrukturalnym",
+    "sub": ""
+   },
+   {
+    "id": "9.3",
+    "pl": "ustala rzędowość atomów węgla w cząsteczce węglowodoru",
+    "sub": ""
+   },
+   {
+    "id": "9.4",
+    "pl": "posługuje się poprawną nomenklaturą węglowodorów (nasycone, nienasycone i aromatyczne) i ich fluorowcopochodnych; wykazuje się rozumieniem pojęć: szereg homologiczny, wzór ogólny, izomeria",
+    "sub": ""
+   },
+   {
+    "id": "9.5",
+    "pl": "rysuje wzory strukturalne i półstrukturalne izomerów konstytucyjnych, położenia podstawnika, izomerów optycznych węglowodorów i ich prostych fluorowcopochodnych o podanym wzorze sumarycznym; wśród podanych wzorów węglowodorów i ich pochodnych wskazuje izomery konstytucyjne; wyjaśnia zjawisko izomerii cis-trans; uzasadnia warunki wystąpienia izomerii cis-trans w cząsteczce związku o podanej nazwie lub o podanym wzorze strukturalnym (lub półstrukturalnym)",
+    "sub": ""
+   },
+   {
+    "id": "9.6",
+    "pl": "określa tendencje zmian właściwości fizycznych (stanu skupienia, temperatury topnienia itp.) w szeregach homologicznych alkanów, alkenów i alkinów",
+    "sub": ""
+   },
+   {
+    "id": "9.7",
+    "pl": "opisuje właściwości chemiczne alkanów, na przykładzie następujących reakcji: spalanie, podstawianie (substytucja) atomu (lub atomów) wodoru przez atom (lub atomy) chloru albo bromu przy udziale światła (pisze odpowiednie równania reakcji)",
+    "sub": ""
+   },
+   {
+    "id": "9.8",
+    "pl": "opisuje właściwości chemiczne alkenów, na przykładzie następujących reakcji: przyłączanie (addycja): H 2 , Cl 2 i Br 2 , HCl, i HBr, H 2 O; przewiduje produkty reakcji przyłączenia cząsteczek niesymetrycznych do niesymetrycznych alkenów na podstawie reguły Markownikowa (produkty główne i uboczne); zachowanie wobec zakwaszonego roztworu manganianu(VII) potasu, polimeryzacja; pisze odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.9",
+    "pl": "planuje ciąg przemian pozwalających otrzymać np. eten z etanu (z udziałem fluorowcopochodnych węglowodorów); ilustruje je równaniami reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.10",
+    "pl": "opisuje właściwości chemiczne alkinów, na przykładzie etynu: przyłączenie: H 2 , Cl 2 i Br 2 , HCl, i HBr, H 2 O, trimeryzacja; pisze odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.11",
+    "pl": "wyjaśnia na prostych przykładach mechanizmy reakcji substytucji, addycji, eliminacji; zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.12",
+    "pl": "ustala wzór monomeru, z jakiego został otrzymany polimer o podanej strukturze",
+    "sub": ""
+   },
+   {
+    "id": "9.13",
+    "pl": "planuje ciąg przemian pozwalających otrzymać, np. benzen z węgla i dowolnych odczynników nieorganicznych; ilustruje je równaniami reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.14",
+    "pl": "opisuje budowę cząsteczki benzenu, z uwzględnieniem delokalizacji elektronów; tłumaczy dlaczego benzen, w przeciwieństwie do alkenów, nie odbarwia wody bromowej ani zakwaszonego roztworu manganianu(VII) potasu",
+    "sub": ""
+   },
+   {
+    "id": "9.15",
+    "pl": "opisuje właściwości węglowodorów aromatycznych, na przykładzie reakcji benzenu i toluenu: spalanie, reakcje z Cl 2 lub Br 2 wobec katalizatora lub w obecności światła, nitrowanie; pisze odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "9.16",
+    "pl": "projektuje doświadczenia dowodzące różnice we właściwościach węglowodorów nasyconych, nienasyconych i aromatycznych; przewiduje obserwacje, formułuje wnioski i ilustruje je równaniami reakcji.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "10",
+  "name": "Hydroksylowe pochodne węglowodorów - alkohole i fenole",
+  "items": [
+   {
+    "id": "10.1",
+    "pl": "zalicza substancję do alkoholi lub fenoli (na podstawie budowy jej cząsteczki); wskazuje wzory alkoholi pierwszo-, drugo- i trzeciorzędowych",
+    "sub": ""
+   },
+   {
+    "id": "10.2",
+    "pl": "rysuje wzory strukturalne i półstrukturalne izomerów alkoholi mono- i polihydroksylowych o podanym wzorze sumarycznym (izomerów szkieletowych, położenia podstawnika); podaje ich nazwy systematyczne",
+    "sub": ""
+   },
+   {
+    "id": "10.3",
+    "pl": "opisuje właściwości chemiczne alkoholi, na przykładzie etanolu i innych prostych alkoholi w oparciu o reakcje: spalania wobec różnej ilości tlenu, reakcje z HCl i HBr, zachowanie wobec sodu, utlenienie do związków karbonylowych i ewentualnie do kwasów karboksylowych, odwodnienie do alkenów, reakcję z nieorganicznymi kwasami tlenowymi i kwasami karboksylowymi; zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "10.4",
+    "pl": "porównuje właściwości fizyczne i chemiczne: etanolu, glikolu etylenowego i glicerolu; projektuje doświadczenie, którego przebieg pozwoli odróżnić alkohol monohydroksylowy od alkoholu polihydroksylowego; na podstawie obserwacji wyników doświadczenia klasyfikuje alkohol do mono- lub polihydroksylowych",
+    "sub": ""
+   },
+   {
+    "id": "10.5",
+    "pl": "opisuje działanie: CuO lub K 2 Cr 2 O 7 /H 2 SO 4 na alkohole pierwszo-, drugorzędowe",
+    "sub": ""
+   },
+   {
+    "id": "10.6",
+    "pl": "dobiera współczynniki reakcji roztworu manganianu(VII) potasu (w środowisku kwasowym) z etanolem",
+    "sub": ""
+   },
+   {
+    "id": "10.7",
+    "pl": "opisuje reakcję benzenolu z: sodem i z wodorotlenkiem sodu; bromem, kwasem azotowym(V); zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "10.8",
+    "pl": "na podstawie obserwacji wyników doświadczenia (np. z NaOH) formułuje wniosek o sposobie odróżniania fenolu od alkoholu",
+    "sub": ""
+   },
+   {
+    "id": "10.9",
+    "pl": "opisuje różnice we właściwościach chemicznych alkoholi i fenoli; ilustruje je odpowiednimi równaniami reakcji.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "11",
+  "name": "Związki karbonylowe - aldehydy i ketony",
+  "items": [
+   {
+    "id": "11.1",
+    "pl": "wskazuje na różnice w strukturze aldehydów i ketonów (obecność grupy aldehydowej i ketonowej)",
+    "sub": ""
+   },
+   {
+    "id": "11.2",
+    "pl": "rysuje wzory strukturalne i półstrukturalne izomerycznych aldehydów i ketonów o podanym wzorze sumarycznym; tworzy nazwy systematyczne prostych aldehydów i ketonów",
+    "sub": ""
+   },
+   {
+    "id": "11.3",
+    "pl": "pisze równania reakcji utleniania alkoholu pierwszo- i drugorzędowego np. tlenkiem miedzi(II)",
+    "sub": ""
+   },
+   {
+    "id": "11.4",
+    "pl": "określa rodzaj związku karbonylowego (aldehyd czy keton) na podstawie wyników próby (z odczynnikiem Tollensa i Trommera)",
+    "sub": ""
+   },
+   {
+    "id": "11.5",
+    "pl": "planuje i przeprowadza doświadczenie, którego celem jest odróżnienie aldehydu od ketonu, np. etanalu od propanonu",
+    "sub": ""
+   },
+   {
+    "id": "11.6",
+    "pl": "porównuje metody otrzymywania, właściwości i zastosowania aldehydów i ketonów.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "12",
+  "name": "Kwasy karboksylowe",
+  "items": [
+   {
+    "id": "12.1",
+    "pl": "wskazuje grupę karboksylową i resztę kwasową we wzorach kwasów karboksylowych (alifatycznych i aromatycznych); rysuje wzory strukturalne i półstrukturalne izomerycznych kwasów karboksylowych o podanym wzorze sumarycznym",
+    "sub": ""
+   },
+   {
+    "id": "12.2",
+    "pl": "na podstawie obserwacji wyników doświadczenia (reakcja kwasu mrówkowego z manganianem(VII) potasu w obecności kwasu siarkowego(VI)) wnioskuje o redukujących właściwościach kwasu mrówkowego; uzasadnia przyczynę tych właściwości",
+    "sub": ""
+   },
+   {
+    "id": "12.3",
+    "pl": "zapisuje równania reakcji otrzymywania kwasów karboksylowych z alkoholi i aldehydów",
+    "sub": ""
+   },
+   {
+    "id": "12.4",
+    "pl": "pisze równania dysocjacji elektrolitycznej prostych kwasów karboksylowych i nazywa powstające w tych reakcjach jony",
+    "sub": ""
+   },
+   {
+    "id": "12.5",
+    "pl": "zapisuje równania reakcji z udziałem kwasów karboksylowych (których produktami są sole i estry); projektuje i przeprowadza doświadczenia pozwalające otrzymywać sole kwasów karboksylowych (w reakcjach kwasów z metalami, tlenkami metali, wodorotlenkami metali i solami słabych kwasów)",
+    "sub": ""
+   },
+   {
+    "id": "12.6",
+    "pl": "projektuje i przeprowadza doświadczenie, którego wynik wykaże podobieństwo we właściwościach chemicznych kwasów nieorganicznych i kwasów karboksylowych",
+    "sub": ""
+   },
+   {
+    "id": "12.7",
+    "pl": "projektuje doświadczalny sposób odróżnienia nasyconych i nienasyconych kwasów tłuszczowych",
+    "sub": ""
+   },
+   {
+    "id": "12.8",
+    "pl": "projektuje i przeprowadza doświadczenie, którego wynik dowiedzie, że kwas octowy jest kwasem słabszym od kwasu siarkowego(VI) i mocniejszym od kwasu węglowego",
+    "sub": ""
+   },
+   {
+    "id": "12.9",
+    "pl": "tłumaczy przyczynę zasadowego odczynu roztworu wodnego octanu sodu i mydła; ilustruje równaniami reakcji",
+    "sub": ""
+   },
+   {
+    "id": "12.10",
+    "pl": "opisuje budowę dwufunkcyjnych pochodnych węglowodorów, na przykładzie kwasu mlekowego i salicylowego, występowanie i zastosowania tych kwasów.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "13",
+  "name": "Estry i tłuszcze",
+  "items": [
+   {
+    "id": "13.1",
+    "pl": "opisuje strukturę cząsteczek estrów i wiązania estrowego",
+    "sub": ""
+   },
+   {
+    "id": "13.2",
+    "pl": "formułuje obserwacje i wnioski do doświadczenia (reakcja estryfikacji); zapisuje równania reakcji alkoholi z kwasami karboksylowymi (wskazuje na rolę stężonego H 2 SO 4 )",
+    "sub": ""
+   },
+   {
+    "id": "13.3",
+    "pl": "tworzy nazwy prostych estrów kwasów karboksylowych i tlenowych kwasów nieorganicznych; rysuje wzory strukturalne i półstrukturalne estrów na podstawie ich nazwy",
+    "sub": ""
+   },
+   {
+    "id": "13.4",
+    "pl": "wyjaśnia przebieg reakcji octanu etylu: z wodą, w środowisku o odczynie kwasowym, i z roztworem wodorotlenku sodu; ilustruje je równaniami reakcji",
+    "sub": ""
+   },
+   {
+    "id": "13.5",
+    "pl": "na podstawie wzoru strukturalnego aspiryny, wyjaśnia dlaczego związek ten nazywamy kwasem acetylosalicylowym",
+    "sub": ""
+   },
+   {
+    "id": "13.6",
+    "pl": "opisuje budowę tłuszczów stałych i ciekłych (jako estrów glicerolu i długołańcuchowych kwasów tłuszczowych); ich właściwości i zastosowania",
+    "sub": ""
+   },
+   {
+    "id": "13.7",
+    "pl": "projektuje i wykonuje doświadczenie, którego wynik dowiedzie, że w skład oleju jadalnego wchodzą związki o charakterze nienasyconym",
+    "sub": ""
+   },
+   {
+    "id": "13.8",
+    "pl": "opisuje przebieg procesu utwardzania tłuszczów ciekłych",
+    "sub": ""
+   },
+   {
+    "id": "13.9",
+    "pl": "wyjaśnia (zapisuje równania reakcji), w jaki sposób z glicerydów otrzymuje się kwasy tłuszczowe lub mydła",
+    "sub": ""
+   },
+   {
+    "id": "13.10",
+    "pl": "zapisuje ciągi przemian (i odpowiednie równania reakcji) wiążące ze sobą właściwości poznanych węglowodorów i ich pochodnych.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "14",
+  "name": "Związki organiczne zawierające azot",
+  "items": [
+   {
+    "id": "14.1",
+    "pl": "rysuje wzory elektronowe cząsteczek amoniaku i etyloaminy",
+    "sub": ""
+   },
+   {
+    "id": "14.2",
+    "pl": "wskazuje na różnice i podobieństwa w budowie etyloaminy i fenyloaminy (aniliny)",
+    "sub": ""
+   },
+   {
+    "id": "14.3",
+    "pl": "wyjaśnia przyczynę zasadowych właściwości amoniaku i amin; zapisuje odpowiednie równania reakcji",
+    "sub": ""
+   },
+   {
+    "id": "14.4",
+    "pl": "zapisuje równania reakcji otrzymywania amin alifatycznych (np. w procesie alkilowania amoniaku) i amin aromatycznych (np. otrzymywanie aniliny w wyniku reakcji redukcji nitrobenzenu)",
+    "sub": ""
+   },
+   {
+    "id": "14.5",
+    "pl": "zapisuje równania reakcji etyloaminy z wodą i z kwasem solnym",
+    "sub": ""
+   },
+   {
+    "id": "14.6",
+    "pl": "zapisuje równania reakcji fenyloaminy (aniliny) z kwasem solnym i wodą bromową",
+    "sub": ""
+   },
+   {
+    "id": "14.7",
+    "pl": "zapisuje równania reakcji acetamidu z wodą w środowisku kwasu siarkowego(VI) i z roztworem NaOH",
+    "sub": ""
+   },
+   {
+    "id": "14.8",
+    "pl": "wykazuje, pisząc odpowiednie równanie reakcji, że produktem kondensacji mocznika jest związek zawierający w cząsteczce wiązanie peptydowe",
+    "sub": ""
+   },
+   {
+    "id": "14.9",
+    "pl": "analizuje budowę cząsteczki mocznika (m.in. brak fragmentu węglowodorowego) i wynikające z niej właściwości, wskazuje na jego zastosowania (nawóz sztuczny, produkcja leków, tworzyw sztucznych)",
+    "sub": ""
+   },
+   {
+    "id": "14.10",
+    "pl": "zapisuje wzór ogólny α-aminokwasów, w postaci RCH(NH 2 )COOH",
+    "sub": ""
+   },
+   {
+    "id": "14.11",
+    "pl": "opisuje właściwości kwasowo-zasadowe aminokwasów oraz mechanizm powstawania jonów obojnaczych",
+    "sub": ""
+   },
+   {
+    "id": "14.12",
+    "pl": "projektuje i wykonuje doświadczenie, którego wynik potwierdzi amfoteryczny charakter aminokwasów (np. glicyny)",
+    "sub": ""
+   },
+   {
+    "id": "14.13",
+    "pl": "zapisuje równanie reakcji kondensacji dwóch cząsteczek aminokwasów (o podanych wzorach) i wskazuje wiązanie peptydowe w otrzymanym produkcie",
+    "sub": ""
+   },
+   {
+    "id": "14.14",
+    "pl": "tworzy wzory dipeptydów i tripeptydów, powstających z podanych aminokwasów, oraz rozpoznaje reszty podstawowych aminokwasów (glicyny, alaniny i fenyloalaniny) w cząsteczkach di- i tripeptydów",
+    "sub": ""
+   },
+   {
+    "id": "14.15",
+    "pl": "planuje i wykonuje doświadczenie, którego wynik dowiedzie obecności wiązania peptydowego w analizowanym związku (reakcja biuretowa)",
+    "sub": ""
+   },
+   {
+    "id": "14.16",
+    "pl": "opisuje przebieg hydrolizy peptydów.",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "15",
+  "name": "Białka",
+  "items": [
+   {
+    "id": "15.1",
+    "pl": "opisuje budowę białek (jako polimerów kondensacyjnych aminokwasów)",
+    "sub": ""
+   },
+   {
+    "id": "15.2",
+    "pl": "opisuje strukturę drugorzędową białek (α- i β- ) oraz wykazuje znaczenie wiązań wodorowych dla ich stabilizacji; tłumaczy znaczenie trzeciorzędowej struktury białek i wyjaśnia stabilizację tej struktury przez grupy R-, zawarte w resztach aminokwasów (wiązania jonowe, mostki disiarczkowe, wiązania wodorowe i oddziaływania van der Waalsa)",
+    "sub": ""
+   },
+   {
+    "id": "15.3",
+    "pl": "wyjaśnia przyczynę denaturacji białek, wywołaną oddziaływaniem na nie soli metali ciężkich i wysokiej temperatury; wymienia czynniki wywołujące wysalanie białek i wyjaśnia ten proces; projektuje i wykonuje doświadczenie pozwalające wykazać wpływ różnych substancji i ogrzewania na strukturę cząsteczek białek",
+    "sub": ""
+   },
+   {
+    "id": "15.4",
+    "pl": "planuje i wykonuje doświadczenie pozwalające na identyfikację białek (reakcja biuretowa i ksantoproteinowa).",
+    "sub": ""
+   }
+  ]
+ },
+ {
+  "sl": "chemistry",
+  "scope": "extended",
+  "number": "16",
+  "name": "Cukry",
+  "items": [
+   {
+    "id": "16.1",
+    "pl": "dokonuje podziału cukrów na proste i złożone, klasyfikuje cukry proste ze względu na grupę funkcyjną i wielkość cząsteczki",
+    "sub": ""
+   },
+   {
+    "id": "16.2",
+    "pl": "wskazuje na pochodzenie cukrów prostych, zawartych np. w owocach (fotosynteza)",
+    "sub": ""
+   },
+   {
+    "id": "16.3",
+    "pl": "zapisuje wzory łańcuchowe: rybozy, 2-deoksyrybozy, glukozy i fruktozy i wykazuje, że cukry proste należą do polihydroksyaldehydów lub polihydroksyketonów; rysuje wzory taflowe (Hawortha) glukozy i fruktozy",
+    "sub": ""
+   },
+   {
+    "id": "16.4",
+    "pl": "projektuje i wykonuje doświadczenie, którego wynik potwierdzi obecność grupy aldehydowej w cząsteczce glukozy",
+    "sub": ""
+   },
+   {
+    "id": "16.5",
+    "pl": "opisuje właściwości glukozy i fruktozy; wskazuje na podobieństwa i różnice; planuje i wykonuje doświadczenie pozwalające na odróżnienie tych cukrów",
+    "sub": ""
+   },
+   {
+    "id": "16.6",
+    "pl": "wskazuje wiązanie O-glikozydowe w cząsteczce sacharozy i maltozy",
+    "sub": ""
+   },
+   {
+    "id": "16.7",
+    "pl": "wyjaśnia, dlaczego maltoza posiada właściwości redukujące, a sacharoza nie wykazuje właściwości redukujących",
+    "sub": ""
+   },
+   {
+    "id": "16.8",
+    "pl": "projektuje i przeprowadza doświadczenie pozwalające przekształcić sacharozę w cukry proste",
+    "sub": ""
+   },
+   {
+    "id": "16.9",
+    "pl": "porównuje budowę cząsteczek i właściwości skrobi i celulozy",
+    "sub": ""
+   },
+   {
+    "id": "16.10",
+    "pl": "planuje i wykonuje doświadczenie pozwalające stwierdzić obecność skrobi w artykułach spożywczych",
+    "sub": ""
+   },
+   {
+    "id": "16.11",
+    "pl": "zapisuje uproszczone równanie hydrolizy polisacharydów (skrobi i celulozy)",
+    "sub": ""
+   },
+   {
+    "id": "16.12",
+    "pl": "zapisuje ciąg przemian pozwalających przekształcić cukry (np. glukozę w alkohol etylowy, a następnie w octan etylu); ilustruje je równaniami reakcji.",
+    "sub": ""
+   }
+  ]
+ }
+]
