@@ -1,0 +1,9 @@
+{
+  "name": "atlas-matura",
+  "account_id": "09d4662fa5e1d0f9cfaff627f1695106",
+  "compatibility_date": "2026-11-26",
+  "main": "cloudflare.mjs",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": true }
+}
