@@ -16,3 +16,9 @@
 .countries footer,.bridge{border-top:1px solid var(--edge);padding-top:14px}
 .bridge{margin-top:26px}
 @media(max-width:800px){.countries{grid-template-columns:1fr}.time-row{gap:7px}.timeline h2{font-size:1.5rem}}
+.page-links{display:flex;gap:18px;flex-wrap:wrap;margin:16px 0 26px}
+.knowledge-list{margin:16px 0 18px;max-width:80ch}
+.knowledge-list dt{font-weight:700;margin:16px 0 4px}
+.knowledge-list dd{margin:0;padding-left:14px;border-left:2px solid var(--edge)}
+.knowledge-list dd p{margin-bottom:4px}
+.subject-example{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:clamp(16px,3vw,28px);margin-top:24px}
