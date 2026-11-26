@@ -1,7 +1,15 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas Matura</title><link rel="stylesheet" href="../style.css"></head><body>
-<header><a class="brand" href="../">✳ Atlas Matura</a><nav><a href="../" data-pl="Zadania" data-en="Questions"></a><a href="../zagadnienia/" data-pl="Zagadnienia" data-en="Topics"></a><a href="../koncepty/" data-pl="Koncepty" data-en="Concepts"></a><button id="language"></button><button id="theme"></button></nav></header>
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas Matura</title><link rel="stylesheet" href="../style.css"><link rel="stylesheet" href="/learn/matura/sidebar.css"></head><body>
+<button id="sidebarToggle" aria-controls="sidebar" aria-expanded="false" aria-label="Menu">☰</button>
+ <div id="sidebarShade" hidden></div>
+ <aside id="sidebar" hidden><a class="brand" href="/learn/matura/">✳ Atlas Matura</a><nav><a id="learnHome" href="/learn/" data-pl="Nauka" data-en="Learning">Nauka</a>
+<a id="study" href="/learn/matura/" data-pl="Pracownia" data-en="Studio">Pracownia</a>
+<a id="library" href="/learn/matura/biblioteka/" data-pl="Biblioteka" data-en="Library">Biblioteka</a>
+<a id="topics" href="/learn/matura/zagadnienia/" data-pl="Zagadnienia" data-en="Topics">Zagadnienia</a>
+<a id="concepts" href="/learn/matura/koncepty/" data-pl="Koncepty" data-en="Concepts">Koncepty</a>
+</nav>
+ <div class="preferences"><button id="language"></button><button id="theme"></button></div><div id="filters" class="toolbar"><label><span data-pl="Przedmiot" data-en="Subject"></span> <select id="subject"></select></label><label><span data-pl="Zakres" data-en="Scope"></span> <select id="scope"></select></label><label><span data-pl="Rodzaj wymagań" data-en="Requirements"></span> <select id="kind"></select></label></div>
+<label class="searchlabel"><span data-pl="Szukaj" data-en="Search"></span><input type="search" id="search"></label></aside>
 <main><h1 id="title"></h1><p id="intro"></p>
-<div id="filters" class="toolbar"><label><span data-pl="Przedmiot" data-en="Subject"></span> <select id="subject"></select></label><label><span data-pl="Zakres" data-en="Scope"></span> <select id="scope"></select></label><label><span data-pl="Rodzaj wymagań" data-en="Requirements"></span> <select id="kind"></select></label></div>
-<label class="searchlabel"><span data-pl="Szukaj" data-en="Search"></span><input type="search" id="search"></label>
+
 <div id="reader"><div id="chapters"></div><article class="panel" id="entry"></article></div><section id="terms"></section><footer id="sources"></footer></main>
 <script src="../curriculum.js"></script><script src="../preferences.js"></script><script src="../guide.js"></script></body></html>

@@ -41,7 +41,7 @@ let index=questions.findIndex(q=>q.s+'/'+q.id===read('position','biologia/1.2'))
 if(index<0)index=1;
 const linkedQuestion=questions.findIndex(q=>'#'+q.s+'/'+q.id===location.hash);
 if(linkedQuestion>=0)index=linkedQuestion;
-let inStudio=true;
+const inStudio=!location.pathname.includes('/biblioteka');
 const t=bilingual;
 function set(id,pl,en){$(id).textContent=t(pl,en)}
 function subject(s){return s==='biologia'?t('Biologia','Biology'):t('Chemia','Chemistry')}
@@ -51,7 +51,7 @@ function render(){
  const q=questions[index];current=({'biologia/1.1':'protein','biologia/1.2':'transport','chemia/3':'water'})[key(q)];
  document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;
  set('learnHome','Nauka','Learning');set('study','Pracownia','Studio');set('library','Biblioteka','Library');set('heading','Pracownia nauki','Learning studio');
- $('study').setAttribute('aria-pressed',inStudio);$('library').setAttribute('aria-pressed',!inStudio);$('studio').hidden=!inStudio;$('shelf').hidden=inStudio;
+ $('study').setAttribute('aria-pressed',inStudio);$('library').setAttribute('aria-pressed',!inStudio);$('questionControls').hidden=!inStudio;$('studio').hidden=!inStudio;$('shelf').hidden=inStudio;
  set('prev','Poprzednie','Previous');set('next','Następne','Next');$('prev').disabled=index===0;$('next').disabled=index===questions.length-1;
  const sub=$('subject');sub.replaceChildren();sub.ariaLabel=t('Przedmiot','Subject');for(const s of ['biologia','chemia'])option(sub,s,subject(s));sub.value=q.s;
  const pick=$('pick');pick.replaceChildren();pick.ariaLabel=t('Zadanie','Question');
@@ -80,4 +80,4 @@ function navigate(i){index=i;if(location.hash)history.replaceState(null,'','#'+k
 $('prev').onclick=()=>navigate(index-1);$('next').onclick=()=>navigate(index+1);
 $('pick').onchange=e=>navigate(Number(e.target.value));$('subject').onchange=e=>navigate(questions.findIndex(q=>q.s===e.target.value));
 $('count').oninput=draw;
-$('study').onclick=()=>{inStudio=true;render()};$('library').onclick=()=>{inStudio=false;render()};installPreferences(render);
+installPreferences(render);
