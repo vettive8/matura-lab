@@ -1,5 +1,6 @@
 const examPositions = new Map(questions.map((q, index) => [q.s + '/' + q.id, index + 1]));
 const semesterSelect = document.getElementById('uz-semester');
+const nextSemester = document.getElementById('uz-next');
 function linkedSemester() {
   const number = Number(new URLSearchParams(location.search).get('semester'));
   return Number.isInteger(number) && number >= 1 && number <= 12 ? number : 1;
@@ -23,6 +24,8 @@ function renderUzSemester() {
   semesterSelect.replaceChildren();
   for (let n = 1; n <= 12; n++) semesterSelect.add(new Option(semester + ' ' + n, String(n)));
   semesterSelect.value = String(currentSemester);
+  nextSemester.disabled = currentSemester === 12;
+  nextSemester.setAttribute('aria-label', en ? 'Next semester' : 'Następny semestr');
   const courses = uzCourses.filter(c => c.semester === currentSemester);
   document.getElementById('uz-course-count').textContent = semester + ' ' + currentSemester + ' · ' +
     (en ? 'Course entries: ' : 'Liczba pozycji: ') + courses.length;
@@ -48,12 +51,14 @@ function renderUzSemester() {
   }
   document.getElementById('uz-subjects').replaceChildren(list);
 }
-semesterSelect.addEventListener('change', () => {
-  currentSemester = Number(semesterSelect.value);
+function showSemester(number) {
+  currentSemester = number;
   const url = new URL(location.href);
   url.searchParams.set('semester', currentSemester);
   url.hash = 'uz-semesters';
   history.replaceState(null, '', url);
   renderUzSemester();
-});
+}
+semesterSelect.addEventListener('change', () => showSemester(Number(semesterSelect.value)));
+nextSemester.addEventListener('click', () => showSemester(currentSemester + 1));
 installPreferences(renderUzSemester);
