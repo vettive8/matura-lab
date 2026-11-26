@@ -35,6 +35,8 @@ function installSidebar() {
   const shade = document.getElementById('sidebarShade');
   const main = document.querySelector('main');
   const narrow = matchMedia('(max-width:760px)');
+  const mac = /Mac|iPhone|iPad/.test(navigator.platform);
+  toggle.querySelector('kbd').textContent = mac ? '⌘⇧S' : 'Ctrl+Shift+S';
   let open;
   function reset() {
     open = !narrow.matches && storedPreference('sidebar', 'open') === 'open';
@@ -43,10 +45,9 @@ function installSidebar() {
   function update() {
     panel.hidden = !open;
     toggle.setAttribute('aria-expanded', String(open));
-    toggle.title = toggle.ariaLabel = lang === 'pl'
-      ? (open ? 'Ukryj menu' : 'Pokaż menu')
-      : (open ? 'Hide menu' : 'Show menu');
-    toggle.textContent = open ? '‹' : '☰';
+    const label = lang === 'pl' ? 'Przełącz panel boczny' : 'Toggle sidebar';
+    toggle.ariaLabel = label;
+    toggle.querySelector('.toggle-tip span').textContent = label;
     document.body.classList.toggle('sidebar-open', open);
     main.inert = open && narrow.matches;
     shade.hidden = !main.inert;
@@ -62,6 +63,10 @@ function installSidebar() {
   toggle.onclick = () => change(!open);
   shade.onclick = () => change(false);
   document.addEventListener('keydown', e => {
+    if ((mac ? e.metaKey : e.ctrlKey) && e.shiftKey && !e.altKey && e.code === 'KeyS') {
+      e.preventDefault();
+      if (!e.repeat) change(!open);
+    }
     if (open && e.key === 'Escape') change(false);
   });
   panel.querySelectorAll('nav a').forEach(link => {
