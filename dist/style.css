@@ -7,3 +7,20 @@ body{background:var(--bg);color:var(--ink)}header,.panel,button,select,input,tex
 .reading{max-width:820px}.reading #tasktitle{line-height:1.18;margin-bottom:22px}.answer-panel{border-left:4px solid #479678}.answer-panel p,.reading-section p{margin-bottom:0}.reading-section{margin:22px 0}.reading footer{margin-top:24px}.reading #solutionDiagram{white-space:pre;max-width:100%}
 .brand{text-decoration:none;color:inherit}nav a{padding:7px 9px}#language,#theme{min-width:44px;min-height:44px}.searchlabel{max-width:640px;margin:20px 0}.searchlabel input{display:block;width:100%;border:1px solid var(--edge);border-radius:9px;padding:10px;font:inherit}#reader{display:grid;grid-template-columns:minmax(190px,30%) minmax(0,1fr);gap:22px;align-items:start}#chapters{display:grid;gap:5px;max-height:72vh;overflow:auto}#chapters button{text-align:left}#entry{scroll-margin:12px}#entry h3{margin-top:1.6em}.requirement{padding:.6em 0;margin:0;border-bottom:1px solid var(--edge)}.found{background:var(--active)}#sources{margin-top:26px}#terms{max-width:780px}@media(max-width:760px){#reader{grid-template-columns:1fr}#chapters{max-height:30vh}header nav{max-width:100%;gap:4px}}
 .structure{margin:12px 0;display:grid;grid-template-columns:minmax(140px,38%) 1fr;gap:18px;align-items:center}.structure img{display:block;width:100%;height:auto;background:white;border-radius:12px}.structure figcaption{line-height:1.6}#albuminEvidence p{margin:12px 0 20px}@media(max-width:550px){.structure{grid-template-columns:1fr}.structure img{max-width:320px}}
+.scoring{margin-top:18px;border-top:1px solid var(--edge);padding-top:14px}
+.scoring h4{font-size:1rem;margin:0 0 5px;color:var(--link)}
+.scoring p{margin:0;line-height:1.6}
+.question-photo{margin:20px 0 24px;background:var(--card);border:1px solid var(--edge);border-radius:14px;overflow:hidden}
+.question-photo>a{display:grid;place-items:center;background:#e9eee9}
+[data-theme=dark] .question-photo>a{background:#25352f}
+.question-photo img{display:block;max-width:100%;width:auto;height:auto;max-height:350px}
+.question-photo figcaption{padding:12px 18px}
+.question-photo figcaption p{margin:0 0 6px;line-height:1.55}
+.question-photo small{font-size:.8rem;overflow-wrap:anywhere}
+#formulaFigure{margin:16px 0}
+#formulaImage{display:block;width:auto;max-width:100%;height:auto;border-radius:8px;background:white}
+#formulaCaption{margin-top:6px;font-size:.92rem}
+#workingTable{overflow-x:auto;margin:18px 0}
+#workingTable table{border-collapse:collapse;width:100%;font-size:.94rem;font-variant-numeric:tabular-nums}
+#workingTable caption{text-align:left;font-weight:650;padding-bottom:6px}
+#workingTable th,#workingTable td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--edge)}

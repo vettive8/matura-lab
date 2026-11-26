@@ -28,6 +28,11 @@ const questions = [
   "learn": [
    "Reszta aminokwasowa, wiązanie S–S, liczenie par.",
    "Amino acid residues, S–S bonds and counting pairs."
+  ],
+  "photo": "blood-plasma",
+  "caption": [
+   "Osocze po oddzieleniu krwinek. W tej wodnej części krwi rozpuszczona jest albumina. Jej mostki S–S stabilizują kształt białka, a miejsca wiążące umożliwiają transport kwasów tłuszczowych.",
+   "Plasma after separation from blood cells. Albumin dissolves in this watery fraction. Its S–S bridges stabilise the protein’s shape, and its binding sites allow fatty-acid transport."
   ]
  },
  {
@@ -59,6 +64,11 @@ const questions = [
   "learn": [
    "Osocze, rozpuszczalność, hydrofobowość, białko transportowe.",
    "Plasma, solubility, hydrophobicity and carrier proteins."
+  ],
+  "photo": "blood-plasma",
+  "caption": [
+   "Osocze po oddzieleniu krwinek. W tej wodnej części krwi rozpuszczona jest albumina. Jej mostki S–S stabilizują kształt białka, a miejsca wiążące umożliwiają transport kwasów tłuszczowych.",
+   "Plasma after separation from blood cells. Albumin dissolves in this watery fraction. Its S–S bridges stabilise the protein’s shape, and its binding sites allow fatty-acid transport."
   ]
  },
  {
@@ -86,6 +96,15 @@ const questions = [
   "learn": [
    "Błona tylakoidu, jego wnętrze i stroma.",
    "Thylakoid membrane, lumen and stroma."
+  ],
+  "criterion": [
+   "Wskaż błonę tylakoidu. Chloroplast jest całym organellum, a odpowiedź B nazywa miejsce, gdzie jest osadzony kompleks PS II.",
+   "Select the thylakoid membrane. The chloroplast is the whole organelle, while option B identifies the membrane that holds PS II."
+  ],
+  "photo": "elodea-micrograph",
+  "caption": [
+   "Mikrofotografia liścia moczarki. Zielone struktury w komórkach to chloroplasty. Wewnątrz nich w błonach tylakoidów znajdują się fotosystemy, które wykorzystują energię światła.",
+   "Micrograph of a waterweed leaf. The green structures inside the cells are chloroplasts. Inside each chloroplast, photosystems in the thylakoid membranes use light energy."
   ]
  },
  {
@@ -113,6 +132,15 @@ const questions = [
   "learn": [
    "Donor, akceptor i fotoliza wody.",
    "Donors, acceptors and water splitting."
+  ],
+  "criterion": [
+   "Prześledź ten sam elektron w dwóch etapach. Po pochłonięciu światła centrum reakcji traci elektron. Rozkład wody dostarcza elektron, który uzupełnia ten ubytek.",
+   "Trace the electron deficit through two steps. The excited reaction centre donates an electron. Water splitting supplies an electron to replace it."
+  ],
+  "photo": "elodea-micrograph",
+  "caption": [
+   "Mikrofotografia liścia moczarki. Zielone struktury w komórkach to chloroplasty. Wewnątrz nich w błonach tylakoidów znajdują się fotosystemy, które wykorzystują energię światła.",
+   "Micrograph of a waterweed leaf. The green structures inside the cells are chloroplasts. Inside each chloroplast, photosystems in the thylakoid membranes use light energy."
   ]
  },
  {
@@ -140,6 +168,15 @@ const questions = [
   "learn": [
    "ATP jako nośnik energii, NADPH jako donor elektronów.",
    "ATP as an energy carrier and NADPH as an electron donor."
+  ],
+  "criterion": [
+   "W pierwszej luce wpisz akceptor elektronów z PS I. W drugiej nazwij etap, w którym powstały NADPH oddaje elektrony. Potrzebne są oba wybory, B i C.",
+   "Fill the first gap with the electron acceptor downstream of PSI. Fill the second with the stage that uses the resulting NADPH. Both choices, B and C, are required."
+  ],
+  "photo": "elodea-micrograph",
+  "caption": [
+   "Mikrofotografia liścia moczarki. Zielone struktury w komórkach to chloroplasty. Wewnątrz nich w błonach tylakoidów znajdują się fotosystemy, które wykorzystują energię światła.",
+   "Micrograph of a waterweed leaf. The green structures inside the cells are chloroplasts. Inside each chloroplast, photosystems in the thylakoid membranes use light energy."
   ]
  },
  {
@@ -167,6 +204,15 @@ const questions = [
   "learn": [
    "Gen a cecha metaboliczna; znaczenie pożywki minimalnej.",
    "Genes, metabolic traits and minimal medium."
+  ],
+  "criterion": [
+   "Połącz odzyskanie brakującej zdolności metabolicznej ze składem pożywki. Kolonię mogły utworzyć komórki zdolne samodzielnie wytworzyć wszystkie brakujące składniki.",
+   "Connect the restored metabolic ability to the composition of the medium. A colony could form only if the cells could make all the missing nutrients."
+  ],
+  "photo": "escherichia-coli",
+  "caption": [
+   "Mikrofotografia E. coli. W doświadczeniu pojedyncza komórka mogła dać początek kolonii. Filtr rozdzielający komórki pozwolił zbadać rolę bezpośredniego kontaktu.",
+   "Micrograph of E. coli. In the experiment, one cell could give rise to a colony. Separating cells with a filter let researchers examine the role of direct contact."
   ]
  },
  {
@@ -194,6 +240,15 @@ const questions = [
   "learn": [
    "Koniugacja i rola bariery w doświadczeniu.",
    "Conjugation and the purpose of an experimental barrier."
+  ],
+  "criterion": [
+   "Wyjaśnij, co fizycznie rozdzielał filtr i dlaczego uniemożliwiło to kontakt niezbędny do koniugacji.",
+   "Identify what the filter physically separated and explain why this prevented the direct cell contact required for conjugation."
+  ],
+  "photo": "escherichia-coli",
+  "caption": [
+   "Mikrofotografia E. coli. W doświadczeniu pojedyncza komórka mogła dać początek kolonii. Filtr rozdzielający komórki pozwolił zbadać rolę bezpośredniego kontaktu.",
+   "Micrograph of E. coli. In the experiment, one cell could give rise to a colony. Separating cells with a filter let researchers examine the role of direct contact."
   ]
  },
  {
@@ -221,6 +276,15 @@ const questions = [
   "learn": [
    "Trzy mechanizmy poziomego transferu genów.",
    "The three mechanisms of horizontal gene transfer."
+  ],
+  "criterion": [
+   "Połącz nazwę procesu z jego nośnikiem. Bakteriofag przenoszący materiał genetyczny oznacza transdukcję, stąd para A2.",
+   "Match the process to its carrier. Transfer of genetic material by a bacteriophage identifies transduction, giving the pair A2."
+  ],
+  "photo": "escherichia-coli",
+  "caption": [
+   "Mikrofotografia E. coli. W doświadczeniu pojedyncza komórka mogła dać początek kolonii. Filtr rozdzielający komórki pozwolił zbadać rolę bezpośredniego kontaktu.",
+   "Micrograph of E. coli. In the experiment, one cell could give rise to a colony. Separating cells with a filter let researchers examine the role of direct contact."
   ]
  },
  {
@@ -248,6 +312,15 @@ const questions = [
   "learn": [
    "Podjednostki rybosomu, mRNA, translacja.",
    "Ribosomal subunits, mRNA and translation."
+  ],
+  "criterion": [
+   "Dokończ łańcuch przyczynowy. Gdy podjednostki nie tworzą funkcjonalnego rybosomu, komórka traci zdolność prawidłowej syntezy białek.",
+   "Complete the causal chain. When the subunits cannot form a functional ribosome, the cell loses the ability to synthesise proteins normally."
+  ],
+  "photo": "gram-stain",
+  "caption": [
+   "Po barwieniu metodą Grama komórka Gram-dodatnia jest fioletowa, a Gram-ujemna różowa. Barwy pomagają rozróżnić osłony komórkowe. Linezolid działa wewnątrz bakterii, na rybosom.",
+   "After Gram staining, the Gram-positive cell is purple and the Gram-negative cell pink. The colours distinguish cell envelope types. Linezolid acts inside the bacterium at the ribosome."
   ]
  },
  {
@@ -275,6 +348,15 @@ const questions = [
   "learn": [
    "Ściana, peptydoglikan i błona zewnętrzna.",
    "Cell wall, peptidoglycan and outer membrane."
+  ],
+  "criterion": [
+   "Porównaj tę samą cechę u obu grup. Wystarczy jedna poprawna różnica, np. gruba warstwa peptydoglikanu u Gram-dodatnich i cienka u Gram-ujemnych.",
+   "Compare the same feature in both groups. One correct difference suffices, such as thick peptidoglycan in Gram-positive bacteria and thin peptidoglycan in Gram-negative bacteria."
+  ],
+  "photo": "gram-stain",
+  "caption": [
+   "Po barwieniu metodą Grama komórka Gram-dodatnia jest fioletowa, a Gram-ujemna różowa. Barwy pomagają rozróżnić osłony komórkowe. Linezolid działa wewnątrz bakterii, na rybosom.",
+   "After Gram staining, the Gram-positive cell is purple and the Gram-negative cell pink. The colours distinguish cell envelope types. Linezolid acts inside the bacterium at the ribosome."
   ]
  },
  {
@@ -302,6 +384,15 @@ const questions = [
   "learn": [
    "Rzeczywista powierzchnia liścia i transpiracja.",
    "Actual leaf surface area and transpiration."
+  ],
+  "criterion": [
+   "Oceń osobno włoski i uwypuklenia skórki. W obu przypadkach dodatkowa powierzchnia ułatwia parowanie, więc oba pola wymagają T.",
+   "Assess the hairs and epidermal projections separately. Each adds evaporating surface area, so both rows require yes."
+  ],
+  "photo": "leaf-hairs",
+  "caption": [
+   "Włoski na powierzchni liścia. Porównaj ich powierzchnię z powierzchnią płaskiej blaszki. W zadaniu o higroficie dodatkowa powierzchnia żywych komórek sprzyja parowaniu wody.",
+   "Hairs on a leaf surface. Compare their surface area with that of a flat blade. In the exam’s moisture-loving plant, the extra surface area of living cells favours evaporation."
   ]
  },
  {
@@ -329,6 +420,15 @@ const questions = [
   "learn": [
    "Potencjał wody, kohezja, siła ssąca.",
    "Water potential, cohesion and transpiration pull."
+  ],
+  "criterion": [
+   "Zacznij od kierunku zmiany: przepływ przyspiesza. Parowanie z liści zwiększa siłę ssącą, a kohezja umożliwia podciąganie ciągłego słupa wody w drewnie.",
+   "Start with the direction of change. Flow speeds up. Evaporation increases tension in the leaf, and cohesion transmits the pull down the water column in the xylem."
+  ],
+  "photo": "leaf-hairs",
+  "caption": [
+   "Włoski na powierzchni liścia. Porównaj ich powierzchnię z powierzchnią płaskiej blaszki. W zadaniu o higroficie dodatkowa powierzchnia żywych komórek sprzyja parowaniu wody.",
+   "Hairs on a leaf surface. Compare their surface area with that of a flat blade. In the exam’s moisture-loving plant, the extra surface area of living cells favours evaporation."
   ]
  },
  {
@@ -356,6 +456,95 @@ const questions = [
   "learn": [
    "Spoczynek, pobieranie wody i kiełkowanie.",
    "Dormancy, water uptake and germination."
+  ],
+  "criterion": [
+   "Połącz suche podłoże z brakiem pobierania wody przez nasiona i pozostaniem w spoczynku. To wyjaśnia brak kiełkowania w grupie 1.",
+   "Connect the dry substrate to the lack of water uptake by the seeds and their remaining dormant. This accounts for the absence of germination in group 1."
+  ],
+  "photo": "radish",
+  "caption": [
+   "Kiełkująca rzodkiew, czyli roślina z doświadczenia. Woda pobrana przez nasiono zwiększa jego świeżą masę. Przyrost suchej masy po wykiełkowaniu oznacza wzrost ilości materiału pozostałego po usunięciu wody.",
+   "Germinating radish, the plant used in the experiment. Water absorbed by a seed increases its fresh mass. A gain in dry mass after germination means more material remains after the water is removed."
+  ],
+  "table": [
+   [
+    "Rzodkiewka po 10 dniach",
+    "Radish after ten days"
+   ],
+   [
+    [
+     "Grupa",
+     "Group"
+    ],
+    [
+     "Woda",
+     "Water"
+    ],
+    [
+     "Światło",
+     "Light"
+    ],
+    [
+     "Sucha masa",
+     "Dry mass"
+    ]
+   ],
+   [
+    [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,46 g",
+      "1.46 g"
+     ]
+    ],
+    [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,63 g",
+      "1.63 g"
+     ]
+    ],
+    [
+     [
+      "3",
+      "3"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "1,20 g",
+      "1.20 g"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -383,6 +572,95 @@ const questions = [
   "learn": [
    "Sucha masa a świeża masa.",
    "Dry versus fresh mass."
+  ],
+  "criterion": [
+   "Wyjaśnij, jak woda mogłaby zafałszować porównanie. Dwie rośliny o tej samej ilości substancji organicznych mogą mieć różną świeżą masę.",
+   "Explain how water would confound the comparison. Two plants with equal amounts of organic matter can have different fresh masses."
+  ],
+  "photo": "radish",
+  "caption": [
+   "Kiełkująca rzodkiew, czyli roślina z doświadczenia. Woda pobrana przez nasiono zwiększa jego świeżą masę. Przyrost suchej masy po wykiełkowaniu oznacza wzrost ilości materiału pozostałego po usunięciu wody.",
+   "Germinating radish, the plant used in the experiment. Water absorbed by a seed increases its fresh mass. A gain in dry mass after germination means more material remains after the water is removed."
+  ],
+  "table": [
+   [
+    "Rzodkiewka po 10 dniach",
+    "Radish after ten days"
+   ],
+   [
+    [
+     "Grupa",
+     "Group"
+    ],
+    [
+     "Woda",
+     "Water"
+    ],
+    [
+     "Światło",
+     "Light"
+    ],
+    [
+     "Sucha masa",
+     "Dry mass"
+    ]
+   ],
+   [
+    [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,46 g",
+      "1.46 g"
+     ]
+    ],
+    [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,63 g",
+      "1.63 g"
+     ]
+    ],
+    [
+     [
+      "3",
+      "3"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "1,20 g",
+      "1.20 g"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -410,6 +688,95 @@ const questions = [
   "learn": [
    "Grupa odniesienia i bilans zysku oraz strat.",
    "Baseline groups and net gain or loss."
+  ],
+  "criterion": [
+   "Podaj numer 1 i uzasadnij wybór. Suche nasiona pozostały w spoczynku, więc zachowały w przybliżeniu początkową ilość związków organicznych.",
+   "Name group 1 and justify that choice. Its dry seeds remained dormant and retained roughly their initial amount of organic matter."
+  ],
+  "photo": "radish",
+  "caption": [
+   "Kiełkująca rzodkiew, czyli roślina z doświadczenia. Woda pobrana przez nasiono zwiększa jego świeżą masę. Przyrost suchej masy po wykiełkowaniu oznacza wzrost ilości materiału pozostałego po usunięciu wody.",
+   "Germinating radish, the plant used in the experiment. Water absorbed by a seed increases its fresh mass. A gain in dry mass after germination means more material remains after the water is removed."
+  ],
+  "table": [
+   [
+    "Rzodkiewka po 10 dniach",
+    "Radish after ten days"
+   ],
+   [
+    [
+     "Grupa",
+     "Group"
+    ],
+    [
+     "Woda",
+     "Water"
+    ],
+    [
+     "Światło",
+     "Light"
+    ],
+    [
+     "Sucha masa",
+     "Dry mass"
+    ]
+   ],
+   [
+    [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,46 g",
+      "1.46 g"
+     ]
+    ],
+    [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,63 g",
+      "1.63 g"
+     ]
+    ],
+    [
+     [
+      "3",
+      "3"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "1,20 g",
+      "1.20 g"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -423,8 +790,8 @@ const questions = [
   ],
   "points": 1,
   "modelAnswer": [
-   "Końcowa sucha masa grupy 2 była większa od wyjściowej. Przyrost suchej materii oznacza, że rośliny przyswoiły węgiel z CO₂ podczas fotosyntezy.",
-   "Group 2 ended with more dry matter than it started with. This gain shows that the plants incorporated carbon from CO₂ through photosynthesis."
+   "W grupie 2 suche siewki ważyły 1,63 g. To więcej niż całe 1,50 g nasion wysianych na początku, a także więcej niż 1,46 g suchej masy w grupie kontrolnej. Przyrost suchej masy świadczy o wytworzeniu związków organicznych dzięki wiązaniu CO₂ w fotosyntezie.",
+   "The dry seedlings in group 2 weighed 1.63 g. This exceeds even the whole 1.50 g of seeds initially sown, as well as the control’s 1.46 g dry mass. The gain in dry matter shows that carbon from CO₂ was incorporated into organic compounds by photosynthesis."
   ],
   "prompt": [
    "Który wynik świadczy o fotosyntezie w grupie 2?",
@@ -437,6 +804,95 @@ const questions = [
   "learn": [
    "Warunki procesu a dowód, że zaszedł.",
    "Conditions for a process versus evidence of it."
+  ],
+  "criterion": [
+   "Jako dowód wskaż przyrost suchej masy w grupie 2. Dostęp do światła jest warunkiem fotosyntezy, a pomiar pokazuje jej skutek.",
+   "Use the gain in dry mass in group 2 as evidence. Light makes photosynthesis possible, while the measured gain shows its effect."
+  ],
+  "photo": "radish",
+  "caption": [
+   "Kiełkująca rzodkiew, czyli roślina z doświadczenia. Woda pobrana przez nasiono zwiększa jego świeżą masę. Przyrost suchej masy po wykiełkowaniu oznacza wzrost ilości materiału pozostałego po usunięciu wody.",
+   "Germinating radish, the plant used in the experiment. Water absorbed by a seed increases its fresh mass. A gain in dry mass after germination means more material remains after the water is removed."
+  ],
+  "table": [
+   [
+    "Rzodkiewka po 10 dniach",
+    "Radish after ten days"
+   ],
+   [
+    [
+     "Grupa",
+     "Group"
+    ],
+    [
+     "Woda",
+     "Water"
+    ],
+    [
+     "Światło",
+     "Light"
+    ],
+    [
+     "Sucha masa",
+     "Dry mass"
+    ]
+   ],
+   [
+    [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,46 g",
+      "1.46 g"
+     ]
+    ],
+    [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,63 g",
+      "1.63 g"
+     ]
+    ],
+    [
+     [
+      "3",
+      "3"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "1,20 g",
+      "1.20 g"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -464,6 +920,95 @@ const questions = [
   "learn": [
    "Oddychanie komórkowe w dzień i w nocy.",
    "Cellular respiration in light and darkness."
+  ],
+  "criterion": [
+   "Zaznacz T dla obu grup. W świetle oddychanie trwa równolegle z fotosyntezą, a w ciemności nadal dostarcza energii.",
+   "Mark yes for both groups. Respiration runs alongside photosynthesis in the light and continues to supply energy in the dark."
+  ],
+  "photo": "radish",
+  "caption": [
+   "Kiełkująca rzodkiew, czyli roślina z doświadczenia. Woda pobrana przez nasiono zwiększa jego świeżą masę. Przyrost suchej masy po wykiełkowaniu oznacza wzrost ilości materiału pozostałego po usunięciu wody.",
+   "Germinating radish, the plant used in the experiment. Water absorbed by a seed increases its fresh mass. A gain in dry mass after germination means more material remains after the water is removed."
+  ],
+  "table": [
+   [
+    "Rzodkiewka po 10 dniach",
+    "Radish after ten days"
+   ],
+   [
+    [
+     "Grupa",
+     "Group"
+    ],
+    [
+     "Woda",
+     "Water"
+    ],
+    [
+     "Światło",
+     "Light"
+    ],
+    [
+     "Sucha masa",
+     "Dry mass"
+    ]
+   ],
+   [
+    [
+     [
+      "1",
+      "1"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,46 g",
+      "1.46 g"
+     ]
+    ],
+    [
+     [
+      "2",
+      "2"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "1,63 g",
+      "1.63 g"
+     ]
+    ],
+    [
+     [
+      "3",
+      "3"
+     ],
+     [
+      "tak",
+      "yes"
+     ],
+     [
+      "nie",
+      "no"
+     ],
+     [
+      "1,20 g",
+      "1.20 g"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -491,6 +1036,15 @@ const questions = [
   "learn": [
    "Układ tkanek przewodzących korzenia.",
    "Root vascular arrangement."
+  ],
+  "criterion": [
+   "Odczytaj dwie informacje z przekroju. Jest to korzeń, a drewno i łyko leżą naprzemiennie. Połącz rozpoznanie z uzasadnieniem B2.",
+   "Read two features from the section. It is a root, and xylem and phloem alternate. Combine the identification and its justification as B2."
+  ],
+  "photo": "root-section",
+  "caption": [
+   "Przekrój korzenia rośliny dwuliściennej. Odszukaj walec osiowy. W arkuszu trzeba odróżnić drewno od pasm łyka leżących między pasmami drewna.",
+   "Cross-section of a dicot root. Locate the central vascular cylinder. In the exam distinguish xylem from the phloem strands lying between the xylem strands."
   ]
  },
  {
@@ -518,6 +1072,15 @@ const questions = [
   "learn": [
    "Floem i ksylem: położenie i funkcje.",
    "Phloem and xylem: positions and functions."
+  ],
+  "criterion": [
+   "Zachowaj kolejność oznaczeń na mikrofotografii. I to łyko, a II to drewno. Punkt wymaga obu nazw.",
+   "Keep the labels in the order shown in the micrograph. I is phloem and II is xylem. Both names are required."
+  ],
+  "photo": "root-section",
+  "caption": [
+   "Przekrój korzenia rośliny dwuliściennej. Odszukaj walec osiowy. W arkuszu trzeba odróżnić drewno od pasm łyka leżących między pasmami drewna.",
+   "Cross-section of a dicot root. Locate the central vascular cylinder. In the exam distinguish xylem from the phloem strands lying between the xylem strands."
   ]
  },
  {
@@ -545,6 +1108,15 @@ const questions = [
   "learn": [
    "Żywiciel pośredni i ostateczny.",
    "Intermediate and definitive hosts."
+  ],
+  "criterion": [
+   "Podaj ocenę i jej biologiczne uzasadnienie. Człowiek jest żywicielem pośrednim, a rozmnażanie bezpłciowe pasożyta w człowieku nie prowadzi do powstania gamet.",
+   "Give the verdict and the biological reason. Humans are intermediate hosts. Asexual reproduction of the parasite in humans does not produce gametes."
+  ],
+  "photo": "domestic-cat",
+  "caption": [
+   "Kot należy do żywicieli ostatecznych T. gondii. Powiąż „ostateczny” z rozmnażaniem płciowym pasożyta, a „pośredni” z fazą bezpłciową, która występuje m.in. u człowieka.",
+   "Cats are definitive hosts of T. gondii. Connect “definitive” with sexual reproduction of the parasite and “intermediate” with the asexual phase that occurs in humans and other hosts."
   ]
  },
  {
@@ -572,6 +1144,15 @@ const questions = [
   "learn": [
    "Powiązanie drogi zarażenia z profilaktyką.",
    "Matching prevention to the exposure route."
+  ],
+  "criterion": [
+   "Oceń oba zalecenia osobno. Higiena po kontakcie z kotem oraz unikanie surowego lub niedogotowanego mięsa ograniczają ryzyko zarażenia.",
+   "Assess each precaution separately. Hygiene after contact with cats and avoiding raw or undercooked meat both reduce the risk of infection."
+  ],
+  "photo": "domestic-cat",
+  "caption": [
+   "Kot należy do żywicieli ostatecznych T. gondii. Powiąż „ostateczny” z rozmnażaniem płciowym pasożyta, a „pośredni” z fazą bezpłciową, która występuje m.in. u człowieka.",
+   "Cats are definitive hosts of T. gondii. Connect “definitive” with sexual reproduction of the parasite and “intermediate” with the asexual phase that occurs in humans and other hosts."
   ]
  },
  {
@@ -599,6 +1180,15 @@ const questions = [
   "learn": [
    "Droga zarażenia a transmisja przez łożysko.",
    "Maternal exposure versus placental transmission."
+  ],
+  "criterion": [
+   "Podaj rozstrzygnięcie i nazwij rodzaj kontaktu. Rozmowa lub uścisk dłoni z chorą osobą nie stanowią drogi zarażenia toksoplazmozą.",
+   "Give the verdict and specify the type of contact. Talking to the patient or shaking hands does not transmit toxoplasmosis."
+  ],
+  "photo": "domestic-cat",
+  "caption": [
+   "Kot należy do żywicieli ostatecznych T. gondii. Powiąż „ostateczny” z rozmnażaniem płciowym pasożyta, a „pośredni” z fazą bezpłciową, która występuje m.in. u człowieka.",
+   "Cats are definitive hosts of T. gondii. Connect “definitive” with sexual reproduction of the parasite and “intermediate” with the asexual phase that occurs in humans and other hosts."
   ]
  },
  {
@@ -626,6 +1216,15 @@ const questions = [
   "learn": [
    "Położenie i kształt obojczyka oraz łopatki.",
    "Location and shape of the clavicle and scapula."
+  ],
+  "criterion": [
+   "Wpisz obie nazwy we właściwe pola. X wskazuje obojczyk, a Y szeroką, płaską łopatkę.",
+   "Put both names in the correct boxes. X indicates the clavicle and Y the broad, flat scapula."
+  ],
+  "photo": "human-skeleton",
+  "caption": [
+   "Szkielet człowieka. Prześledź obręcz barkową: obojczyk biegnie od mostka do barku, a łopatka leży z tyłu klatki piersiowej.",
+   "Human skeleton. Trace the shoulder girdle: the clavicle runs from the sternum to the shoulder, and the scapula lies against the back of the rib cage."
   ]
  },
  {
@@ -653,6 +1252,15 @@ const questions = [
   "learn": [
    "Miejsce syntezy mocznika i miejsce wydalania.",
    "Urea synthesis versus excretion."
+  ],
+  "criterion": [
+   "Uzupełnij obie luki. Głównym azotowym produktem wydalanym przez ssaki jest mocznik, a narządem jego syntezy jest wątroba.",
+   "Fill both gaps. Urea is the main nitrogenous waste excreted by mammals, and the liver is where it is synthesised."
+  ],
+  "photo": "urea-crystals",
+  "caption": [
+   "Kryształy mocznika. U ssaków ten związek powstaje w wątrobie. Rozpuszczony we krwi dociera do nerek i jest wydalany z moczem.",
+   "Urea crystals. Mammals synthesise this compound in the liver. Dissolved in blood, it travels to the kidneys and is excreted in urine."
   ]
  },
  {
@@ -680,6 +1288,15 @@ const questions = [
   "learn": [
    "Kanał jonowy, gradient i depolaryzacja.",
    "Ion channels, gradients and depolarisation."
+  ],
+  "criterion": [
+   "Wybierz oba elementy mechanizmu: zwiększenie przepuszczalności błony dla Na⁺ i napływ tych jonów do komórki.",
+   "Select both parts of the mechanism: increased membrane permeability to Na⁺ and movement of those ions into the cell."
+  ],
+  "photo": "neuron-cell",
+  "caption": [
+   "Neuron w hodowli, widoczny w mikroskopie. Przepuszczalność jego błony dla jonów może się zmieniać. Na wykresie w arkuszu porównaj moment wzrostu przepuszczalności dla Na⁺ i dla K⁺.",
+   "Micrograph of a cultured neuron. Its membrane permeability to ions can change. In the exam graph compare when permeability begins to rise for sodium and for potassium."
   ]
  },
  {
@@ -707,6 +1324,15 @@ const questions = [
   "learn": [
    "Interpretacja kolejności i czasu trwania zmian na wykresie.",
    "Reading timing and duration from a graph."
+  ],
+  "criterion": [
+   "Porównaj początek i czas trwania zmian przepuszczalności. Kanały K⁺ otwierają się później niż sodowe i pozostają otwarte dłużej.",
+   "Compare onset and duration. Potassium channels open later than sodium channels and stay open longer."
+  ],
+  "photo": "neuron-cell",
+  "caption": [
+   "Neuron w hodowli, widoczny w mikroskopie. Przepuszczalność jego błony dla jonów może się zmieniać. Na wykresie w arkuszu porównaj moment wzrostu przepuszczalności dla Na⁺ i dla K⁺.",
+   "Micrograph of a cultured neuron. Its membrane permeability to ions can change. In the exam graph compare when permeability begins to rise for sodium and for potassium."
   ]
  },
  {
@@ -734,6 +1360,15 @@ const questions = [
   "learn": [
    "Denaturacja jako zmiana struktury przestrzennej.",
    "Denaturation as a change in protein folding."
+  ],
+  "criterion": [
+   "Porównuj obrazy przy tej samej temperaturze 60 °C. Z TMAO bez mocznika białko zachowuje strukturę. Z mocznikiem bez TMAO ulega denaturacji.",
+   "Compare the images at the same temperature of 60 °C. With TMAO alone the protein stays folded. With urea alone it denatures."
+  ],
+  "photo": "urea-crystals",
+  "caption": [
+   "Mocznik w postaci krystalicznej. W symulacji dla białka CI2 badano mocznik rozpuszczony w wodzie. Porównanie przy tym samym stężeniu mocznika pokazuje wpływ dodania TMAO.",
+   "Crystalline urea. The CI2 simulation used urea dissolved in water. Comparing conditions at the same urea concentration reveals the effect of adding TMAO."
   ]
  },
  {
@@ -761,6 +1396,15 @@ const questions = [
   "learn": [
    "Kontrolowane porównanie i stabilność białka.",
    "Controlled comparisons and protein stability."
+  ],
+  "criterion": [
+   "Wniosek ma określać kierunek działania TMAO przy wysokim stężeniu mocznika. TMAO ogranicza utratę przestrzennej struktury CI2.",
+   "State the direction of TMAO’s effect at high urea concentration. TMAO limits the loss of the folded CI2 structure."
+  ],
+  "photo": "urea-crystals",
+  "caption": [
+   "Mocznik w postaci krystalicznej. W symulacji dla białka CI2 badano mocznik rozpuszczony w wodzie. Porównanie przy tym samym stężeniu mocznika pokazuje wpływ dodania TMAO.",
+   "Crystalline urea. The CI2 simulation used urea dissolved in water. Comparing conditions at the same urea concentration reveals the effect of adding TMAO."
   ]
  },
  {
@@ -788,6 +1432,15 @@ const questions = [
   "learn": [
    "Kierunek zależności a różnice między grupami.",
    "Direction of a trend versus group differences."
+  ],
+  "criterion": [
+   "Podaj kierunek zależności i wymień obie grupy ryb. Im większa głębokość, tym więcej TMAO w mięśniach ryb kostnoszkieletowych i chrzęstnoszkieletowych.",
+   "State the direction of the relationship and name both groups. Muscle TMAO increases with habitat depth in both bony and cartilaginous fish."
+  ],
+  "photo": "shark",
+  "caption": [
+   "Rekin jest rybą chrzęstnoszkieletową. W zadaniu rozdziel dwie zależności: TMAO wiąże się z ochroną białek, a nagromadzony mocznik wpływa na gospodarkę wodną.",
+   "A shark is a cartilaginous fish. Distinguish two relationships: TMAO helps protect proteins, while accumulated urea affects the balance of water."
   ]
  },
  {
@@ -815,6 +1468,15 @@ const questions = [
   "learn": [
    "Osmoza, osmolarność i izotoniczność.",
    "Osmosis, osmolarity and isotonicity."
+  ],
+  "criterion": [
+   "Połącz oba stwierdzenia. Mocznik podnosi stężenie osmotyczne płynów ciała, co zmniejsza różnicę względem wody morskiej i ogranicza odpływ wody.",
+   "Connect the two statements. Urea raises body-fluid osmolarity, reducing the difference from seawater and limiting outward water movement."
+  ],
+  "photo": "shark",
+  "caption": [
+   "Rekin jest rybą chrzęstnoszkieletową. W zadaniu rozdziel dwie zależności: TMAO wiąże się z ochroną białek, a nagromadzony mocznik wpływa na gospodarkę wodną.",
+   "A shark is a cartilaginous fish. Distinguish two relationships: TMAO helps protect proteins, while accumulated urea affects the balance of water."
   ]
  },
  {
@@ -842,6 +1504,15 @@ const questions = [
   "learn": [
    "Próba kontrolna i ciśnienie parcjalne.",
    "Controls and partial pressure."
+  ],
+  "criterion": [
+   "Nazwij warunek kontrolny i jego rolę. Pomiar w bańce bez jaszczurki pokazuje, co dzieje się z tlenem bez udziału zwierzęcia.",
+   "Identify the control condition and its purpose. The bubble without the lizard shows what happens to oxygen in the animal’s absence."
+  ],
+  "photo": "anolis-aquaticus",
+  "caption": [
+   "Anolis aquaticus, przedstawiciel rodzaju z zadania. O wykorzystaniu tlenu z bańki wnioskuj z porównania krzywych dla jaszczurki i kontroli.",
+   "Anolis aquaticus, a member of the genus in the question. Infer oxygen uptake from the bubble by comparing the lizard and control curves."
   ]
  },
  {
@@ -863,12 +1534,21 @@ const questions = [
    "Do the results support oxygen uptake from the bubble by the lizard?"
   ],
   "explanation": [
-   "Sam spadek pO₂ nie identyfikuje przyczyny. Brak podobnego spadku w kontroli łączy ubytek tlenu z oddychaniem zwierzęcia.",
-   "A decline in pO₂ alone does not identify its cause. The absence of a similar decline in the control connects oxygen loss to respiration by the animal."
+   "Na wykresie I pO₂ w bańce przy jaszczurce spada z około 160 do około 95 hPa w nieco ponad 200 s. Na wykresie II bańka kontrolna utrzymuje się blisko poziomu początkowego. Różnica między próbami pozwala powiązać ubytek tlenu z obecnością zwierzęcia.",
+   "In graph I the bubble beside the lizard falls from roughly 160 to 95 hPa in just over 200 seconds. In graph II the control bubble stays close to its initial level. The difference links the oxygen loss to the presence of the animal."
   ],
   "learn": [
    "Uzasadnienie hipotezy wynikami obu prób.",
    "Supporting a hypothesis with both experimental and control results."
+  ],
+  "criterion": [
+   "Porównaj przebieg obu krzywych. Spadek ciśnienia parcjalnego tlenu przy jaszczurce oraz prawie stała wartość w kontroli razem przemawiają za pobieraniem tlenu z bańki.",
+   "Compare both curves. Falling oxygen partial pressure beside the lizard and the nearly constant control together support oxygen uptake from the bubble."
+  ],
+  "photo": "anolis-aquaticus",
+  "caption": [
+   "Anolis aquaticus, przedstawiciel rodzaju z zadania. O wykorzystaniu tlenu z bańki wnioskuj z porównania krzywych dla jaszczurki i kontroli.",
+   "Anolis aquaticus, a member of the genus in the question. Infer oxygen uptake from the bubble by comparing the lizard and control curves."
   ]
  },
  {
@@ -896,6 +1576,15 @@ const questions = [
   "learn": [
    "Receptor, antygen i swoistość.",
    "Receptors, antigens and specificity."
+  ],
+  "criterion": [
+   "Wskaż konsekwencję nieswoistości. Jeżeli antygen występuje także na zdrowej komórce, limfocyt CAR-T może ją rozpoznać i zniszczyć.",
+   "State the consequence of poor specificity. If the antigen is also present on a healthy cell, a CAR T cell can recognise and destroy it."
+  ],
+  "photo": "t-micrograph",
+  "caption": [
+   "Obraz limfocytu T. Receptor wystaje z powierzchni komórki, gdzie może rozpoznać swój cel. W zadaniu ważne jest, co receptor rozpoznaje i jak długo jest produkowany.",
+   "An image of a T cell. Its receptor projects from the cell surface, where it can recognise a target. The question asks what the receptor recognises and how long it is produced."
   ]
  },
  {
@@ -923,6 +1612,15 @@ const questions = [
   "learn": [
    "Prezentacja przez MHC a bezpośrednie rozpoznanie antygenu.",
    "MHC presentation versus direct antigen recognition."
+  ],
+  "criterion": [
+   "Porównaj rozpoznawanie przez oba receptory. Mała ilość MHC utrudnia prezentację antygenu zwykłym limfocytom T. CAR rozpoznaje antygen na powierzchni niezależnie od MHC.",
+   "Compare both receptors. Reduced MHC impairs antigen presentation to ordinary T cells. CAR recognises a surface antigen independently of MHC."
+  ],
+  "photo": "t-micrograph",
+  "caption": [
+   "Obraz limfocytu T. Receptor wystaje z powierzchni komórki, gdzie może rozpoznać swój cel. W zadaniu ważne jest, co receptor rozpoznaje i jak długo jest produkowany.",
+   "An image of a T cell. Its receptor projects from the cell surface, where it can recognise a target. The question asks what the receptor recognises and how long it is produced."
   ]
  },
  {
@@ -936,8 +1634,8 @@ const questions = [
   ],
   "points": 2,
   "modelAnswer": [
-   "Gen CAR wbudowany w DNA limfocytu może być wielokrotnie przepisywany na mRNA. Dostarczone samo mRNA ulega rozkładowi, dlatego synteza receptora z tej matrycy trwa krócej.",
-   "A CAR gene integrated into the cell’s DNA can be transcribed repeatedly. Supplied mRNA eventually degrades, so receptor synthesis from that template is shorter-lived."
+   "W wariancie retrowirusowym gen CAR zostaje włączony do genomu limfocytu, więc komórka może przez długi czas wytwarzać kolejne transkrypty i receptory. W wariancie z elektroporacją komórka otrzymuje mRNA. Ta matryca ulega degradacji, dlatego produkcja receptora utrzymuje się krócej.",
+   "In the retroviral condition, the CAR gene integrates into the T cell’s genome, allowing the cell to make new transcripts and receptors over time. In the electroporation condition, the cell receives mRNA. This template degrades, so receptor production is shorter-lived."
   ],
   "prompt": [
    "Dlaczego gen CAR obecny w DNA daje dłuższą produkcję receptora niż samo mRNA?",
@@ -950,6 +1648,15 @@ const questions = [
   "learn": [
    "DNA → mRNA → białko; trwałość matrycy.",
    "DNA → mRNA → protein; template persistence."
+  ],
+  "criterion": [
+   "Uwzględnij obie krzywe. Wbudowany gen jest trwałym źródłem kolejnych cząsteczek mRNA. Wprowadzone samo mRNA zanika i z czasem przestaje dostarczać matrycy do syntezy receptora.",
+   "Account for both curves. An integrated gene remains a source of new mRNA. Delivered mRNA decays, so the template for receptor synthesis eventually runs out."
+  ],
+  "photo": "t-micrograph",
+  "caption": [
+   "Obraz limfocytu T. Receptor wystaje z powierzchni komórki, gdzie może rozpoznać swój cel. W zadaniu ważne jest, co receptor rozpoznaje i jak długo jest produkowany.",
+   "An image of a T cell. Its receptor projects from the cell surface, where it can recognise a target. The question asks what the receptor recognises and how long it is produced."
   ]
  },
  {
@@ -977,6 +1684,15 @@ const questions = [
   "learn": [
    "Odporność swoista i ekspansja klonalna.",
    "Adaptive immunity and clonal expansion."
+  ],
+  "criterion": [
+   "Oceń osobno typ odporności i odpowiedź na antygen. Limfocyty T uczestniczą w odporności swoistej, a kontakt z antygenem prowadzi do namnażania odpowiedniego klonu.",
+   "Assess the immune response type and the response to antigen separately. T cells contribute to adaptive immunity, and contact with antigen triggers expansion of the relevant clone."
+  ],
+  "photo": "t-micrograph",
+  "caption": [
+   "Obraz limfocytu T. Receptor wystaje z powierzchni komórki, gdzie może rozpoznać swój cel. W zadaniu ważne jest, co receptor rozpoznaje i jak długo jest produkowany.",
+   "An image of a T cell. Its receptor projects from the cell surface, where it can recognise a target. The question asks what the receptor recognises and how long it is produced."
   ]
  },
  {
@@ -1004,6 +1720,15 @@ const questions = [
   "learn": [
    "Pochodzenie komórki a miejsce jej dojrzewania.",
    "Cell origin versus site of maturation."
+  ],
+  "criterion": [
+   "Podaj nazwę narządu dojrzewania limfocytów T: grasica. Pytanie dotyczy dojrzewania komórek.",
+   "Name the organ where T cells mature: the thymus. The question asks about the maturation stage."
+  ],
+  "photo": "thymus-histology",
+  "caption": [
+   "Przekrój grasicy. To narząd, w którym dojrzewają limfocyty T. Zapamiętaj parę: grasica — thymus.",
+   "Section of the thymus, the organ where T cells mature. Link the Polish name grasica to the English thymus."
   ]
  },
  {
@@ -1031,6 +1756,15 @@ const questions = [
   "learn": [
    "Przeciwciała a materiał genetyczny patogenu.",
    "Antibodies versus pathogen genetic material."
+  ],
+  "criterion": [
+   "Wyjaśnij, dlaczego dodatni wynik nie rozstrzyga, czy wirus nadal jest obecny. Przeciwciała mogą utrzymywać się także po przebytej infekcji.",
+   "Explain why a positive result does not establish that the virus is still present. Antibodies can persist after the infection has cleared."
+  ],
+  "photo": "blood-sample",
+  "caption": [
+   "Sprzęt do pobierania krwi. Z próbki można uzyskać różne rodzaje informacji: przeciwciała świadczą o odpowiedzi immunologicznej, a wykrycie RNA HCV wskazuje obecność materiału wirusa.",
+   "Blood sampling equipment. One sample can yield different evidence: antibodies indicate an immune response, while HCV RNA indicates the presence of viral genetic material."
   ]
  },
  {
@@ -1058,6 +1792,15 @@ const questions = [
   "learn": [
    "RNA, cDNA i odwrotna transkrypcja.",
    "RNA, cDNA and reverse transcription."
+  ],
+  "criterion": [
+   "Powiąż rodzaj genomu z wymaganiami PCR. RNA wirusa trzeba przepisać na DNA, które może służyć jako matryca do amplifikacji.",
+   "Link the genome type to the template PCR requires. Viral RNA must first be copied into DNA so it can serve as an amplification template."
+  ],
+  "photo": "blood-sample",
+  "caption": [
+   "Sprzęt do pobierania krwi. Z próbki można uzyskać różne rodzaje informacji: przeciwciała świadczą o odpowiedzi immunologicznej, a wykrycie RNA HCV wskazuje obecność materiału wirusa.",
+   "Blood sampling equipment. One sample can yield different evidence: antibodies indicate an immune response, while HCV RNA indicates the presence of viral genetic material."
   ]
  },
  {
@@ -1085,6 +1828,15 @@ const questions = [
   "learn": [
    "Gen nieciągły, ekson, intron, splicing.",
    "Interrupted genes, exons, introns and splicing."
+  ],
+  "criterion": [
+   "Wskaż geny zawierające introny oraz możliwość łączenia egzonów w różnych kombinacjach. Oba wybory razem opisują alternatywny splicing.",
+   "Select genes containing introns and the ability to join exons in different combinations. Both selections describe alternative splicing."
+  ],
+  "photo": "cell-nucleus",
+  "caption": [
+   "Wybarwione jądra komórkowe. Chromosomy jądrowe i DNA mitochondrialne to dwa odrębne zbiory materiału genetycznego. Pytając o ekspresję lub dziedziczenie genu, najpierw ustal jego lokalizację.",
+   "Stained cell nuclei. Nuclear chromosomes and mitochondrial DNA are separate sets of genetic material. When considering gene expression or inheritance, first identify the gene’s location."
   ]
  },
  {
@@ -1112,6 +1864,15 @@ const questions = [
   "learn": [
    "Transkrypcja, translacja i przedziały komórki.",
    "Transcription, translation and cell compartments."
+  ],
+  "criterion": [
+   "Wypełnij dwa całe wiersze: organellum, w którym zachodzi transkrypcja, oraz informacja o translacji. W jądrze wpisz „nie”, w mitochondrium „tak”.",
+   "Complete two entire rows: an organelle where transcription occurs and whether translation also occurs there. Enter no for the nucleus and yes for the mitochondrion."
+  ],
+  "photo": "mito-cell",
+  "caption": [
+   "Mitochondria w komórce. Mają własne DNA i rybosomy. To wyjaśnia, dlaczego oprócz transkrypcji zachodzi w nich także translacja.",
+   "Mitochondria in a cell. They contain their own DNA and ribosomes, explaining why both transcription and translation occur there."
   ]
  },
  {
@@ -1139,6 +1900,15 @@ const questions = [
   "learn": [
    "Proteaza, hydroliza i budowa białka.",
    "Proteases, hydrolysis and protein structure."
+  ],
+  "criterion": [
+   "Rozpoznaj rodzaj substratu separazy. Skoro enzym przecina łańcuch białkowy, rozrywa wiązanie peptydowe.",
+   "Identify the type of substrate separase cuts. Cleaving a protein chain means breaking a peptide bond."
+  ],
+  "photo": "anaphase-microscopy",
+  "caption": [
+   "Mikrofotografia dzielących się komórek korzenia. Oddzielenie chromatyd umożliwia ich ruch ku przeciwnym biegunom. Ich DNA zostało skopiowane wcześniej, w fazie S.",
+   "Micrograph of dividing root cells. Separation lets sister chromatids move towards opposite poles. Their DNA was copied earlier, in S phase."
   ]
  },
  {
@@ -1166,6 +1936,15 @@ const questions = [
   "learn": [
    "Kolejność faz mitozy.",
    "The sequence of mitotic stages."
+  ],
+  "criterion": [
+   "Wskaż granicę faz. Rozdzielenie chromatyd siostrzanych wyznacza przejście z metafazy do anafazy.",
+   "Identify the phase boundary. Separation of sister chromatids marks the transition from metaphase to anaphase."
+  ],
+  "photo": "anaphase-microscopy",
+  "caption": [
+   "Mikrofotografia dzielących się komórek korzenia. Oddzielenie chromatyd umożliwia ich ruch ku przeciwnym biegunom. Ich DNA zostało skopiowane wcześniej, w fazie S.",
+   "Micrograph of dividing root cells. Separation lets sister chromatids move towards opposite poles. Their DNA was copied earlier, in S phase."
   ]
  },
  {
@@ -1193,6 +1972,15 @@ const questions = [
   "learn": [
    "Fazy G₁, S, G₂ i M.",
    "G₁, S, G₂ and M phases."
+  ],
+  "criterion": [
+   "Nazwij fazę S interfazy. To wtedy przed podziałem powstają dwie siostrzane kopie DNA.",
+   "Name S phase of interphase. This is when sister copies of DNA are made before division."
+  ],
+  "photo": "anaphase-microscopy",
+  "caption": [
+   "Mikrofotografia dzielących się komórek korzenia. Oddzielenie chromatyd umożliwia ich ruch ku przeciwnym biegunom. Ich DNA zostało skopiowane wcześniej, w fazie S.",
+   "Micrograph of dividing root cells. Separation lets sister chromatids move towards opposite poles. Their DNA was copied earlier, in S phase."
   ]
  },
  {
@@ -1214,12 +2002,21 @@ const questions = [
    "Does the pedigree exclude autosomal dominant or X-linked recessive inheritance?"
   ],
   "explanation": [
-   "Prześledź, od którego rodzica dziecko mogło dostać allel. Syn otrzymuje X od matki, a córka po jednym X od każdego rodzica. Model musi pasować do wszystkich osób w rodowodzie.",
-   "Trace the possible parental source of each allele. Sons receive their X from their mother; daughters receive one X from each parent. A model must fit everyone in the pedigree."
+   "Spójrz na chorą matkę i zdrowego ojca po prawej stronie rodowodu. Mają chore córki. W modelu recesywnym sprzężonym z X córka musiałaby dostać zmieniony allel także od ojca, a zdrowy ojciec go nie ma. Model autosomalny dominujący pozwala chorej matce przekazać allel zarówno córkom, jak i synom.",
+   "Look at the affected mother and unaffected father on the right of the pedigree. They have affected daughters. Under X-linked recessive inheritance, an affected daughter would need the altered allele from her father too, but an unaffected father lacks it. Autosomal dominant inheritance allows the affected mother to pass the allele to daughters and sons."
   ],
   "learn": [
    "Symbole rodowodu i przekazywanie chromosomu X.",
    "Pedigree symbols and X-chromosome transmission."
+  ],
+  "criterion": [
+   "Czytaj T jako „można wykluczyć”. Model autosomalny dominujący pozostaje możliwy, a recesywny sprzężony z płcią można wykluczyć.",
+   "Read yes as “can be ruled out.” Autosomal dominant inheritance remains possible, while sex-linked recessive inheritance can be ruled out."
+  ],
+  "photo": "cell-nucleus",
+  "caption": [
+   "Wybarwione jądra komórkowe. Chromosomy jądrowe i DNA mitochondrialne to dwa odrębne zbiory materiału genetycznego. Pytając o ekspresję lub dziedziczenie genu, najpierw ustal jego lokalizację.",
+   "Stained cell nuclei. Nuclear chromosomes and mitochondrial DNA are separate sets of genetic material. When considering gene expression or inheritance, first identify the gene’s location."
   ]
  },
  {
@@ -1247,6 +2044,15 @@ const questions = [
   "learn": [
    "Dziedziczenie pozajądrowe.",
    "Extranuclear inheritance."
+  ],
+  "criterion": [
+   "Wskaż matkę jako źródło mitochondrialnego DNA potomstwa. Pytanie dotyczy genomu mitochondriów.",
+   "Identify the mother as the source of the offspring’s mitochondrial DNA. The question concerns the mitochondrial genome."
+  ],
+  "photo": "mito-cell",
+  "caption": [
+   "Mitochondria w komórce. Mają własny genom. W typowym dziedziczeniu mitochondrialnym człowieka potomstwo otrzymuje go od matki.",
+   "Mitochondria in a cell. They have their own genome. In typical human mitochondrial inheritance, offspring receive it from their mother."
   ]
  },
  {
@@ -1278,6 +2084,11 @@ const questions = [
   "learn": [
    "Sprzężenie genów, rekombinacja i krzyżówka testowa.",
    "Linkage, recombination and test crosses."
+  ],
+  "photo": "drosophila-melanogaster",
+  "caption": [
+   "Muszka owocowa Drosophila melanogaster. W krzyżówce testowej fenotyp potomstwa pozwala odczytać, którą kombinację alleli wniósł heterozygotyczny rodzic.",
+   "The fruit fly Drosophila melanogaster. In a test cross, the offspring’s phenotype reveals the allele combination contributed by the heterozygous parent."
   ]
  },
  {
@@ -1305,6 +2116,15 @@ const questions = [
   "learn": [
    "Wspólny przodek i konwergencja.",
    "Common ancestry and convergence."
+  ],
+  "criterion": [
+   "Wskaż stan u wspólnego przodka i dwa niezależne pojawienia się cechy. To uzasadnia konwergencję długich kłów.",
+   "State the ancestral condition and the independent appearance of the trait in two lineages. That establishes convergent evolution of elongated canines."
+  ],
+  "photo": "smilodon",
+  "caption": [
+   "Szkielet smilodona. Długie kły ilustrują cechę porównywaną w zadaniu. Żeby ustalić, czy odziedziczono ją po wspólnym przodku, trzeba sięgnąć do drzewa filogenetycznego.",
+   "Smilodon skeleton. Its long canines illustrate the trait being compared. To decide whether the two animals inherited it from a common ancestor, consult the phylogenetic tree."
   ]
  },
  {
@@ -1318,8 +2138,8 @@ const questions = [
   ],
   "points": 1,
   "modelAnswer": [
-   "F, F. Oba twierdzenia o pokrewieństwie są fałszywe.",
-   "False, false (F, F). Both claims about relatedness are false."
+   "F, F. Thylacosmilus i kangur mają wspólnego przodka w obrębie torbaczy. Gałąź smilodona łączy się na tym drzewie z gałęzią człowieka później niż z gałęzią słonia.",
+   "False, false. Thylacosmilus and the kangaroo share a marsupial ancestor. In this tree, Smilodon shares a more recent common ancestor with humans than with elephants."
   ],
   "prompt": [
    "Czy Thylacosmilus jest bliższy Smilodon niż kangurom, a Smilodon bliższy słoniowi niż człowiekowi?",
@@ -1332,6 +2152,15 @@ const questions = [
   "learn": [
    "Odczytywanie węzłów drzewa filogenetycznego.",
    "Reading phylogenetic tree nodes."
+  ],
+  "criterion": [
+   "Śledź gałęzie wstecz do wspólnego przodka. Stopień pokrewieństwa odczytuje się z rozgałęzień drzewa. Podobne kły mogą wyewoluować niezależnie.",
+   "Trace the branches back to a shared ancestor. Relatedness follows the tree’s branching pattern. Similar canines can evolve independently."
+  ],
+  "photo": "smilodon",
+  "caption": [
+   "Szkielet smilodona. Długie kły ilustrują cechę porównywaną w zadaniu. Żeby ustalić, czy odziedziczono ją po wspólnym przodku, trzeba sięgnąć do drzewa filogenetycznego.",
+   "Smilodon skeleton. Its long canines illustrate the trait being compared. To decide whether the two animals inherited it from a common ancestor, consult the phylogenetic tree."
   ]
  },
  {
@@ -1359,6 +2188,15 @@ const questions = [
   "learn": [
    "Mutualizm i obustronne korzyści.",
    "Mutualism and reciprocal benefits."
+  ],
+  "criterion": [
+   "Nazwij mutualizm fakultatywny i podaj korzyść każdego partnera. Żaba zyskuje ochronę, a pająk ochronę potomstwa przed mrówkami zjadanymi przez żabę.",
+   "Name facultative mutualism and give each partner’s benefit. The frog gains protection, and its feeding on ants helps protect the spider’s offspring."
+  ],
+  "photo": "tarantula",
+  "caption": [
+   "Ptasznik z innego rodzaju niż opisany w arkuszu. Szczękoczułki chwytają zdobycz, a wstępne trawienie może odbywać się poza ciałem. W zadaniu osobno ustal, jaką korzyść pająk czerpie z obecności żaby.",
+   "A tarantula from a different genus than the one in the paper. The chelicerae grasp prey, and digestion can begin outside the body. Separately identify the benefit the spider gains from the frog."
   ]
  },
  {
@@ -1386,6 +2224,15 @@ const questions = [
   "learn": [
    "Trawienie zewnątrzustrojowe i wewnątrzustrojowe.",
    "Extraoral versus internal digestion."
+  ],
+  "criterion": [
+   "Porównaj miejsce trawienia u obu zwierząt. Pająk rozpoczyna trawienie poza ciałem, a płaz trawi pokarm wewnątrz przewodu pokarmowego.",
+   "Compare where digestion occurs in both animals. A spider begins digestion outside its body, while an amphibian digests food inside its digestive tract."
+  ],
+  "photo": "tarantula",
+  "caption": [
+   "Ptasznik z innego rodzaju niż opisany w arkuszu. Szczękoczułki chwytają zdobycz, a wstępne trawienie może odbywać się poza ciałem. W zadaniu osobno ustal, jaką korzyść pająk czerpie z obecności żaby.",
+   "A tarantula from a different genus than the one in the paper. The chelicerae grasp prey, and digestion can begin outside the body. Separately identify the benefit the spider gains from the frog."
   ]
  },
  {
@@ -1413,6 +2260,15 @@ const questions = [
   "learn": [
    "Stadium larwalne, dojrzałość i typ żywiciela.",
    "Larval stages, maturity and host type."
+  ],
+  "criterion": [
+   "Przypisz wszystkie grupy do ról. Racicznica i ryby karpiowate są pośrednie. Ryby rybożerne są ostateczne, bo w nich pasożyt osiąga dojrzałość płciową.",
+   "Assign every group to its role. The mussel and cyprinids are intermediate hosts. Fish-eating fish are definitive hosts because the parasite reaches sexual maturity there."
+  ],
+  "photo": "zebra-mussel",
+  "caption": [
+   "Racicznica zmienna, pierwszy żywiciel pośredni w opisanym cyklu. Prześledź dalszą kolejność: małż, ryba karpiowata, ryba rybożerna.",
+   "The zebra mussel, the first intermediate host in the life cycle described. Trace the remaining sequence: mussel, cyprinid fish, fish-eating fish."
   ]
  },
  {
@@ -1440,6 +2296,15 @@ const questions = [
   "learn": [
    "Swoistość żywiciela i kolejność etapów cyklu.",
    "Host specificity and sequence of life-cycle stages."
+  ],
+  "criterion": [
+   "Wyjaśnij konieczność obecności racicznicy. Jest jedynym pierwszym żywicielem pośrednim w opisanym cyklu, więc bez niej nie zajdzie wymagany rozwój larw.",
+   "Explain why the mussel is essential. It is the only first intermediate host in this cycle, so the necessary larval development cannot occur without it."
+  ],
+  "photo": "zebra-mussel",
+  "caption": [
+   "Racicznica zmienna, pierwszy żywiciel pośredni w opisanym cyklu. Prześledź dalszą kolejność: małż, ryba karpiowata, ryba rybożerna.",
+   "The zebra mussel, the first intermediate host in the life cycle described. Trace the remaining sequence: mussel, cyprinid fish, fish-eating fish."
   ]
  },
  {
@@ -1467,6 +2332,15 @@ const questions = [
   "learn": [
    "Czytanie wykresu dwóch zmiennych i izolinii.",
    "Reading two-variable graphs and contour lines."
+  ],
+  "criterion": [
+   "Najpierw znajdź punkt 10 °C i 15‰. Następnie śledź linię stałej temperatury, zmieniając tylko zasolenie. Te dwa odczyty pozwalają ocenić oba zdania.",
+   "First locate 10 °C and 15‰. Then follow the line of constant temperature while changing only salinity. These two readings answer the two statements."
+  ],
+  "photo": "sand-shrimp",
+  "caption": [
+   "Krewetka piaskowa Crangon septemspinosa, gatunek z arkusza. Aby odczytać granice tolerancji, na wykresie wybierz jedno zasolenie i śledź zmiany śmiertelności wzdłuż osi temperatury.",
+   "Sand shrimp, Crangon septemspinosa, the species in the paper. To read tolerance limits, choose a salinity on the graph and follow mortality along the temperature axis."
   ]
  },
  {
@@ -1494,6 +2368,15 @@ const questions = [
   "learn": [
    "Zasięg geograficzny a nisza podstawowa.",
    "Geographic range versus fundamental niche."
+  ],
+  "criterion": [
+   "Uzasadnij ocenę przez rozróżnienie miejsca i warunków życia. Wybrzeże określa obszar występowania, a nisza podstawowa obejmuje warunki i zasoby umożliwiające życie.",
+   "Justify the verdict by distinguishing location from living conditions. A coastline describes a geographic range. A fundamental niche describes the conditions and resources that permit life."
+  ],
+  "photo": "sand-shrimp",
+  "caption": [
+   "Krewetka piaskowa Crangon septemspinosa, gatunek z arkusza. Aby odczytać granice tolerancji, na wykresie wybierz jedno zasolenie i śledź zmiany śmiertelności wzdłuż osi temperatury.",
+   "Sand shrimp, Crangon septemspinosa, the species in the paper. To read tolerance limits, choose a salinity on the graph and follow mortality along the temperature axis."
   ]
  },
  {
@@ -1521,6 +2404,15 @@ const questions = [
   "learn": [
    "Optimum i zakres tolerancji.",
    "Optimum and tolerance range."
+  ],
+  "criterion": [
+   "Podaj obie granice i jednostkę. CKE dopuszcza odczyt dolnej granicy od 9 do 13 °C oraz górnej od 21 do 26 °C. Są to tolerancje odczytu granic z wykresu. Przykładowa odpowiedź: 10–25 °C.",
+   "Give both limits and the unit. CKE accepts a lower endpoint from 9 to 13 °C and an upper endpoint from 21 to 26 °C to allow for reading the graph. One valid answer is 10–25 °C."
+  ],
+  "photo": "sand-shrimp",
+  "caption": [
+   "Krewetka piaskowa Crangon septemspinosa, gatunek z arkusza. Aby odczytać granice tolerancji, na wykresie wybierz jedno zasolenie i śledź zmiany śmiertelności wzdłuż osi temperatury.",
+   "Sand shrimp, Crangon septemspinosa, the species in the paper. To read tolerance limits, choose a salinity on the graph and follow mortality along the temperature axis."
   ]
  },
  {
@@ -1548,6 +2440,15 @@ const questions = [
   "learn": [
    "Grupy i bloki układu okresowego, elektrony walencyjne, chrom.",
    "Periodic groups and blocks, valence electrons and chromium."
+  ],
+  "criterion": [
+   "Dokończ każdy wiersz tabeli. Symbol pierwiastka, blok i najwyższy stopień utlenienia to trzy różne informacje. Dla gazu wpisz symbol atomu N.",
+   "Finish each row of the table. Element symbol, block and highest oxidation state are three distinct entries. Use the atomic symbol N for the gaseous element."
+  ],
+  "photo": "chromite",
+  "caption": [
+   "Chromit jest rudą zawierającą chrom. Symbol Cr dotyczy pierwiastka, a zapis 3d⁵4s¹ dotyczy obojętnego atomu chromu w stanie podstawowym.",
+   "Chromite is an ore containing chromium. Cr is the element symbol, and 3d⁵4s¹ describes a neutral chromium atom in its ground state."
   ]
  },
  {
@@ -1575,6 +2476,15 @@ const questions = [
   "learn": [
    "Reguła Hunda, spin i konfiguracja chromu.",
    "Hund’s rule, spin and chromium’s configuration."
+  ],
+  "criterion": [
+   "Narysuj pięć klatek 3d i jedną 4s. Umieść po jednej strzałce o tym samym zwrocie w każdej klatce. Podpisy podpowłok są częścią odpowiedzi.",
+   "Draw five 3d boxes and one 4s box. Put one arrow pointing the same way in each. Include both subshell labels."
+  ],
+  "photo": "chromite",
+  "caption": [
+   "Chromit jest rudą zawierającą chrom. Symbol Cr dotyczy pierwiastka, a zapis 3d⁵4s¹ dotyczy obojętnego atomu chromu w stanie podstawowym.",
+   "Chromite is an ore containing chromium. Cr is the element symbol, and 3d⁵4s¹ describes a neutral chromium atom in its ground state."
   ]
  },
  {
@@ -1602,6 +2512,15 @@ const questions = [
   "learn": [
    "Równowaga chemiczna, pH, obserwacja a wniosek.",
    "Chemical equilibrium, pH, observation versus inference."
+  ],
+  "criterion": [
+   "Podaj numer probówki, opisz widoczną zmianę od barwy żółtej do pomarańczowej i wyciągnij wniosek o trwałości jonów chromianowych w obu środowiskach.",
+   "Give the tube number, describe the visible change from yellow to orange, and state what it shows about chromate stability under acidic and alkaline conditions."
+  ],
+  "photo": "cke-chromate",
+  "caption": [
+   "Żółty roztwór wyjściowy z arkusza. W probówce I po zakwaszeniu zmienia się równowaga chromian–dichromian i pojawia się barwa pomarańczowa.",
+   "The yellow starting solution in the exam. Acidifying tube I shifts the chromate–dichromate equilibrium and the solution becomes orange."
   ]
  },
  {
@@ -1629,7 +2548,17 @@ const questions = [
   "learn": [
    "Wzór Lewisa i skład wiązania potrójnego.",
    "Lewis structures and the components of a triple bond."
-  ]
+  ],
+  "criterion": [
+   "Policz pary wiążące i niewiążące w całej cząsteczce. Potrójne wiązanie N≡N zawiera jedno σ i dwa π. Poza nim pozostaje po jednej wolnej parze na każdym atomie.",
+   "Count bonding and nonbonding pairs across the whole molecule. The N≡N triple bond contains one σ and two π bonds. Each atom also has one lone pair."
+  ],
+  "photo": "liquid-nitrogen",
+  "caption": [
+   "Ciekły azot. Skroplenie zmienia odległości między cząsteczkami N₂. Wewnątrz każdej cząsteczki dwa atomy nadal łączy wiązanie potrójne.",
+   "Liquid nitrogen. Liquefaction changes the spacing between N₂ molecules. Within each molecule the two atoms are still joined by a triple bond."
+  ],
+  "diagram": ":N≡N:"
  },
  {
   "s": "chemia",
@@ -1661,6 +2590,11 @@ const questions = [
   "learn": [
    "Stosunek molowy, bilans ładunku i wolne pary.",
    "Mole ratios, charge balance and lone pairs."
+  ],
+  "photo": "calcium-metal",
+  "caption": [
+   "Granulki wapnia. W związku CaCN₂ wapń występuje jako jon Ca²⁺. To podpowiada, jaki ładunek trzeba umieścić przy narysowanym anionie.",
+   "Calcium granules. In CaCN₂, calcium occurs as Ca²⁺. This tells you which charge must accompany the anion you draw."
   ]
  },
  {
@@ -1688,6 +2622,15 @@ const questions = [
   "learn": [
    "Liczba masowa, atomowa i stała Avogadra.",
    "Mass number, atomic number and the Avogadro constant."
+  ],
+  "criterion": [
+   "Uzgodnij liczbę masową i ładunek po obu stronach równania. Następnie oblicz liczbę neutronów w jednym jądrze Sr i pomnóż przez liczbę Avogadra. Zapisz wynik liczbowy.",
+   "Balance mass number and charge on both sides. Then find neutrons per Sr nucleus and multiply by Avogadro’s number. Write out the numerical result."
+  ],
+  "photo": "strontium",
+  "caption": [
+   "Próbka strontu. Symbol Sr wskazuje pierwiastek o liczbie atomowej 38. Liczbę neutronów w konkretnym izotopie ustalisz dopiero po uwzględnieniu jego liczby masowej.",
+   "A sample of strontium. Sr identifies the element with atomic number 38. To count neutrons in a particular isotope, you also need its mass number."
   ]
  },
  {
@@ -1715,6 +2658,15 @@ const questions = [
   "learn": [
    "Budowa sieci a właściwości fizyczne.",
    "Crystal structure and physical properties."
+  ],
+  "criterion": [
+   "Nazwij typ obu kryształów. W krysztale molekularnym oddziałują ze sobą cząsteczki. W sieci kowalencyjnej wiązania łączą atomy w rozległą strukturę.",
+   "Name both crystal types. A molecular crystal consists of interacting molecules. In a network crystal, covalent bonds connect atoms throughout the solid."
+  ],
+  "photo": "diamond",
+  "caption": [
+   "Nieoszlifowany diament. Wiązania C–C tworzą sieć obejmującą cały kryształ. To przykład budowy, którą trzeba odróżnić od kryształu złożonego z osobnych cząsteczek.",
+   "A rough diamond. C–C bonds form a network throughout the crystal. Compare this with a molecular crystal made of discrete molecules."
   ]
  },
  {
@@ -1742,6 +2694,15 @@ const questions = [
   "learn": [
    "Odczyt wykresu, współczynniki i stężenie molowe.",
    "Reading graphs, coefficients and molarity."
+  ],
+  "criterion": [
+   "Odczytaj spadek stężenia A po 255 minutach. Z każdego mola zużytego A powstaje po molu B i C, więc ich łączne stężenie jest dwukrotnością spadku. Dopisz jednostkę.",
+   "Read the decrease in A at 255 minutes. Each mole consumed produces a mole each of B and C, so their combined concentration is twice that decrease. Include the concentration unit."
+  ],
+  "photo": "volumetric-flask",
+  "caption": [
+   "Kolba miarowa o pojemności 100 mL. Kreska na szyjce wyznacza konkretną objętość. Przy przejściu między stężeniem i liczbą moli używaj objętości w dm³.",
+   "A 100 mL volumetric flask. The mark on its neck defines a precise volume. Use volume in dm³ when converting between concentration and amount in moles."
   ]
  },
  {
@@ -1773,6 +2734,11 @@ const questions = [
   "learn": [
    "Redukcja, utlenianie i bilans jonowo-elektronowy.",
    "Reduction, oxidation and half-equation balancing."
+  ],
+  "photo": "cke-manganese",
+  "caption": [
+   "Zdjęcia A i B z arkusza. Porównaj roztwór przed reakcją i po niej. Widoczny brunatny osad odpowiada MnO₂ w równaniu redukcji.",
+   "Photos A and B from the paper. Compare the solution before and after the reaction. The brown precipitate corresponds to MnO₂ in the reduction half-equation."
   ]
  },
  {
@@ -1804,6 +2770,69 @@ const questions = [
   "learn": [
    "SEM, równanie Nernsta, równomolowość i bilans mas hydratu.",
    "Cell voltage, Nernst equation, equimolar mixtures and hydrate mass balance."
+  ],
+  "photo": "copper",
+  "caption": [
+   "Miedź rodzima. W zadaniu potencjał pozwala zidentyfikować metal elektrody. Liczbę cząsteczek wody w hydracie wyznacza się następnie z bilansu masy.",
+   "Native copper. In the question, the electrode potential identifies the metal. A separate mass balance then gives the number of water molecules in the hydrate."
+  ],
+  "table": [
+   [
+    "Kolejność obliczeń",
+    "Calculation sequence"
+   ],
+   [
+    [
+     "Szukana wielkość",
+     "Quantity"
+    ],
+    [
+     "Obliczenie",
+     "Working"
+    ]
+   ],
+   [
+    [
+     [
+      "Potencjał katody",
+      "Cathode potential"
+     ],
+     [
+      "1,084 − 0,762 = 0,322 V",
+      "1.084 − 0.762 = 0.322 V"
+     ]
+    ],
+    [
+     [
+      "Stężenie Cu²⁺",
+      "Cu²⁺ concentration"
+     ],
+     [
+      "10^[2(0,322 − 0,342)/0,059] ≈ 0,210 mol/dm³",
+      "10^[2(0.322 − 0.342)/0.059] ≈ 0.210 mol/dm³"
+     ]
+    ],
+    [
+     [
+      "Każdy hydrat",
+      "Each hydrate"
+     ],
+     [
+      "0,210 × 0,500 / 2 = 0,0525 mol",
+      "0.210 × 0.500 / 2 = 0.0525 mol"
+     ]
+    ],
+    [
+     [
+      "Liczba cząsteczek wody",
+      "Waters of hydration"
+     ],
+     [
+      "x = (22,05/0,0525 − 249,71 − 134,45)/18,02 ≈ 2",
+      "x = (22.05/0.0525 − 249.71 − 134.45)/18.02 ≈ 2"
+     ]
+    ]
+   ]
   ]
  },
  {
@@ -1831,6 +2860,15 @@ const questions = [
   "learn": [
    "Anoda, katoda i zmiana masy elektrod.",
    "Anode, cathode and electrode mass changes."
+  ],
+  "criterion": [
+   "Rozpatrz obie elektrody. Przy niższym stężeniu Ag⁺ srebro się utlenia. Na przeciwnej elektrodzie jony przyjmują elektrony, a osadzający się metal zwiększa jej masę.",
+   "Consider both electrodes. Silver oxidises on the lower-Ag⁺ side. At the other electrode ions gain electrons and deposited metal increases its mass."
+  ],
+  "photo": "silver",
+  "caption": [
+   "Kryształ srebra. W ogniwie stężeniowym po jednej stronie atomy srebra przechodzą do roztworu jako Ag⁺, a po drugiej jony tworzą metaliczne srebro.",
+   "A silver crystal. On one side of the concentration cell silver atoms enter solution as Ag⁺. On the other side ions deposit as metallic silver."
   ]
  },
  {
@@ -1858,6 +2896,15 @@ const questions = [
   "learn": [
    "Osad, jony obserwatorzy, bilans ładunku.",
    "Precipitates, spectator ions and charge balance."
+  ],
+  "criterion": [
+   "Przypisz sól osobno do probówki i pipety. W równaniu jonowym skróconym zachowaj stosunek 2 Ag⁺ do 1 CrO₄²⁻ i zapisz obojętny osad.",
+   "Identify the salt in the tube and the salt in the pipette. In the net ionic equation use two Ag⁺ per CrO₄²⁻ and write the neutral precipitate."
+  ],
+  "photo": "silver-chromate",
+  "caption": [
+   "Chromian(VI) srebra. Taki czerwonobrunatny osad powstaje po połączeniu jonów Ag⁺ i CrO₄²⁻ w odpowiednich proporcjach.",
+   "Silver chromate. This reddish-brown precipitate forms when Ag⁺ and CrO₄²⁻ combine in the appropriate ratio."
   ]
  },
  {
@@ -1885,6 +2932,15 @@ const questions = [
   "learn": [
    "Masa molowa, stechiometria Fe₂O₃ i przeliczanie objętości.",
    "Molar mass, oxide stoichiometry and volume conversion."
+  ],
+  "criterion": [
+   "Przelicz masę tlenku na mole. W jednej jednostce Fe₂O₃ są dwa atomy Fe, więc podwój liczbę moli tlenku i podziel przez objętość badanej próbki w dm³.",
+   "Convert oxide mass to moles. Each formula unit of Fe₂O₃ contains two Fe atoms. Double the oxide amount, then divide by the sample volume in dm³."
+  ],
+  "photo": "haematite",
+  "caption": [
+   "Hematyt, naturalna postać Fe₂O₃. Ta sama proporcja dwóch atomów Fe na jednostkę Fe₂O₃ pozwala przeliczyć zważony w zadaniu tlenek na mole żelaza.",
+   "Hematite, a natural form of Fe₂O₃. The same ratio of two Fe atoms per Fe₂O₃ unit lets you convert the oxide mass in the question into moles of iron."
   ]
  },
  {
@@ -1912,6 +2968,15 @@ const questions = [
   "learn": [
    "Sączenie, przesącz i osad.",
    "Filtration, filtrate and precipitate."
+  ],
+  "criterion": [
+   "Wybierz C. Zastanów się, która część mieszaniny zostaje na sączku: osad pozostaje na filtrze, a ciecz przez niego przechodzi.",
+   "Choose C. Follow the two parts of the mixture: the precipitate stays on the filter while the liquid passes through."
+  ],
+  "photo": "b-chner-funnel",
+  "caption": [
+   "Lejek Büchnera stosowany do filtracji. Po przykryciu porowatej podstawy sączkiem ciecz przepływa przez filtr, a osad pozostaje na jego powierzchni.",
+   "A Büchner funnel used for filtration. With filter paper over the perforated base, liquid passes through and solid remains on the filter."
   ]
  },
  {
@@ -1939,6 +3004,15 @@ const questions = [
   "learn": [
    "Barwy trzech wskaźników i odczyn roztworów.",
    "Indicator colours and acidic, neutral and alkaline solutions."
+  ],
+  "criterion": [
+   "Uzupełnij zarówno sześć oznaczeń wskaźników, jak i trzy wzory roztworów. Czytaj barwy parami dla tej samej substancji. Sprawdź też podaną liczbę użyć A, B i C.",
+   "Fill all six indicator labels and all three solution formulas. Read colours in pairs for each solution and cross-check how often A, B and C may appear."
+  ],
+  "photo": "cke-indicators",
+  "caption": [
+   "Sześć probówek z arkusza. Czytaj zdjęcia od lewej parami. Dwie barwy w każdej parze dotyczą tego samego roztworu badanego dwoma wskaźnikami.",
+   "The six exam tubes. Read them in pairs from left to right. Both colours in a pair come from testing the same solution with two different indicators."
   ]
  },
  {
@@ -1966,6 +3040,15 @@ const questions = [
   "learn": [
    "Sprzężona para, Ka × Kb = Kw, logarytm stężenia.",
    "Conjugate pairs, Ka × Kb = Kw and concentration logarithms."
+  ],
+  "criterion": [
+   "Powiąż Kᵦ z Kₐ sprzężonego kwasu i oblicz stężenie OH⁻ z równowagi. Wynik −log[OH⁻] jest pOH. Aby podać pH w 25 °C, odejmij go od 14.",
+   "Relate Kᵦ to the conjugate acid’s Kₐ and calculate [OH⁻] from equilibrium. Taking −log[OH⁻] gives pOH. Subtract it from 14 to report pH at 25 °C."
+  ],
+  "photo": "carbonate",
+  "caption": [
+   "Węglan potasu. Po rozpuszczeniu jon węglanowy reaguje z wodą. Powstające jony OH⁻ wyjaśniają zasadowe pH obliczane w zadaniu.",
+   "Potassium carbonate. Once dissolved, carbonate reacts with water. The resulting OH⁻ ions account for the alkaline pH calculated in the question."
   ]
  },
  {
@@ -1979,8 +3062,8 @@ const questions = [
   ],
   "points": 1,
   "modelAnswer": [
-   "Produkt reformingu – 3. Antydetonator – 1.",
-   "Reforming product – 3. Anti-knock agent – 1."
+   "Produkt reformingu: 3, toluen (metylobenzen). Antydetonator: 1, eter metylowo-tert-butylowy (MTBE). Wzór 2 przedstawia nierozgałęziony heksan.",
+   "Reforming product: 3, toluene (methylbenzene). Anti-knock additive: 1, methyl tert-butyl ether (MTBE). Structure 2 is straight-chain hexane."
   ],
   "prompt": [
    "Który wzór przedstawia produkt reformingu, a który dodatek przeciwstukowy?",
@@ -1993,7 +3076,23 @@ const questions = [
   "learn": [
    "Reforming, węglowodory i grupa eterowa.",
    "Reforming, hydrocarbons and ether groups."
-  ]
+  ],
+  "criterion": [
+   "Wpisz numery w kolejności nagłówków tabeli. Numer 3 odpowiada produktowi reformingu, a numer 1 antydetonatorowi.",
+   "Match each number to its column heading. Structure 3 is the reforming product and structure 1 the anti-knock additive."
+  ],
+  "photo": "gasoline",
+  "caption": [
+   "Benzyna jest mieszaniną węglowodorów. Na wzorach rozróżnij pierścień i wiązanie podwójne: oba zmniejszają liczbę atomów wodoru o dwa względem otwartego, nasyconego łańcucha.",
+   "Gasoline is a mixture of hydrocarbons. In the structural formulas distinguish a ring from a double bond: each reduces the hydrogen count by two relative to a saturated open chain."
+  ],
+  "structure": {
+   "file": "structure-14",
+   "caption": [
+    "1 · MTBE　 2 · heksan　 3 · toluen",
+    "1 · MTBE　 2 · hexane　 3 · toluene"
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2020,7 +3119,23 @@ const questions = [
   "learn": [
    "Pierścienie, wiązania π i indeks niedoboru wodoru.",
    "Rings, π bonds and degree of unsaturation."
-  ]
+  ],
+  "criterion": [
+   "Porównaj oba wzory z C₆H₁₄. Brak dwóch atomów wodoru daje indeks 1 zarówno przy zamknięciu pierścienia, jak i przy utworzeniu jednego wiązania podwójnego.",
+   "Compare both formulas with C₆H₁₄. A deficit of two hydrogens gives an index of one for either a ring or a single double bond."
+  ],
+  "photo": "gasoline",
+  "caption": [
+   "Benzyna jest mieszaniną węglowodorów. Na wzorach rozróżnij pierścień i wiązanie podwójne: oba zmniejszają liczbę atomów wodoru o dwa względem otwartego, nasyconego łańcucha.",
+   "Gasoline is a mixture of hydrocarbons. In the structural formulas distinguish a ring from a double bond: each reduces the hydrogen count by two relative to a saturated open chain."
+  ],
+  "structure": {
+   "file": "structure-15-1",
+   "caption": [
+    "1 · cykloheksan　 2 · heks-1-en",
+    "1 · cyclohexane　 2 · hex-1-ene"
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2048,7 +3163,23 @@ const questions = [
   "learn": [
    "Uwodornienie, dien sprzężony i wzór jednostki polimeru.",
    "Hydrogenation, conjugated dienes and polymer repeat units."
-  ]
+  ],
+  "criterion": [
+   "Pokaż w równaniu A zamknięty pierścień po obu stronach i zanik wiązania podwójnego po przyłączeniu H₂. Osobno narysuj otwarty łańcuch B z oboma wiązaniami podwójnymi.",
+   "For A show a closed ring on both sides and the loss of the double bond on adding H₂. Separately draw the open chain for B with both double bonds."
+  ],
+  "photo": "gasoline",
+  "caption": [
+   "Benzyna jest mieszaniną węglowodorów. Na wzorach rozróżnij pierścień i wiązanie podwójne: oba zmniejszają liczbę atomów wodoru o dwa względem otwartego, nasyconego łańcucha.",
+   "Gasoline is a mixture of hydrocarbons. In the structural formulas distinguish a ring from a double bond: each reduces the hydrogen count by two relative to a saturated open chain."
+  ],
+  "structure": {
+   "file": "structure-15-2",
+   "caption": [
+    "1 + H₂ → 2. Wzór 3 przedstawia oddzielnie węglowodór B.",
+    "1 + H₂ → 2. Structure 3 separately shows hydrocarbon B."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2075,7 +3206,23 @@ const questions = [
   "learn": [
    "Wodór α i budowa aldehydu.",
    "Alpha hydrogen and aldehyde structure."
-  ]
+  ],
+  "criterion": [
+   "Sprawdź trzy cechy rysunku: końcowe –CHO, prawidłowy szkielet dimetylobutanalu oraz obecność wodoru przy węglu sąsiadującym z –CHO.",
+   "Check three features of the drawing: terminal –CHO, a dimethylbutanal skeleton and a hydrogen on the carbon next to –CHO."
+  ],
+  "photo": "benzaldehyde",
+  "caption": [
+   "Butelka benzaldehydu. Grupa –CHO leży bezpośrednio przy pierścieniu benzenowym. Po redukcji zmienia się w –CH₂OH, a pierścień pozostaje zachowany.",
+   "A bottle of benzaldehyde. Its –CHO group is directly attached to a benzene ring. Reduction turns –CHO into –CH₂OH while preserving the ring."
+  ],
+  "structure": {
+   "file": "structure-16-1",
+   "caption": [
+    "Atom węgla bezpośrednio przy grupie –CHO to grupa CH₂.",
+    "The carbon immediately next to –CHO is a CH₂ group."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2102,7 +3249,23 @@ const questions = [
   "learn": [
    "Utlenianie aldehydu, redukcja i zapis jonowy.",
    "Aldehyde oxidation, reduction and ionic equations."
-  ]
+  ],
+  "criterion": [
+   "Wskaż produkty obu przemian w jednym równaniu jonowym. Z metanalu powstaje mrówczan, a z benzaldehydu alkohol benzylowy. Zbilansuj również OH⁻.",
+   "Show both transformations in one ionic equation. Methanal gives formate and benzaldehyde gives benzyl alcohol. Balance OH⁻ as well."
+  ],
+  "photo": "benzaldehyde",
+  "caption": [
+   "Butelka benzaldehydu. Grupa –CHO leży bezpośrednio przy pierścieniu benzenowym. Po redukcji zmienia się w –CH₂OH, a pierścień pozostaje zachowany.",
+   "A bottle of benzaldehyde. Its –CHO group is directly attached to a benzene ring. Reduction turns –CHO into –CH₂OH while preserving the ring."
+  ],
+  "structure": {
+   "file": "structure-16-2",
+   "caption": [
+    "Przemiana fragmentu aromatycznego: benzaldehyd → alkohol benzylowy.",
+    "Transformation of the aromatic reactant: benzaldehyde → benzyl alcohol."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2129,7 +3292,23 @@ const questions = [
   "learn": [
    "Identyfikacja grupy funkcyjnej i zachowanie szkieletu węglowego.",
    "Identifying functional groups and tracking the carbon skeleton."
-  ]
+  ],
+  "criterion": [
+   "Zachowaj fragment węglowodorowy widoczny w produkcie i odtwórz grupę –CO–CH₃. Sprawdź położenie wiązania podwójnego w swoim wzorze półstrukturalnym.",
+   "Keep the hydrocarbon fragment seen in the product and restore the –CO–CH₃ group. Check the position of the double bond in the condensed formula."
+  ],
+  "photo": "acetone-bottle",
+  "caption": [
+   "Aceton to najprostszy przykład ketonu metylowego R–CO–CH₃. W zadaniu schemat jest ten sam, lecz grupę R odczytujesz ze wzoru podanego produktu.",
+   "Acetone is the simplest methyl ketone, R–CO–CH₃. The exam uses the same pattern, with R determined from the given product."
+  ],
+  "structure": {
+   "file": "structure-17",
+   "caption": [
+    "Węgiel karbonylowy sąsiaduje z grupą CH₃ oraz fragmentem z C=C.",
+    "The carbonyl carbon is bonded to CH₃ and to the fragment containing C=C."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2156,7 +3335,23 @@ const questions = [
   "learn": [
    "Dekarboksylacja i liczenie atomów węgla.",
    "Decarboxylation and carbon counting."
-  ]
+  ],
+  "criterion": [
+   "Podziel łańcuch butanu na dwie identyczne części dwuwęglowe. Do jednej dołącz węgiel grupy –COOH, aby odtworzyć trójwęglowy kwas.",
+   "Split the butane chain into two identical two-carbon pieces. Restore a carboxyl carbon to one piece to reconstruct the three-carbon acid."
+  ],
+  "photo": "propionic-acid",
+  "caption": [
+   "Kwas propanowy ma trzy atomy węgla. Usunięcie węgla karboksylowego pozostawia fragment dwuwęglowy. Połączenie dwóch takich fragmentów daje butan.",
+   "Propanoic acid contains three carbons. Removing the carboxyl carbon leaves a two-carbon fragment. Joining two such fragments gives butane."
+  ],
+  "structure": {
+   "file": "structure-18-1",
+   "caption": [
+    "1 · kwas propanowy　 2 · butan. Do budowy jednego butanu potrzebne są dwa fragmenty dwuwęglowe.",
+    "1 · propanoic acid　 2 · butane. Two two-carbon fragments form one butane molecule."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2183,7 +3378,23 @@ const questions = [
   "learn": [
    "Symetria szkieletu i rozpoznawanie równoważnych fragmentów.",
    "Carbon skeleton symmetry and equivalent fragments."
-  ]
+  ],
+  "criterion": [
+   "Poszukaj wiązania C–C, którego przecięcie daje dwa identyczne fragmenty. Warunek spełnia związek III, czyli odpowiedź C.",
+   "Find a C–C bond whose removal leaves two identical fragments. Compound III meets that condition, giving option C."
+  ],
+  "photo": "butane",
+  "caption": [
+   "Zapalniczka butanowa ilustruje zastosowanie alkanu. Przy analizie większych alkanów z arkusza rozrysuj szkielet, aby znaleźć dwie identyczne części.",
+   "A butane lighter illustrates a use of an alkane. For the larger alkanes in the exam, draw the skeleton to find two identical fragments."
+  ],
+  "structure": {
+   "file": "structure-18-2",
+   "caption": [
+    "Związek III można rozdzielić na dwie identyczne części przez przecięcie środkowego wiązania C–C.",
+    "Cut the central C–C bond in compound III to obtain two identical fragments."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2196,8 +3407,8 @@ const questions = [
   ],
   "points": 1,
   "modelAnswer": [
-   "B.",
-   "B."
+   "B. Brom jest bezpośrednio związany z węglem aromatycznym. Po zastąpieniu go grupą winylową –CH=CH₂ i zachowaniu położenia grupy metoksylowej otrzymujemy układ podstawników produktu Q.",
+   "B. Bromine is attached directly to an aromatic carbon. Replacing it with vinyl (–CH=CH₂) while preserving the methoxy group’s position gives the substitution pattern of product Q."
   ],
   "prompt": [
    "Który substrat z arkusza prowadzi do związku Q w reakcji Hecka?",
@@ -2210,7 +3421,23 @@ const questions = [
   "learn": [
    "Mapowanie atomów i położenie podstawników pierścienia.",
    "Atom mapping and ring substitution patterns."
-  ]
+  ],
+  "criterion": [
+   "Porównaj produkt z każdym substratem. Znajdź atom pierścienia, na którym nowe wiązanie C–C zajęło miejsce wiązania C–Br, i zachowaj położenie pozostałych podstawników.",
+   "Compare the product with each candidate. Locate the ring atom where the new C–C bond replaces C–Br, and preserve the positions of the other substituents."
+  ],
+  "photo": "palladium",
+  "caption": [
+   "Metaliczny pallad. Reakcja Hecka jest katalizowana związkami palladu. Na wzorze produktu odszukaj nowe wiązanie węgiel–węgiel między fragmentem aromatycznym a alkenowym.",
+   "Palladium metal. Palladium catalysts enable the Heck reaction. In the product identify the new carbon–carbon bond joining the aromatic and alkene fragments."
+  ],
+  "structure": {
+   "file": "structure-19-1",
+   "caption": [
+    "W miejscu bromu w substracie B pojawia się grupa winylowa produktu Q.",
+    "A vinyl group occupies the former bromine position when substrate B gives product Q."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2237,6 +3464,15 @@ const questions = [
   "learn": [
    "Elektroujemność, formalny stopień utlenienia i geometria sp².",
    "Electronegativity, oxidation state and sp² geometry."
+  ],
+  "criterion": [
+   "Dla każdego oznaczonego atomu podaj dwie cechy. Stopień utlenienia oblicz z podziału elektronów. Hybrydyzację ustal osobno z geometrii wiązań.",
+   "Give two properties for each labelled atom. Assign bonding electrons to determine oxidation state, then determine hybridisation separately from bonding geometry."
+  ],
+  "photo": "palladium",
+  "caption": [
+   "Metaliczny pallad. Reakcja Hecka jest katalizowana związkami palladu. Na wzorze produktu odszukaj nowe wiązanie węgiel–węgiel między fragmentem aromatycznym a alkenowym.",
+   "Palladium metal. Palladium catalysts enable the Heck reaction. In the product identify the new carbon–carbon bond joining the aromatic and alkene fragments."
   ]
  },
  {
@@ -2268,7 +3504,19 @@ const questions = [
   "learn": [
    "Substrat ograniczający, nadmiar i wydajność procentowa.",
    "Limiting reactant, excess and percentage yield."
-  ]
+  ],
+  "photo": "palladium",
+  "caption": [
+   "Metaliczny pallad. Reakcja Hecka jest katalizowana związkami palladu. Na wzorze produktu odszukaj nowe wiązanie węgiel–węgiel między fragmentem aromatycznym a alkenowym.",
+   "Palladium metal. Palladium catalysts enable the Heck reaction. In the product identify the new carbon–carbon bond joining the aromatic and alkene fragments."
+  ],
+  "structure": {
+   "file": "structure-20",
+   "caption": [
+    "1 · bromobenzen　 2 · kwas propenowy　 3 · kwas cynamonowy. Stosunek molowy wynosi 1 : 1 : 1.",
+    "1 · bromobenzene　 2 · propenoic acid　 3 · cinnamic acid. The mole ratio is 1 : 1 : 1."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2295,7 +3543,23 @@ const questions = [
   "learn": [
    "Chiralność a izomeria E/Z.",
    "Chirality versus E/Z isomerism."
-  ]
+  ],
+  "criterion": [
+   "Sprawdź oba warunki oddzielnie. Brak centrum stereogenicznego wyklucza wskazaną chiralność tych związków. Dwa różne podstawniki na każdym końcu C=C umożliwiają izomerię geometryczną.",
+   "Test each condition separately. These molecules lack a stereogenic centre and are achiral. Two different substituents at each end of C=C allow geometric isomerism."
+  ],
+  "photo": "cinnamic-acid",
+  "caption": [
+   "Próbka kwasu cynamonowego. Jego izomerię geometryczną wyjaśnia budowa fragmentu –CH=CH–: obrót wokół wiązania podwójnego jest ograniczony.",
+   "A sample of cinnamic acid. The –CH=CH– unit accounts for its geometric isomerism because rotation around the double bond is restricted."
+  ],
+  "structure": {
+   "file": "structure-21",
+   "caption": [
+    "1 · kwas cynamonowy　 2 · kwas kawowy. Porównaj podstawniki przy pierścieniu.",
+    "1 · cinnamic acid　 2 · caffeic acid. Compare the ring substituents."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2322,7 +3586,23 @@ const questions = [
   "learn": [
    "Grupy fenolowe i kompleksowanie jonów żelaza(III).",
    "Phenolic groups and iron(III) complex formation."
-  ]
+  ],
+  "criterion": [
+   "Podaj odczynnik i cechę odróżniającą badane związki. Fe³⁺ tworzy barwny kompleks z grupami fenolowymi kwasu kawowego. Kwas cynamonowy nie ma takich grup.",
+   "Name the reagent and the distinguishing feature. Fe³⁺ forms a coloured complex with caffeic acid’s phenolic groups. Cinnamic acid lacks those groups."
+  ],
+  "photo": "caffeic-acid",
+  "caption": [
+   "Próbka kwasu kawowego przed dodaniem odczynnika. W próbie z FeCl₃ istotne są grupy –OH przy pierścieniu, które umożliwiają utworzenie barwnego kompleksu.",
+   "A sample of caffeic acid before reagent is added. In the FeCl₃ test the important features are the ring-bound –OH groups that can form a coloured complex."
+  ],
+  "structure": {
+   "file": "structure-21",
+   "caption": [
+    "1 · kwas cynamonowy　 2 · kwas kawowy. Porównaj podstawniki przy pierścieniu.",
+    "1 · cinnamic acid　 2 · caffeic acid. Compare the ring substituents."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2349,7 +3629,23 @@ const questions = [
   "learn": [
    "Izomeria położenia, centrum chiralne i zobojętnianie.",
    "Positional isomers, chiral centres and neutralisation."
-  ]
+  ],
+  "criterion": [
+   "Oddaj trzy osobne zapisy: wzór X, wzór chiralnego izomeru i równanie reakcji wybranego izomeru z NaOH. W produkcie sól tworzy grupa karboksylowa.",
+   "Provide three separate items: the formula of X, a chiral isomer, and that isomer’s equation with NaOH. The carboxyl group forms the salt."
+  ],
+  "photo": "succinic-acid-crystals",
+  "caption": [
+   "Kwas bursztynowy ma cztery atomy węgla i dwie grupy –COOH. Porównaj go ze związkiem X z zadania: jeden koniec łańcucha X ma grupę –CH₂OH, a drugi –COOH.",
+   "Succinic acid has four carbons and two –COOH groups. Compare it with compound X: X has –CH₂OH at one end of the chain and –COOH at the other."
+  ],
+  "structure": {
+   "file": "structure-23-1",
+   "caption": [
+    "1 · związek X　 2 · izomer z asymetrycznym atomem węgla przy grupie –OH.",
+    "1 · compound X　 2 · isomer with an asymmetric carbon bearing –OH."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2377,7 +3673,23 @@ const questions = [
   "learn": [
    "Bezwodnik kwasowy, odwodnienie i zamykanie pierścienia.",
    "Acid anhydrides, dehydration and ring closure."
-  ]
+  ],
+  "criterion": [
+   "Domknij pięcioczłonowy pierścień. Jeden atom tlenu łączy dwa węgle karbonylowe, a obie grupy C=O pozostają widoczne.",
+   "Close the five-membered ring. One oxygen bridges the two carbonyl carbons, and both C=O groups remain visible."
+  ],
+  "photo": "succinic-acid-crystals",
+  "caption": [
+   "Kryształy kwasu bursztynowego. Porównaj dwa końce jego czterowęglowej cząsteczki. Obie grupy –COOH mogą uczestniczyć w zamknięciu pięcioczłonowego pierścienia bezwodnika.",
+   "Succinic acid crystals. Compare the two ends of its four-carbon molecule. Both –COOH groups can participate in closing the five-membered anhydride ring."
+  ],
+  "structure": {
+   "file": "structure-23-2",
+   "caption": [
+    "1 · kwas bursztynowy　 2 · jego bezwodnik. Oba karbonyle pozostają po zamknięciu pierścienia.",
+    "1 · succinic acid　 2 · its anhydride. Both carbonyls remain when the ring closes."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2404,7 +3716,23 @@ const questions = [
   "learn": [
    "Kierowanie podstawieniem i redukcja grupy nitrowej.",
    "Substituent directing effects and nitro-group reduction."
-  ]
+  ],
+  "criterion": [
+   "Wskaż projekt 2 i uzasadnij kolejność podstawień. Wprowadzona najpierw grupa nitrowa kieruje chlor w położenie meta. Redukcja –NO₂ do –NH₂ zachowuje ten układ.",
+   "Select plan 2 and justify the substitution order. Installing nitro first directs chlorine to the meta position. Reducing –NO₂ to –NH₂ preserves that arrangement."
+  ],
+  "photo": "nitrobenzene-sample",
+  "caption": [
+   "Nitrobenzen. Grupa –NO₂ na pierścieniu kieruje kolejne podstawienie w położenie meta. To pozwala przewidzieć układ podstawników po zakończeniu przemian.",
+   "Nitrobenzene. A ring-bound –NO₂ group directs the next substitution to the meta position, predicting the final arrangement of substituents."
+  ],
+  "structure": {
+   "file": "structure-24",
+   "caption": [
+    "1 · nitrobenzen　 2 · podstawienie meta　 3 · produkt po redukcji grupy nitrowej.",
+    "1 · nitrobenzene　 2 · meta substitution　 3 · product after nitro-group reduction."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2435,7 +3763,19 @@ const questions = [
   "learn": [
    "Protonowanie aminy, sól i rozpuszczalność.",
    "Amine protonation, salts and solubility."
-  ]
+  ],
+  "photo": "benzocaine",
+  "caption": [
+   "Benzokaina przed reakcją. Odszukaj w jej wzorze trzy miejsca: grupę aminową reagującą z kwasem, grupę estrową ulegającą hydrolizie i pierścień, w którym zachodzi podstawienie.",
+   "Benzocaine before reaction. Locate three sites in its formula: the amino group that reacts with acid, the ester that undergoes hydrolysis, and the ring where substitution occurs."
+  ],
+  "structure": {
+   "file": "structure-25-1",
+   "caption": [
+    "Benzokaina. Grupa aminowa i estrowa zajmują pozycje 1 i 4 pierścienia.",
+    "Benzocaine. The amino and ester groups occupy positions 1 and 4 on the ring."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2462,7 +3802,23 @@ const questions = [
   "learn": [
    "Ester, hydroliza zasadowa, bilans atomów i ładunków.",
    "Esters, alkaline hydrolysis and atom and charge balance."
-  ]
+  ],
+  "criterion": [
+   "W równaniu jonowym zachowaj układ para na pierścieniu. Po hydrolizie zasadowej zapisz anion karboksylanowy oraz etanol. Sprawdź ładunek po obu stronach.",
+   "Preserve the para arrangement on the ring in the ionic equation. Alkaline hydrolysis gives the carboxylate anion and ethanol. Check charge on both sides."
+  ],
+  "photo": "benzocaine",
+  "caption": [
+   "Benzokaina przed reakcją. Odszukaj w jej wzorze trzy miejsca: grupę aminową reagującą z kwasem, grupę estrową ulegającą hydrolizie i pierścień, w którym zachodzi podstawienie.",
+   "Benzocaine before reaction. Locate three sites in its formula: the amino group that reacts with acid, the ester that undergoes hydrolysis, and the ring where substitution occurs."
+  ],
+  "structure": {
+   "file": "structure-25-1",
+   "caption": [
+    "Benzokaina. Grupa aminowa i estrowa zajmują pozycje 1 i 4 pierścienia.",
+    "Benzocaine. The amino and ester groups occupy positions 1 and 4 on the ring."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2489,7 +3845,23 @@ const questions = [
   "learn": [
    "Substytucja elektrofilowa aromatyczna.",
    "Electrophilic aromatic substitution."
-  ]
+  ],
+  "criterion": [
+   "Połącz obie cechy mechanizmu. Atom wodoru w pierścieniu zostaje zastąpiony, a reagent atakujący pierścień jest elektrofilem. Odpowiada temu para B1.",
+   "Combine both features of the mechanism. A ring hydrogen is replaced and the attacking species is an electrophile, giving pair B1."
+  ],
+  "photo": "benzocaine",
+  "caption": [
+   "Benzokaina przed reakcją. Odszukaj w jej wzorze trzy miejsca: grupę aminową reagującą z kwasem, grupę estrową ulegającą hydrolizie i pierścień, w którym zachodzi podstawienie.",
+   "Benzocaine before reaction. Locate three sites in its formula: the amino group that reacts with acid, the ester that undergoes hydrolysis, and the ring where substitution occurs."
+  ],
+  "structure": {
+   "file": "structure-25-1",
+   "caption": [
+    "Benzokaina. Grupa aminowa i estrowa zajmują pozycje 1 i 4 pierścienia.",
+    "Benzocaine. The amino and ester groups occupy positions 1 and 4 on the ring."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2516,7 +3888,23 @@ const questions = [
   "learn": [
    "Kody aminokwasów, kondensacja i zapis od końca N do C.",
    "Amino acid codes, condensation and N-to-C notation."
-  ]
+  ],
+  "criterion": [
+   "Zapisz sekwencję kodami trzyliterowymi od końca aminowego. Przy kontroli masy pamiętaj, że przy tworzeniu dwóch wiązań peptydowych wydzielają się dwie cząsteczki wody.",
+   "Write three-letter codes starting at the amino terminus. When checking the mass, account for two water molecules lost in forming two peptide bonds."
+  ],
+  "photo": "granules",
+  "caption": [
+   "Granulki żelatyny. Tworzą ją łańcuchy reszt aminokwasowych. Tripeptyd z zadania ma tylko trzy reszty i dwa wiązania peptydowe.",
+   "Gelatin granules. Gelatin contains chains of amino acid residues. The exam tripeptide has just three residues and two peptide bonds."
+  ],
+  "structure": {
+   "file": "structure-26",
+   "caption": [
+    "Od wolnego końca aminowego do karboksylowego: Gly–Ala–Cys. Atom siarki znajduje się w ostatniej reszcie.",
+    "From the free amino to the carboxyl terminus: Gly–Ala–Cys. The last residue contains sulfur."
+   ]
+  }
  },
  {
   "s": "chemia",
@@ -2544,6 +3932,15 @@ const questions = [
   "learn": [
    "Projekcja Fischera, forma mezo i konfiguracja L.",
    "Fischer projections, meso compounds and the L configuration."
+  ],
+  "criterion": [
+   "Narysuj dwa osobne rzuty Fischera. Umieść CH₂OH na obu końcach i sprawdź strony OH na obu poziomych ramionach każdego wzoru.",
+   "Draw two separate Fischer projections. Put CH₂OH at both ends and check the side occupied by OH at each horizontal crossbar in each drawing."
+  ],
+  "photo": "erythritol-model",
+  "caption": [
+   "Fotografia modelu erytrolu. Przy zamianie modelu przestrzennego na rzut Fischera wiązania poziome kieruj ku obserwatorowi, a pionowe w głąb.",
+   "Photograph of an erythritol model. When translating the three-dimensional model into a Fischer projection, horizontal bonds point towards the viewer and vertical bonds point away."
   ]
  },
  {
@@ -2572,6 +3969,15 @@ const questions = [
   "learn": [
    "Anomer, węgiel anomeryczny i projekcja Hawortha.",
    "Anomers, anomeric carbon and Haworth projections."
+  ],
+  "criterion": [
+   "Uzupełnij każdy wskazany atom węgla. Sprawdź osobno położenie anomerycznej grupy OH przy C1 i orientację pozostałych podstawników względem pierścienia.",
+   "Complete every indicated carbon. Check the anomeric OH at C1 separately from the orientations of the remaining substituents relative to the ring."
+  ],
+  "photo": "arabinose-model",
+  "caption": [
+   "Fotografia modelu D-arabinozy w formie łańcuchowej. Numeruj węgle od grupy aldehydowej. Po zamknięciu pierścienia ten sam C1 staje się węglem anomerycznym.",
+   "Photograph of an open-chain D-arabinose model. Number the carbons from the aldehyde group. When the ring closes, that same C1 becomes the anomeric carbon."
   ]
  },
  {
@@ -2599,6 +4005,15 @@ const questions = [
   "learn": [
    "Cukry redukujące i wolny węgiel anomeryczny.",
    "Reducing sugars and free anomeric carbons."
+  ],
+  "criterion": [
+   "Oceń oba zdania na podstawie reakcji redukcji srebra. Maltoza może dać lustro srebrne, natomiast sacharoza nie daje tej próby bez wcześniejszej hydrolizy.",
+   "Assess both statements using silver reduction. Maltose can give a silver mirror. Sucrose does not give this test without prior hydrolysis."
+  ],
+  "photo": "cke-silver",
+  "caption": [
+   "Probówka z arkusza po dodatniej próbie Tollensa. Warstwa metalicznego srebra na ściance świadczy o redukcji jonów srebra przez badany cukier.",
+   "The exam tube after a positive Tollens test. Metallic silver on the wall shows that the sugar reduced the silver ions."
   ]
  }
 ];
