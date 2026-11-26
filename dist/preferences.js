@@ -14,6 +14,18 @@ let theme = storedPreference('theme', matchMedia('(prefers-color-scheme: dark)')
 function installPreferences(renderPage) {
   const languageButton = document.getElementById('language');
   const themeButton = document.getElementById('theme');
+  const nav = document.querySelector('#sidebar nav');
+  if (nav && !nav.querySelector('a[href="/learn/matura/formula-2015/"]')) {
+    const track = document.createElement('a');
+    track.href = '/learn/matura/formula-2015/';
+    track.dataset.pl = 'Matura · Formuła 2015';
+    track.dataset.en = 'Matura · Formula 2015';
+    nav.prepend(track);
+  }
+  for (const anchor of document.querySelectorAll('#sidebar nav a[href="/learn/matura/biblioteka/"]')) {
+    anchor.dataset.pl = 'Biblioteka · Formuła 2023';
+    anchor.dataset.en = 'Library · Formula 2023';
+  }
   const refreshSidebar = installSidebar();
   function apply() {
     refreshSidebar();
