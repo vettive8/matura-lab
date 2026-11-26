@@ -5,5 +5,28 @@
   "main": "cloudflare.mjs",
   "workers_dev": true,
   "preview_urls": false,
-  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": true }
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none"
+  },
+  "routes": [
+    {
+      "pattern": "mervive.com/learn",
+      "zone_name": "mervive.com"
+    },
+    {
+      "pattern": "mervive.com/learn/*",
+      "zone_name": "mervive.com"
+    },
+    {
+      "pattern": "www.mervive.com/learn",
+      "zone_name": "mervive.com"
+    },
+    {
+      "pattern": "www.mervive.com/learn/*",
+      "zone_name": "mervive.com"
+    }
+  ]
 }

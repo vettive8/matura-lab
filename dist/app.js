@@ -69,7 +69,7 @@ function render(){
  const q=questions[index];current=({'biologia/1.1':'protein','biologia/1.2':'transport','chemia/3':'water'})[key(q)];
  document.documentElement.lang=lang;document.documentElement.dataset.theme=theme;
  $('language').value=lang;$('language').ariaLabel=t('Język','Language');
- set('study','Pracownia','Studio');set('library','Biblioteka','Library');set('heading','Pracownia nauki','Learning studio');
+ set('learnHome','Nauka','Learning');set('study','Pracownia','Studio');set('library','Biblioteka','Library');set('heading','Pracownia nauki','Learning studio');
  $('theme').textContent=theme==='dark'?t('☀ Jasny motyw','☀ Light theme'):t('☾ Ciemny motyw','☾ Dark theme');
  $('study').setAttribute('aria-pressed',inStudio);$('library').setAttribute('aria-pressed',!inStudio);$('studio').hidden=!inStudio;$('shelf').hidden=inStudio;
  set('prev','Poprzednie','Previous');set('next','Następne','Next');$('prev').disabled=index===0;$('next').disabled=index===questions.length-1;

@@ -1,24 +1,24 @@
+const origin = "https://mervive.com";
+const directory = "/learn/";
+const atlas = "/learn/matura/";
+
 export default {
   async fetch(request, env) {
-    const supplied = request.headers.get("Authorization") ?? "";
-    const expected = "Basic " + btoa("atlas:" + env.ATLAS_PASSWORD);
-    const encode = new TextEncoder();
-    const digest = value => crypto.subtle.digest("SHA-256", encode.encode(value));
-    const [actual, required] = await Promise.all([digest(supplied), digest(expected)]);
-    if (!env.ATLAS_PASSWORD || !crypto.subtle.timingSafeEqual(actual, required)) {
-      return new Response("Logowanie wymagane / Sign-in required", {
-        status: 401,
-        headers: {
-          "WWW-Authenticate": 'Basic realm="Atlas Matura", charset="UTF-8"',
-          "Cache-Control": "private, no-store"
-        }
-      });
+    const url = new URL(request.url);
+    let path = url.pathname;
+    if (url.hostname.endsWith(".workers.dev")) {
+      path = atlas + path.slice(1);
     }
-    const headers = new Headers(request.headers);
-    headers.delete("Authorization");
-    const asset = await env.ASSETS.fetch(new Request(request, { headers }));
-    const response = new Response(asset.body, asset);
-    response.headers.set("Cache-Control", "private, no-store");
-    return response;
+    if (path === "/learn" || path === "/learn/matura") path += "/";
+    if (url.origin !== origin || path !== url.pathname) {
+      return Response.redirect(origin + path + url.search, 302);
+    }
+    let asset;
+    if (path === directory) asset = "/directory.html";
+    else if (path === atlas) asset = "/index.html";
+    else if (path.startsWith(atlas)) asset = path.slice(atlas.length - 1);
+    if (!asset) return new Response("404", {status: 404});
+    url.pathname = asset;
+    return env.ASSETS.fetch(new Request(url, request));
   }
 };
