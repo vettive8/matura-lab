@@ -24,33 +24,3 @@ const edges = [
 ];
 const translate = pair => pair[lang==='pl'?0:1];
 const nameOfStage = id => stageLabels[id]?translate(stageLabels[id]):translate(['UZ · rok ','UZ · year '])+id;
-const textSafe = text => text.replaceAll('&','&amp;').replaceAll('<','&lt;');
-const labelFor = (topic,i) => translate(nodeLabels[topic][i].split('/'));
-function renderMap() {
-  const [stageKey,topicKey] = location.hash.slice(1).split('/');
-  const stage = stageIds.includes(stageKey)?stageKey:'foundation';
-  const topic = Object.hasOwn(nodeLabels,topicKey)?topicKey:'atom';
-  const i = stageIds.indexOf(stage), path = graphPaths[topic];
-  const tr = (pl,en) => translate([pl,en]);
-  const go = (s,k) => '#'+s+'/'+k;
-  const neighbors = edges.filter(([left,right])=>left===topic||right===topic);
-  const near = neighbors.map(([left,right])=>left===topic?right:left);
-  const detail = i===0?path.intro:path.stages[i-1];
-  const lesson = workedLessons[topic];
-  const li=neighbors.map((edge,j)=>'<li><a href="'+go(stage,near[j])+'">'+labelFor(near[j],i)+'</a><p>'+textSafe(translate(edge.slice(2)))+'</p></li>').join('');
-  document.querySelector('#graph').innerHTML = '<h1>'+tr('Graf wiedzy','Knowledge graph')+'</h1><p>'+tr('Każdy kolor oznacza jedną ścieżkę. Wybierz pojęcie, aby poznać jego znaczenie, albo zmień etap, aby porównać wszystkie ścieżki.','Each colour marks a learning path. Select a concept to study it, or change the stage to compare all seven paths.')+'</p>'+networkView(stage,topic)+'<div class="network-body"><article class="node-detail"><p>'+translate(path.title)+' · '+nameOfStage(stage)+'</p><h2>'+labelFor(topic,i)+'</h2><p>'+textSafe(translate(detail))+'</p>'+
-  (topic==='albumin'?'<p>'+textSafe(translate(albuminExamples[i]))+'</p>':'')+
-  (i===0?'<h3>'+translate(lesson[0])+'</h3><p>'+translate(lesson[1])+'</p>':'')+
-  (i>=2 && i<=7?'<p><a href="../graf/#stage/'+stage+'">'+tr('Przykładowa ścieżka · zobacz przedmioty UZ na tym roku','Suggested path · see actual UZ courses for this year')+'</a></p>':'')+
-  '<a href="../graf/#topic/'+topic+'">'+tr('Otwórz lekcję i doświadczenie','Open lesson and experiment')+'</a><h3>'+tr('Co łączy te ścieżki?','How are these paths connected?')+'</h3><ul>'+li+'</ul><div class="map-steps">'+[i-1,i+1].filter(n=>stageIds[n]).map(n=>'<a href="'+go(stageIds[n],topic)+'">'+(n<i?'← ':'')+nameOfStage(stageIds[n])+(n>i?' →':'')+'</a>').join('')+'</div></article></div>';
-  bindNetwork(stage,topic);
-  document.title = nameOfStage(stage)+' · '+labelFor(topic,i)+' · Atlas Matura';
-  document.getElementById('map-stage').onchange=e=>{location.hash=go(e.target.value,topic);};
-}
-window.addEventListener('hashchange',()=>{
-  const previous = document.activeElement;
-  renderMap();
-  if(previous.id==='map-stage') document.getElementById('map-stage').focus({preventScroll:true});
-  else if(previous.closest('.map-node')) document.querySelector('.map-node.active').focus({preventScroll:true});
-});
-installPreferences(renderMap);

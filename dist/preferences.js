@@ -39,7 +39,7 @@ function installSidebar() {
   toggle.querySelector('kbd').textContent = mac ? '⌘⇧S' : 'Ctrl+Shift+S';
   let open;
   function reset() {
-    open = !narrow.matches && storedPreference('sidebar', 'open') === 'open';
+    open = !narrow.matches && storedPreference(document.body.classList.contains('atlas-page')?'atlas-sidebar':'sidebar', document.body.classList.contains('atlas-page')?'closed':'open') === 'open';
     update();
   }
   function update() {
@@ -55,7 +55,7 @@ function installSidebar() {
   function change(value) {
     open = value;
     if (!narrow.matches) {
-      try { localStorage.setItem('matura-sidebar', open ? 'open' : 'closed'); } catch {}
+      try { localStorage.setItem(document.body.classList.contains('atlas-page')?'matura-atlas-sidebar':'matura-sidebar', open ? 'open' : 'closed'); } catch {}
     }
     update();
     if (!open) toggle.focus();
