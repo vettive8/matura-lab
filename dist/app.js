@@ -39,6 +39,8 @@ function read(key,fallback=''){try{return localStorage.getItem('matura-'+key)??f
 function write(key,value){try{localStorage.setItem('matura-'+key,value);return true}catch{return false}}
 let index=questions.findIndex(q=>q.s+'/'+q.id===read('position','biologia/1.2'));
 if(index<0)index=1;
+const linkedQuestion=questions.findIndex(q=>'#'+q.s+'/'+q.id===location.hash);
+if(linkedQuestion>=0)index=linkedQuestion;
 let inStudio=true;
 const t=bilingual;
 function set(id,pl,en){$(id).textContent=t(pl,en)}
@@ -58,6 +60,7 @@ function render(){
  set('solutionTitle','Odpowiedź','Answer');
  set('whyHeading','Jak to działa?','How it works');
  set('learnHeading','Co trzeba umieć?','What to learn');
+ $('albuminEvidence').hidden=q.s!=='biologia'||!['1.1','1.2'].includes(q.id);
  $('modelAnswer').textContent=t(...q.modelAnswer);
  $('why').textContent=t(...q.explanation);
  $('learn').textContent=t(...q.learn);
@@ -73,7 +76,7 @@ function render(){
 set('shelfTitle','Biblioteka','Library');set('papersTitle','Matura · Maj 2026','Matura · May 2026');set('resources','Materiały do nauki','Study materials');set('zpe','Od atomu do organizmu','From atom to organism (Polish)');set('cke','Informatory CKE','CKE exam guides (Polish)');
  $('papers').replaceChildren();for(const s of ['biologia','chemia']){const card=document.createElement('article');card.className='panel';card.innerHTML='<h3>'+subject(s)+'</h3><div class="paperline"><a href="'+paper(s)+'">'+t('Arkusz','Exam paper (Polish)')+'</a><a href="'+paper(s,true)+'">'+t('Zasady oceniania','Marking guide (Polish)')+'</a></div>';$('papers').append(card);}
 }
-function navigate(i){index=i;write('position',key(questions[i]));render()}
+function navigate(i){index=i;if(location.hash)history.replaceState(null,'','#'+key(questions[i]));write('position',key(questions[i]));render()}
 $('prev').onclick=()=>navigate(index-1);$('next').onclick=()=>navigate(index+1);
 $('pick').onchange=e=>navigate(Number(e.target.value));$('subject').onchange=e=>navigate(questions.findIndex(q=>q.s===e.target.value));
 $('count').oninput=draw;
