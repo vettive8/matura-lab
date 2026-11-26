@@ -85,12 +85,18 @@ function render(){
  set('draftTitle','Twoja odpowiedź maturalna','Your exam answer');
  set('draftHint','Otwórz zadanie, obejrzyj dane i zapisz własne rozwiązanie. Następnie porównaj je z zasadami oceniania.','Open the question, inspect the data and write your solution. Then compare it with the marking guide.');
  for(const [id,isKey,page] of [['questionLink',false,q.page],['keyLink',true,q.key]])$(id).href=paper(q.s,isKey)+'#page='+page;
+ $('solutionTitle').textContent=t('Odpowiedź na pełną pulę punktów','Full-mark model answer')+' · '+q.points+' '+t('pkt',q.points===1?'mark':'marks');
+ $('modelAnswer').textContent=t(...q.modelAnswer);
+ $('criterion').hidden=!q.criterion;
+ $('criterion').textContent=q.criterion?t('Za co jest punktacja? ','What earns the marks? ')+t(...q.criterion):'';
+ $('solutionDiagram').hidden=!q.diagram;
+ $('solutionDiagram').textContent=q.diagram||'';
  set('questionLink','Treść i ilustracje · PDF (PL)','Question and figures · PDF (Polish)');set('keyLink','Zasady oceniania · PDF (PL)','Marking guide · PDF (Polish)');
  $('response').value=read('response-'+key(q));$('notes').value=read(noteKey(q));set('notesTitle','Moje notatki','My notes');set('local','Zapis w tej przeglądarce.','Saved in this browser.');$('saved').textContent='';
  updateProgress();set('shelfTitle','Biblioteka','Library');set('papersTitle','Matura · Maj 2026','Matura · May 2026');set('resources','Materiały do nauki','Study materials');set('zpe','Od atomu do organizmu','From atom to organism (Polish)');set('cke','Informatory CKE','CKE exam guides (Polish)');
  $('papers').replaceChildren();for(const s of ['biologia','chemia']){const card=document.createElement('article');card.className='panel';card.innerHTML='<h3>'+subject(s)+'</h3><div class="paperline"><a href="'+paper(s)+'">'+t('Arkusz','Exam paper (Polish)')+'</a><a href="'+paper(s,true)+'">'+t('Zasady oceniania','Marking guide (Polish)')+'</a></div>';$('papers').append(card);}
 }
-function navigate(i){index=i;write('position',key(questions[i]));feedback=null;$('answer').value='';render()}
+function navigate(i){$('solution').open=false;index=i;write('position',key(questions[i]));feedback=null;$('answer').value='';render()}
 $('prev').onclick=()=>navigate(index-1);$('next').onclick=()=>navigate(index+1);
 $('pick').onchange=e=>navigate(Number(e.target.value));$('subject').onchange=e=>navigate(questions.findIndex(q=>q.s===e.target.value));
 $('count').oninput=draw;$('done').onclick=()=>{const k='done-'+key(questions[index]);write(k,read(k)==='1'?'0':'1');updateProgress()};
