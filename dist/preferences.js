@@ -2,7 +2,14 @@ function storedPreference(key, fallback) {
   try { return localStorage.getItem('matura-' + key) ?? fallback; }
   catch { return fallback; }
 }
-let lang = storedPreference('language', 'pl') === 'en' ? 'en' : 'pl';
+const linkedLanguage = new URLSearchParams(location.search).get('lang');
+if (['en','pl'].includes(linkedLanguage)) {
+  try {localStorage.setItem('matura-language', linkedLanguage);} catch {}
+  const cleanUrl = new URL(location.href);
+  cleanUrl.searchParams.delete('lang');
+  history.replaceState(null,'',cleanUrl);
+}
+let lang = (['en','pl'].includes(linkedLanguage)?linkedLanguage:storedPreference('language', 'pl')) === 'en' ? 'en' : 'pl';
 let theme = storedPreference('theme', matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 function installPreferences(renderPage) {
   const languageButton = document.getElementById('language');
@@ -20,6 +27,8 @@ function installPreferences(renderPage) {
       : (theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
     document.querySelectorAll('[data-pl][data-en]').forEach(el => { el.textContent = el.dataset[lang]; });
     renderPage();
+    const searchTitle = document.querySelector('title')?.dataset.searchTitle;
+    if (lang === 'pl' && !location.hash && searchTitle) document.title = searchTitle;
   }
   function persist(key, value) {
     try { localStorage.setItem('matura-' + key, value); } catch {}
