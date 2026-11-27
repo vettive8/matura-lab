@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Mervive \u00b7 Lesson Export",
+  "version": "1.0.0",
+  "description": "Copy or save a ChatGPT lesson with its diagrams, tables, equations and source links.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "pageCapture",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "action": {
+    "default_title": "Mervive \u00b7 Export lessons / Eksport lekcji"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "js": [
+        "export.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
