@@ -26,6 +26,7 @@ function installPreferences(renderPage) {
     const track = nav.querySelector('a[href="/learn/matura/formula-2015/"]');
     let previous = track;
     for (const [route, pl, en] of [
+      ['plan-90','Plan na 90% · 5 miesięcy','90% plan · 5 months'],
       ['30-dni','Plan na 30 dni','30-day study plan'],
       ['tasks','Zadania z rozwiązaniami','Worked exam tasks'],
       ['concepts','Pojęcia od podstaw','Concepts from the beginning']
